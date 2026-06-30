@@ -1,0 +1,4827 @@
+[
+    {
+        "id": "Combinatorics_0000",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Factorial arithmetic",
+        "level": "1",
+        "keywords": [
+            "Sequences",
+            "factorials"
+        ],
+        "problem_v1": "Evaluate $\\frac{26!}{23!}$\n$ \\frac{26!}{23!}=$ [ANS]",
+        "answer_v1": [
+            "15600"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Evaluate $\\frac{8!}{3!}$\n$ \\frac{8!}{3!}=$ [ANS]",
+        "answer_v2": [
+            "6720"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Evaluate $\\frac{14!}{10!}$\n$ \\frac{14!}{10!}=$ [ANS]",
+        "answer_v3": [
+            "24024"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0001",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Factorial arithmetic",
+        "level": "2",
+        "keywords": [
+            "Sequences",
+            "factorials"
+        ],
+        "problem_v1": "Simplify the expression $\\frac{(4 n+3)!}{(4 n-2)!}$.\n$ \\frac{(4 n+3)!}{(4 n-2)!}$=[ANS]",
+        "answer_v1": [
+            "(4*n-2+1)*(4*n+0)*(4*n+1)*(4*n+2)*(4*n+3)"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Simplify the expression $\\frac{(2 n+4)!}{(2 n-1)!}$.\n$ \\frac{(2 n+4)!}{(2 n-1)!}$=[ANS]",
+        "answer_v2": [
+            "(2*n-1+1)*(2*n+1)*(2*n+2)*(2*n+3)*(2*n+4)"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Simplify the expression $\\frac{(2 n+3)!}{(2 n-1)!}$.\n$ \\frac{(2 n+3)!}{(2 n-1)!}$=[ANS]",
+        "answer_v3": [
+            "(2*n-1+1)*(2*n+1)*(2*n+2)*(2*n+3)"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0002",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Factorial arithmetic",
+        "level": "2",
+        "keywords": [
+            "Sequences"
+        ],
+        "problem_v1": "Calculate each of the following. Your answer must be a number. No arithmetic operations are allowed in your answer. Please give 7 places after your decimal point if you use scientific notation.\n$ \\frac{750!}{40! 710!}=$ [ANS].\n$ \\frac{370!}{360! 20!}=$ [ANS].\n$ \\frac{566!-562!}{563!}=$ [ANS].",
+        "answer_v1": [
+            "4.27557321493101E+66",
+            "17482964.9643326",
+            "180361559.998224"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Calculate each of the following. Your answer must be a number. No arithmetic operations are allowed in your answer. Please give 7 places after your decimal point if you use scientific notation.\n$ \\frac{210!}{60! 150!}=$ [ANS].\n$ \\frac{200!}{175! 60!}=$ [ANS].\n$ \\frac{563!-561!}{560!}=$ [ANS].",
+        "answer_v2": [
+            "2.22594461713152E+53",
+            "8.4289570023009E-26",
+            "177503205"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Calculate each of the following. Your answer must be a number. No arithmetic operations are allowed in your answer. Please give 7 places after your decimal point if you use scientific notation.\n$ \\frac{400!}{40! 360!}=$ [ANS].\n$ \\frac{250!}{230! 20!}=$ [ANS].\n$ \\frac{569!-564!}{567!}=$ [ANS].",
+        "answer_v3": [
+            "1.9703374084393E+55",
+            "1.71269143995104E+29",
+            "323191.999999994"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0003",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "4",
+        "keywords": [
+            "bijective",
+            "inclusion-exclusion"
+        ],
+        "problem_v1": "Denote by $S$ the set of integers {$8,9,...,14$}. Count the number of BIJECTIVE functions $\\varphi: S \\rightarrow S$ such that $\\varphi (x) \\neq x$ for all $x\\in S.$ [ANS]",
+        "answer_v1": [
+            "1854"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Denote by $S$ the set of integers {$44,45,...,47$}. Count the number of BIJECTIVE functions $\\varphi: S \\rightarrow S$ such that $\\varphi (x) \\neq x$ for all $x\\in S.$ [ANS]",
+        "answer_v2": [
+            "9"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Denote by $S$ the set of integers {$11,12,...,15$}. Count the number of BIJECTIVE functions $\\varphi: S \\rightarrow S$ such that $\\varphi (x) \\neq x$ for all $x\\in S.$ [ANS]",
+        "answer_v3": [
+            "44"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0004",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "In how many ways can 5 different novels, 3 different mathematics books, and 1 biology book be arranged on a bookshelf if\n(a) the books can be arranged in any order? Answer: [ANS]\n(b) the mathematics books must be together and the novels must be together? Answer: [ANS]\n(c) the mathematics books must be together but the other books can be arranged in any order? Answer: [ANS]",
+        "answer_v1": [
+            "362880",
+            "4320",
+            "30240"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "In how many ways can 3 different novels, 4 different mathematics books, and 1 biology book be arranged on a bookshelf if\n(a) the books can be arranged in any order? Answer: [ANS]\n(b) the mathematics books must be together and the novels must be together? Answer: [ANS]\n(c) the novels must be together but the other books can be arranged in any order? Answer: [ANS]",
+        "answer_v2": [
+            "40320",
+            "864",
+            "4320"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "In how many ways can 3 different novels, 2 different mathematics books, and 1 biology book be arranged on a bookshelf if\n(a) the books can be arranged in any order? Answer: [ANS]\n(b) the mathematics books must be together and the novels must be together? Answer: [ANS]\n(c) the mathematics books must be together but the other books can be arranged in any order? Answer: [ANS]",
+        "answer_v3": [
+            "720",
+            "72",
+            "240"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0005",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "How many different 9-letter words (real or imaginary) can be formed from the letters in the word PROFESSOR? [ANS]",
+        "answer_v1": [
+            "45360"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many different 11-letter words (real or imaginary) can be formed from the letters in the word MATHEMATICS? [ANS]",
+        "answer_v2": [
+            "4989600"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many different 10-letter words (real or imaginary) can be formed from the letters in the word REPETITION? [ANS]",
+        "answer_v3": [
+            "453600"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0006",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "2",
+        "keywords": [
+            "Counting",
+            "algebra",
+            "probability",
+            "permutation"
+        ],
+        "problem_v1": "Find the value of the permutation: $P(8, 4)=$ [ANS]",
+        "answer_v1": [
+            "1680"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the value of the permutation: $P(5, 5)=$ [ANS]",
+        "answer_v2": [
+            "120"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the value of the permutation: $P(6, 4)=$ [ANS]",
+        "answer_v3": [
+            "360"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0007",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "2",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "There are $10$ different candidates for governor of a state. In how many different orders can the names of the candidates be printed on a ballot? [ANS]",
+        "answer_v1": [
+            "3628800"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "There are $3$ different candidates for governor of a state. In how many different orders can the names of the candidates be printed on a ballot? [ANS]",
+        "answer_v2": [
+            "6"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "There are $6$ different candidates for governor of a state. In how many different orders can the names of the candidates be printed on a ballot? [ANS]",
+        "answer_v3": [
+            "720"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0008",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "basic counting",
+            "combinatorics",
+            "counting",
+            "permutation"
+        ],
+        "problem_v1": "How many three-letter \"words\" can be made from 9 letters ``FGHIJKLMN'' if repetition of letters\n(a) is allowed? Your answer is: [ANS]\n(b) is not allowed? Your answer is: [ANS]",
+        "answer_v1": [
+            "729",
+            "504"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "How many three-letter \"words\" can be made from 4 letters ``FGHI'' if repetition of letters\n(a) is allowed? Your answer is: [ANS]\n(b) is not allowed? Your answer is: [ANS]",
+        "answer_v2": [
+            "64",
+            "24"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "How many three-letter \"words\" can be made from 6 letters ``FGHIJK'' if repetition of letters\n(a) is allowed? Your answer is: [ANS]\n(b) is not allowed? Your answer is: [ANS]",
+        "answer_v3": [
+            "216",
+            "120"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0009",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "permutation"
+        ],
+        "problem_v1": "A pianist plans to play 7 pieces at a recital. In how many ways can she arrange these pieces in the program? Your answer is: [ANS]",
+        "answer_v1": [
+            "5040"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A pianist plans to play 3 pieces at a recital. In how many ways can she arrange these pieces in the program? Your answer is: [ANS]",
+        "answer_v2": [
+            "6"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A pianist plans to play 4 pieces at a recital. In how many ways can she arrange these pieces in the program? Your answer is: [ANS]",
+        "answer_v3": [
+            "24"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0010",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "permutation"
+        ],
+        "problem_v1": "Evaluate the expression $P(165,1)$. Your answer is: [ANS]",
+        "answer_v1": [
+            "165"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Evaluate the expression $P(70,1)$. Your answer is: [ANS]",
+        "answer_v2": [
+            "70"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Evaluate the expression $P(105,1)$. Your answer is: [ANS]",
+        "answer_v3": [
+            "105"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0011",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "permutation"
+        ],
+        "problem_v1": "In how many ways can first, second, and third prizes be awarded in a contest with 780 contestants? Your answer is: [ANS]",
+        "answer_v1": [
+            "472728360"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In how many ways can first, second, and third prizes be awarded in a contest with 175 contestants? Your answer is: [ANS]",
+        "answer_v2": [
+            "5267850"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In how many ways can first, second, and third prizes be awarded in a contest with 380 contestants? Your answer is: [ANS]",
+        "answer_v3": [
+            "54439560"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0012",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "permutation"
+        ],
+        "problem_v1": "In how many ways can 8 students be seated in a row of 8 chairs if Jack insists on sitting in the first chair? Your answer is: [ANS]",
+        "answer_v1": [
+            "5040"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In how many ways can 3 students be seated in a row of 3 chairs if Jack insists on sitting in the first chair? Your answer is: [ANS]",
+        "answer_v2": [
+            "2"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In how many ways can 5 students be seated in a row of 5 chairs if Jack insists on sitting in the first chair? Your answer is: [ANS]",
+        "answer_v3": [
+            "24"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0013",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "5",
+        "keywords": [
+            "combinatorics",
+            "derangements"
+        ],
+        "problem_v1": "A Discrete Mathematics student comes from the village of BALLYGOBACKWARDS. As an hilarious jape, on the way home from a late-night study session, he decides to rearrange the letters on one of the sign-posts. How many arrangements of the letters in BALLYGOBACKWARDS are possible? Answer: [ANS]\nOf these arrangements, how many have all the L\u2019s together? Of these arrangements, how many have all the L\u2019s together? Answer: [ANS] Of these arrangements, how may have all the letters in alphabetical order? Of these arrangements, how may have all the letters in alphabetical order? Answer: [ANS]",
+        "answer_v1": [
+            "16!/(3!*2!*1*1!*2!*1!*1!*1!)",
+            "(16-2+1)!/(3!*2!*1!*1!*1!*1!*1!)",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "A Discrete Mathematics student comes from the village of BALLYNALALLY. As an hilarious jape, on the way home from a late-night study session, he decides to rearrange the letters on one of the sign-posts. How many arrangements of the letters in BALLYNALALLY are possible? Answer: [ANS]\nOf these arrangements, how many have all the L\u2019s together? Of these arrangements, how many have all the L\u2019s together? Answer: [ANS] Of these arrangements, how may have all the letters in alphabetical order? Of these arrangements, how may have all the letters in alphabetical order? Answer: [ANS]",
+        "answer_v2": [
+            "12!/(3!*1!*1*1!*5!*1!*1!*2!)",
+            "(12-5+1)!/(3!*1!*1!*1!*1!*1!*2!)",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "A Discrete Mathematics student comes from the village of BALLYBILLYBARRY. As an hilarious jape, on the way home from a late-night study session, she decides to rearrange the letters on one of the sign-posts. How many arrangements of the letters in BALLYBILLYBARRY are possible? Answer: [ANS]\nOf these arrangements, how many have all the L\u2019s together? Of these arrangements, how many have all the L\u2019s together? Answer: [ANS] Of these arrangements, how may have all the letters in alphabetical order? Of these arrangements, how may have all the letters in alphabetical order? Answer: [ANS]",
+        "answer_v3": [
+            "15!/(2!*3!*1*1!*4!*1!*2!*3!)",
+            "(15-4+1)!/(2!*3!*1!*1!*1!*2!*3!)",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0014",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "multinomials"
+        ],
+        "problem_v1": "How many \u201cwords\u201d can you make from the letters DEE? How many \u201cwords\u201d can you make from the letters DEE? Answer: [ANS]\nHow many \u201cwords\u201d can you make from the letters SUCK? How many \u201cwords\u201d can you make from the letters SUCK? Answer: [ANS]\nHow many \u201cwords\u201d can you make from the letters CARRYDUFF? How many \u201cwords\u201d can you make from the letters CARRYDUFF? Answer: [ANS]",
+        "answer_v1": [
+            "3!/2!",
+            "4!",
+            "9!/(2!*2!)"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "How many \u201cwords\u201d can you make from the letters LEE? How many \u201cwords\u201d can you make from the letters LEE? Answer: [ANS]\nHow many \u201cwords\u201d can you make from the letters NORE? How many \u201cwords\u201d can you make from the letters NORE? Answer: [ANS]\nHow many \u201cwords\u201d can you make from the letters SHANNON? How many \u201cwords\u201d can you make from the letters SHANNON? Answer: [ANS]",
+        "answer_v2": [
+            "3!/2!",
+            "4!",
+            "7!/3!"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "How many \u201cwords\u201d can you make from the letters LEE? How many \u201cwords\u201d can you make from the letters LEE? Answer: [ANS]\nHow many \u201cwords\u201d can you make from the letters SUCK? How many \u201cwords\u201d can you make from the letters SUCK? Answer: [ANS]\nHow many \u201cwords\u201d can you make from the letters BARROW? How many \u201cwords\u201d can you make from the letters BARROW? Answer: [ANS]",
+        "answer_v3": [
+            "3!/2!",
+            "4!",
+            "6!/2!"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0015",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "counting",
+            "permutation"
+        ],
+        "problem_v1": "A boy has 5 red, 4 yellow and 4 green marbles. In how many ways can the boy arrange the marbles in a line if:\na) Marbles of the same color are indistinguishable? [ANS]\nb) All marbles have different sizes? [ANS]",
+        "answer_v1": [
+            "90090",
+            "6227020800"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A boy has 2 red, 6 yellow and 2 green marbles. In how many ways can the boy arrange the marbles in a line if:\na) Marbles of the same color are indistinguishable? [ANS]\nb) All marbles have different sizes? [ANS]",
+        "answer_v2": [
+            "1260",
+            "3628800"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A boy has 3 red, 5 yellow and 3 green marbles. In how many ways can the boy arrange the marbles in a line if:\na) Marbles of the same color are indistinguishable? [ANS]\nb) All marbles have different sizes? [ANS]",
+        "answer_v3": [
+            "9240",
+            "39916800"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0016",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "counting",
+            "permutation",
+            "algebra",
+            "factorial",
+            "probability"
+        ],
+        "problem_v1": "How many different ways can a race with 7 runners be completed? (Assume there is no tie.) Your answer is: [ANS]",
+        "answer_v1": [
+            "5040"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many different ways can a race with 4 runners be completed? (Assume there is no tie.) Your answer is: [ANS]",
+        "answer_v2": [
+            "24"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many different ways can a race with 5 runners be completed? (Assume there is no tie.) Your answer is: [ANS]",
+        "answer_v3": [
+            "120"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0017",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "2",
+        "keywords": [
+            "counting",
+            "repeated combinations"
+        ],
+        "problem_v1": "How many anagrams can be created from the word 'metamorphosis' if the new words do not need to be meaningful? [ANS]",
+        "answer_v1": [
+            "7.78378E+08"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many anagrams can be created from the word 'accommodate' if the new words do not need to be meaningful? [ANS]",
+        "answer_v2": [
+            "2.4948E+06"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many anagrams can be created from the word 'needlessly' if the new words do not need to be meaningful? [ANS]",
+        "answer_v3": [
+            "151200"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0018",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Permutations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "probability",
+            "permutation"
+        ],
+        "problem_v1": "How many different $10$-letter permutations can be formed from $8$ identical H's and two identical T's? Answer: [ANS]",
+        "answer_v1": [
+            "10!/(2*8!)"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many different $7$-letter permutations can be formed from $5$ identical H's and two identical T's? Answer: [ANS]",
+        "answer_v2": [
+            "7!/(2*5!)"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many different $8$-letter permutations can be formed from $6$ identical H's and two identical T's? Answer: [ANS]",
+        "answer_v3": [
+            "8!/(2*6!)"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0019",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "Suppose you are managing 19 employees, and you need to form three teams to work on different projects. Assume that all employees will work on a team, and that each employee has the same qualifications/skills so that everyone has the same probability of getting choosen. In how many different ways can the teams be chosen so that the number of employees on each project are as follows:\n7, 3, 9\nAnswer: [ANS]",
+        "answer_v1": [
+            "11085360"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Suppose you are managing 14 employees, and you need to form three teams to work on different projects. Assume that all employees will work on a team, and that each employee has the same qualifications/skills so that everyone has the same probability of getting choosen. In how many different ways can the teams be chosen so that the number of employees on each project are as follows:\n9, 1, 4\nAnswer: [ANS]",
+        "answer_v2": [
+            "10010"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Suppose you are managing 16 employees, and you need to form three teams to work on different projects. Assume that all employees will work on a team, and that each employee has the same qualifications/skills so that everyone has the same probability of getting choosen. In how many different ways can the teams be chosen so that the number of employees on each project are as follows:\n8, 2, 6\nAnswer: [ANS]",
+        "answer_v3": [
+            "360360"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0020",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "An experiment consists of choosing a subset from a fixed number of objects where the arrangement of the chosen objects is not important. Determine the size of the sample space when you choose the following:\n(a) 7 objects from 19 Answer: [ANS]\n(b) 4 objects from 16 Answer: [ANS]\n(c) 3 objects from 11 Answer: [ANS]",
+        "answer_v1": [
+            "50388",
+            "1820",
+            "165"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "An experiment consists of choosing a subset from a fixed number of objects where the arrangement of the chosen objects is not important. Determine the size of the sample space when you choose the following:\n(a) 4 objects from 8 Answer: [ANS]\n(b) 9 objects from 16 Answer: [ANS]\n(c) 3 objects from 15 Answer: [ANS]",
+        "answer_v2": [
+            "70",
+            "11440",
+            "455"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "An experiment consists of choosing a subset from a fixed number of objects where the arrangement of the chosen objects is not important. Determine the size of the sample space when you choose the following:\n(a) 6 objects from 23 Answer: [ANS]\n(b) 3 objects from 22 Answer: [ANS]\n(c) 5 objects from 10 Answer: [ANS]",
+        "answer_v3": [
+            "100947",
+            "1540",
+            "252"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0021",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "From a group of 9 men and 8 women a committee consisting of 4 men and 4 women is to be formed. How many different committees are possible if\n(a) 2 of the men refuse to serve together? answer: [ANS]\n(a) 2 of the women refuse to serve together? answer: [ANS]\n(a) 1 man and 1 woman refuse to serve together? answer: [ANS]",
+        "answer_v1": [
+            "7350",
+            "6930",
+            "6860"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "From a group of 6 men and 9 women a committee consisting of 3 men and 3 women is to be formed. How many different committees are possible if\n(a) 2 of the men refuse to serve together? answer: [ANS]\n(a) 2 of the women refuse to serve together? answer: [ANS]\n(a) 1 man and 1 woman refuse to serve together? answer: [ANS]",
+        "answer_v2": [
+            "1344",
+            "1540",
+            "1400"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "From a group of 7 men and 8 women a committee consisting of 3 men and 4 women is to be formed. How many different committees are possible if\n(a) 2 of the men refuse to serve together? answer: [ANS]\n(a) 2 of the women refuse to serve together? answer: [ANS]\n(a) 1 man and 1 woman refuse to serve together? answer: [ANS]",
+        "answer_v3": [
+            "2100",
+            "1925",
+            "1925"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0022",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "2",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "Find the value of each of the following quantities: $C(11, 7)=$ [ANS]\n$C(9, 7)=$ [ANS]\n$C(7, 3)=$ [ANS]\n$C(9, 6)=$ [ANS]\n$C(7, 4)=$ [ANS]\n$C(10, 3)=$ [ANS]",
+        "answer_v1": [
+            "330",
+            "36",
+            "35",
+            "84",
+            "35",
+            "120"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the value of each of the following quantities: $C(5, 5)=$ [ANS]\n$C(6, 3)=$ [ANS]\n$C(12, 4)=$ [ANS]\n$C(6, 2)=$ [ANS]\n$C(9, 1)=$ [ANS]\n$C(10, 5)=$ [ANS]",
+        "answer_v2": [
+            "1",
+            "20",
+            "495",
+            "15",
+            "9",
+            "252"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the value of each of the following quantities: $C(7, 5)=$ [ANS]\n$C(7, 4)=$ [ANS]\n$C(6, 3)=$ [ANS]\n$C(11, 11)=$ [ANS]\n$C(11, 3)=$ [ANS]\n$C(7, 2)=$ [ANS]",
+        "answer_v3": [
+            "21",
+            "35",
+            "20",
+            "1",
+            "165",
+            "21"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0023",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "How many ways are there to select 10 countries in the United Nations to serve on a council if 3 is selected from a block of 58, 1 are selected from a block of 66 and 6 are selected from the remaining 65 countries? [ANS]",
+        "answer_v1": [
+            "168212288724480"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many ways are there to select 7 countries in the United Nations to serve on a council if 2 is selected from a block of 50, 3 are selected from a block of 70 and 2 are selected from the remaining 69 countries? [ANS]",
+        "answer_v2": [
+            "157314549000"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many ways are there to select 8 countries in the United Nations to serve on a council if 2 is selected from a block of 53, 1 are selected from a block of 66 and 5 are selected from the remaining 70 countries? [ANS]",
+        "answer_v3": [
+            "1100744917272"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0024",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "15 players for a softball team show up for a game:\n(a) How many ways are there to choose 10 players to take the field? [ANS]\n(b) How many ways are there to assign the 10 positions by selecting players from the 15 people who show up? [ANS]\n(c) Of the 15 people who show up, 5 are women. How many ways are there to choose 10 players to take the field if at least one of these players must be women? [ANS]",
+        "answer_v1": [
+            "3003",
+            "10897286400",
+            "3002"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "12 players for a softball team show up for a game:\n(a) How many ways are there to choose 10 players to take the field? [ANS]\n(b) How many ways are there to assign the 10 positions by selecting players from the 12 people who show up? [ANS]\n(c) Of the 12 people who show up, 2 are women. How many ways are there to choose 10 players to take the field if at least one of these players must be women? [ANS]",
+        "answer_v2": [
+            "66",
+            "239500800",
+            "65"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "13 players for a softball team show up for a game:\n(a) How many ways are there to choose 10 players to take the field? [ANS]\n(b) How many ways are there to assign the 10 positions by selecting players from the 13 people who show up? [ANS]\n(c) Of the 13 people who show up, 3 are women. How many ways are there to choose 10 players to take the field if at least one of these players must be women? [ANS]",
+        "answer_v3": [
+            "286",
+            "1037836800",
+            "285"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0025",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "combination"
+        ],
+        "problem_v1": "A pizza parlor offers a choice of 16 different toppings. How many 5-topping pizzas are possible? Your answer is: [ANS]",
+        "answer_v1": [
+            "4368"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A pizza parlor offers a choice of 16 different toppings. How many 2-topping pizzas are possible? Your answer is: [ANS]",
+        "answer_v2": [
+            "120"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A pizza parlor offers a choice of 16 different toppings. How many 3-topping pizzas are possible? Your answer is: [ANS]",
+        "answer_v3": [
+            "560"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0026",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "combination"
+        ],
+        "problem_v1": "A school dance committee is to consist of 2 freshmen, 3 sophomores, 4 juniors, and 5 seniors. If 7 freshmen, 8 sophomores, 8 juniors, and 9 seniors are eligible to be on the committee, in how many ways can the committee be chosen? Your answer is: [ANS]",
+        "answer_v1": [
+            "10372320"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A school dance committee is to consist of 2 freshmen, 3 sophomores, 4 juniors, and 5 seniors. If 5 freshmen, 9 sophomores, 7 juniors, and 8 seniors are eligible to be on the committee, in how many ways can the committee be chosen? Your answer is: [ANS]",
+        "answer_v2": [
+            "1646400"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A school dance committee is to consist of 2 freshmen, 3 sophomores, 4 juniors, and 5 seniors. If 5 freshmen, 8 sophomores, 7 juniors, and 8 seniors are eligible to be on the committee, in how many ways can the committee be chosen? Your answer is: [ANS]",
+        "answer_v3": [
+            "1097600"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0027",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "combination"
+        ],
+        "problem_v1": "How many different 5 card hands can be dealt from a deck of 52 cards? Your answer is: [ANS]",
+        "answer_v1": [
+            "2598960"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many different 2 card hands can be dealt from a deck of 52 cards? Your answer is: [ANS]",
+        "answer_v2": [
+            "1326"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many different 3 card hands can be dealt from a deck of 52 cards? Your answer is: [ANS]",
+        "answer_v3": [
+            "22100"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0028",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "combination"
+        ],
+        "problem_v1": "In the 6/54 lottery game, a player picks six numbers from 1 to 54. How many different choices does the player have? Your answer is: [ANS]",
+        "answer_v1": [
+            "25827165"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In the 6/48 lottery game, a player picks six numbers from 1 to 48. How many different choices does the player have? Your answer is: [ANS]",
+        "answer_v2": [
+            "12271512"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In the 6/50 lottery game, a player picks six numbers from 1 to 50. How many different choices does the player have? Your answer is: [ANS]",
+        "answer_v3": [
+            "15890700"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0029",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "combination"
+        ],
+        "problem_v1": "In how many ways can 3 students from a class of 29 be chosen for a field trip? Your answer is: [ANS]",
+        "answer_v1": [
+            "3654"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In how many ways can 3 students from a class of 12 be chosen for a field trip? Your answer is: [ANS]",
+        "answer_v2": [
+            "220"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In how many ways can 3 students from a class of 18 be chosen for a field trip? Your answer is: [ANS]",
+        "answer_v3": [
+            "816"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0030",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "2",
+        "keywords": [
+            "Binomial Theorem",
+            "Binomial Expansion",
+            "Coefficient"
+        ],
+        "problem_v1": "Evaluate the binomial coefficient: ${14}\\choose{7}$ [ANS]",
+        "answer_v1": [
+            "3432"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Evaluate the binomial coefficient: ${20}\\choose{11}$ [ANS]",
+        "answer_v2": [
+            "167960"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Evaluate the binomial coefficient: ${18}\\choose{8}$ [ANS]",
+        "answer_v3": [
+            "43758"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0031",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "binomial coefficients",
+            "bit strings"
+        ],
+        "problem_v1": "How many 9-bit strings (that is, bit strings of length 9) are there which:\nStart with the sub-string 101? [ANS]\nHave weight 5 (i.e., contain exactly five 1\u2019s) and start with the sub-string 101? [ANS]\nEither start with 101 or end with 11 (or both)? [ANS]\nHave weight 5 and either start with 101 or end with 11? [ANS]",
+        "answer_v1": [
+            "64",
+            "20",
+            "176",
+            "51"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "How many 6-bit strings (that is, bit strings of length 6) are there which:\nStart with the sub-string 101? [ANS]\nHave weight 5 (i.e., contain exactly five 1\u2019s) and start with the sub-string 101? [ANS]\nEither start with 101 or end with 11 (or both)? [ANS]\nHave weight 5 and either start with 101 or end with 11? [ANS]",
+        "answer_v2": [
+            "8",
+            "1",
+            "22",
+            "4"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "How many 7-bit strings (that is, bit strings of length 7) are there which:\nStart with the sub-string 101? [ANS]\nHave weight 5 (i.e., contain exactly five 1\u2019s) and start with the sub-string 101? [ANS]\nEither start with 101 or end with 11 (or both)? [ANS]\nHave weight 5 and either start with 101 or end with 11? [ANS]",
+        "answer_v3": [
+            "16",
+            "4",
+            "44",
+            "12"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0032",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "logarithms",
+            "exponentials",
+            "Counting"
+        ],
+        "problem_v1": "There are nine different positions on a baseball team. If a team has 17 players how many different line-ups can the team make? (Assume every player can play every position.) The team can make [ANS] different line-ups. Baseball games consist of nine innings. A team wants to change its line-up every inning. If no game goes to extra innings, and a season consists of 137 games, how many complete seasons can the team play without repeating a line-up? The team can play [ANS] complete seasons without repeating a line-up. (Your answer should be an integer.)",
+        "answer_v1": [
+            "8821612800",
+            "7154593"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "There are nine different positions on a baseball team. If a team has 12 players how many different line-ups can the team make? (Assume every player can play every position.) The team can make [ANS] different line-ups. Baseball games consist of nine innings. A team wants to change its line-up every inning. If no game goes to extra innings, and a season consists of 190 games, how many complete seasons can the team play without repeating a line-up? The team can play [ANS] complete seasons without repeating a line-up. (Your answer should be an integer.)",
+        "answer_v2": [
+            "79833600",
+            "46686"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "There are nine different positions on a baseball team. If a team has 14 players how many different line-ups can the team make? (Assume every player can play every position.) The team can make [ANS] different line-ups. Baseball games consist of nine innings. A team wants to change its line-up every inning. If no game goes to extra innings, and a season consists of 141 games, how many complete seasons can the team play without repeating a line-up? The team can play [ANS] complete seasons without repeating a line-up. (Your answer should be an integer.)",
+        "answer_v3": [
+            "726485760",
+            "572487"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0033",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "counting"
+        ],
+        "problem_v1": "The annual National No Spying Day is celebrated at KAOS headquarters this year. There are 10 Control agents and 19 KAOS agents attending. How many ways can we choose a team of 7 agents if 3 team members need to be from Control and 4 from KAOS? [ANS]\nHow many ways can we choose a team of 7 agents if at least 1 team member needs to be from Control? [ANS]",
+        "answer_v1": [
+            "465120",
+            "1.51039E+06"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "The annual National No Spying Day is celebrated at KAOS headquarters this year. There are 12 Control agents and 13 KAOS agents attending. How many ways can we choose a team of 5 agents if 2 team members need to be from Control and 3 from KAOS? [ANS]\nHow many ways can we choose a team of 5 agents if at least 1 team member needs to be from Control? [ANS]",
+        "answer_v2": [
+            "18876",
+            "51843"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "The annual National No Spying Day is celebrated at KAOS headquarters this year. There are 11 Control agents and 15 KAOS agents attending. How many ways can we choose a team of 5 agents if 3 team members need to be from Control and 2 from KAOS? [ANS]\nHow many ways can we choose a team of 5 agents if at least 1 team member needs to be from Control? [ANS]",
+        "answer_v3": [
+            "17325",
+            "62777"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0034",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "counting",
+            "combinations"
+        ],
+        "problem_v1": "How many words can we build using exactly 6 A's, 6 B's and 6 C's if the first 6 letters cannot be A's, the second 6 letters cannot be B's and the third 6 letters cannot be C's? Hint: Group the different ways according to the number of B's in the first group. [ANS]",
+        "answer_v1": [
+            "15184"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many words can we build using exactly 3 A's, 3 B's and 3 C's if the first 3 letters cannot be A's, the second 3 letters cannot be B's and the third 3 letters cannot be C's? Hint: Group the different ways according to the number of B's in the first group. [ANS]",
+        "answer_v2": [
+            "56"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many words can we build using exactly 4 A's, 4 B's and 4 C's if the first 4 letters cannot be A's, the second 4 letters cannot be B's and the third 4 letters cannot be C's? Hint: Group the different ways according to the number of B's in the first group. [ANS]",
+        "answer_v3": [
+            "346"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0035",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "permutation",
+            "combination"
+        ],
+        "problem_v1": "A standard deck of cards consists of four suits (clubs, diamonds, hearts, and spades), with each suit containing 13 cards (ace, two through ten, jack, queen, and king) for a total of 52 cards in all. How many 7-card hands will consist of exactly 3 hearts and 3 clubs? [ANS]",
+        "answer_v1": [
+            "2.1267E+06"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A standard deck of cards consists of four suits (clubs, diamonds, hearts, and spades), with each suit containing 13 cards (ace, two through ten, jack, queen, and king) for a total of 52 cards in all. How many 7-card hands will consist of exactly 4 hearts and 2 clubs? [ANS]",
+        "answer_v2": [
+            "1.45002E+06"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A standard deck of cards consists of four suits (clubs, diamonds, hearts, and spades), with each suit containing 13 cards (ace, two through ten, jack, queen, and king) for a total of 52 cards in all. How many 7-card hands will consist of exactly 3 hearts and 2 clubs? [ANS]",
+        "answer_v3": [
+            "7.2501E+06"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0036",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "2",
+        "keywords": [
+            "combinatorics",
+            "permutation",
+            "combination"
+        ],
+        "problem_v1": "In how many ways can a person invite 4 out of their 13 closest friends to a dinner party? [ANS]",
+        "answer_v1": [
+            "715"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In how many ways can a person invite 3 out of their 13 closest friends to a dinner party? [ANS]",
+        "answer_v2": [
+            "286"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In how many ways can a person invite 3 out of their 12 closest friends to a dinner party? [ANS]",
+        "answer_v3": [
+            "220"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0037",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "permutation",
+            "combination"
+        ],
+        "problem_v1": "A company received a shipment of 43 laser printers, including 7 that are defective. 3 of these printers are selected to be used in the copy room.\n(a) How many selections can be made? [ANS]\n(b) How many of these selections will contain no defective printers? [ANS]",
+        "answer_v1": [
+            "12341",
+            "7140"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A company received a shipment of 22 laser printers, including 8 that are defective. 2 of these printers are selected to be used in the copy room.\n(a) How many selections can be made? [ANS]\n(b) How many of these selections will contain no defective printers? [ANS]",
+        "answer_v2": [
+            "231",
+            "91"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A company received a shipment of 29 laser printers, including 7 that are defective. 2 of these printers are selected to be used in the copy room.\n(a) How many selections can be made? [ANS]\n(b) How many of these selections will contain no defective printers? [ANS]",
+        "answer_v3": [
+            "406",
+            "231"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0038",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "probability",
+            "combination"
+        ],
+        "problem_v1": "Evaluate $C(10,5).$ Answer: [ANS]",
+        "answer_v1": [
+            "10*(10-1)*(10-2)*(10-3)*(10-4)/120"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Evaluate $C(7,5).$ Answer: [ANS]",
+        "answer_v2": [
+            "7*(7-1)*(7-2)*(7-3)*(7-4)/120"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Evaluate $C(8,5).$ Answer: [ANS]",
+        "answer_v3": [
+            "8*(8-1)*(8-2)*(8-3)*(8-4)/120"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0039",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Combinations",
+        "level": "3",
+        "keywords": [
+            "algebra",
+            "probability",
+            "combination"
+        ],
+        "problem_v1": "In a baseball league of $10$ teams, how many games are needed to complete the schedule if each team plays $10$ games with each other? Answer: [ANS]",
+        "answer_v1": [
+            "10*(10-1)/2*10"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In a baseball league of $7$ teams, how many games are needed to complete the schedule if each team plays $12$ games with each other? Answer: [ANS]",
+        "answer_v2": [
+            "7*(7-1)/2*12"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In a baseball league of $8$ teams, how many games are needed to complete the schedule if each team plays $11$ games with each other? Answer: [ANS]",
+        "answer_v3": [
+            "8*(8-1)/2*11"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0040",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Pigeonhole principle",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "A bowl contains $9$ red balls and $9$ blue balls. A woman selects balls at random without looking at them.\n(a) How many balls must she select (minimum) to be sure of having at least three blue balls? [ANS]\n(b) How many balls must she select (minimum) to be sure of having at least three balls of the same color? [ANS]",
+        "answer_v1": [
+            "12",
+            "5"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A bowl contains $5$ red balls and $5$ blue balls. A woman selects balls at random without looking at them.\n(a) How many balls must she select (minimum) to be sure of having at least three blue balls? [ANS]\n(b) How many balls must she select (minimum) to be sure of having at least three balls of the same color? [ANS]",
+        "answer_v2": [
+            "8",
+            "5"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A bowl contains $6$ red balls and $6$ blue balls. A woman selects balls at random without looking at them.\n(a) How many balls must she select (minimum) to be sure of having at least three blue balls? [ANS]\n(b) How many balls must she select (minimum) to be sure of having at least three balls of the same color? [ANS]",
+        "answer_v3": [
+            "9",
+            "5"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0041",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Pigeonhole principle",
+        "level": "2",
+        "keywords": [
+            "discrete",
+            "permutation"
+        ],
+        "problem_v1": "A computer is printing out subsets of a 6 element set (possibly including the empty set).\n(a) At least how many sets must be printed to be sure of having at least 3 identical subsets on the list?\nAnswer=[ANS]\n(b) At least how many identical subsets are printed if there are 257 subsets on the list?\nAnswer=[ANS]",
+        "answer_v1": [
+            "129",
+            "5"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A computer is printing out subsets of a 3 element set (possibly including the empty set).\n(a) At least how many sets must be printed to be sure of having at least 4 identical subsets on the list?\nAnswer=[ANS]\n(b) At least how many identical subsets are printed if there are 41 subsets on the list?\nAnswer=[ANS]",
+        "answer_v2": [
+            "25",
+            "6"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A computer is printing out subsets of a 4 element set (possibly including the empty set).\n(a) At least how many sets must be printed to be sure of having at least 3 identical subsets on the list?\nAnswer=[ANS]\n(b) At least how many identical subsets are printed if there are 65 subsets on the list?\nAnswer=[ANS]",
+        "answer_v3": [
+            "33",
+            "5"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0042",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Pigeonhole principle",
+        "level": "2",
+        "keywords": [
+            "discrete",
+            "combination"
+        ],
+        "problem_v1": "(a) Among 83 people at least how many were born in the same month?\nAnswer=[ANS]\n(b) Assuming that no one is born on Feb. 29 (leap day), how many people should be selected to guarantee that at least 7 were born on the same day, not considering the year?\nAnswer=[ANS]",
+        "answer_v1": [
+            "7",
+            "(7-1)*365+1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "(a) Among 35 people at least how many were born in the same month?\nAnswer=[ANS]\n(b) Assuming that no one is born on Feb. 29 (leap day), how many people should be selected to guarantee that at least 10 were born on the same day, not considering the year?\nAnswer=[ANS]",
+        "answer_v2": [
+            "3",
+            "(10-1)*365+1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "(a) Among 52 people at least how many were born in the same month?\nAnswer=[ANS]\n(b) Assuming that no one is born on Feb. 29 (leap day), how many people should be selected to guarantee that at least 7 were born on the same day, not considering the year?\nAnswer=[ANS]",
+        "answer_v3": [
+            "5",
+            "(7-1)*365+1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0043",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "Counting"
+        ],
+        "problem_v1": "Solve the following two \" union \" type questions:\n(a) How many bit strings of length 9 either begin with 1 0s or end with 1 1s? (inclusive or) [ANS]\n(b) Every student in a discrete math class is either a computer science or a mathematics major or is a joint major in these two subjects. How many students are in the class if there are $38$ computer science majors (including joint majors), $26$ math majors (including joint majors) and $8$ joint majors? [ANS]",
+        "answer_v1": [
+            "384",
+            "56"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Solve the following two \" union \" type questions:\n(a) How many bit strings of length 8 either begin with 3 0s or end with 1 1s? (inclusive or) [ANS]\n(b) Every student in a discrete math class is either a computer science or a mathematics major or is a joint major in these two subjects. How many students are in the class if there are $30$ computer science majors (including joint majors), $30$ math majors (including joint majors) and $5$ joint majors? [ANS]",
+        "answer_v2": [
+            "144",
+            "55"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Solve the following two \" union \" type questions:\n(a) How many bit strings of length 9 either begin with 1 0s or end with 2 1s? (inclusive or) [ANS]\n(b) Every student in a discrete math class is either a computer science or a mathematics major or is a joint major in these two subjects. How many students are in the class if there are $33$ computer science majors (including joint majors), $26$ math majors (including joint majors) and $6$ joint majors? [ANS]",
+        "answer_v3": [
+            "320",
+            "53"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0044",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "Set",
+            "Inclusion Exclusion",
+            "Count",
+            "set theory",
+            "inclusion",
+            "exclusion"
+        ],
+        "problem_v1": "In a survey of $288$ college students, it is found that $66$ like brussels sprouts, $96$ like broccoli, $59$ like cauliflower, $26$ like both brussels sprouts and broccoli, $21$ like both brussels sprouts and cauliflower, $23$ like both broccoli and cauliflower and $13$ of the students like all three vegetables. How many of the $288$ college students do not like any of these three vegetables? [ANS]",
+        "answer_v1": [
+            "124"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "In a survey of $254$ college students, it is found that $70$ like brussels sprouts, $91$ like broccoli, $57$ like cauliflower, $30$ like both brussels sprouts and broccoli, $21$ like both brussels sprouts and cauliflower, $21$ like both broccoli and cauliflower and $11$ of the students like all three vegetables. How many of the $254$ college students do not like any of these three vegetables? [ANS]",
+        "answer_v2": [
+            "97"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "In a survey of $265$ college students, it is found that $66$ like brussels sprouts, $93$ like broccoli, $58$ like cauliflower, $26$ like both brussels sprouts and broccoli, $22$ like both brussels sprouts and cauliflower, $24$ like both broccoli and cauliflower and $15$ of the students like all three vegetables. How many of the $265$ college students do not like any of these three vegetables? [ANS]",
+        "answer_v3": [
+            "105"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0045",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "set theory",
+            "inclusion",
+            "exclusion"
+        ],
+        "problem_v1": "If $n (A)=33, n (B)=28$ and $n (A \\cap B)=9$, then $n (A \\cup B)$=[ANS]\nIf $n (A \\cup B)=22, n (A \\cap B)=8$, and $n (A)=n (B)$ then $n (A)$=[ANS]",
+        "answer_v1": [
+            "52",
+            "15"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "If $n (A)=12, n (B)=38$ and $n (A \\cap B)=2$, then $n (A \\cup B)$=[ANS]\nIf $n (A \\cup B)=42, n (A \\cap B)=4$, and $n (A)=n (B)$ then $n (A)$=[ANS]",
+        "answer_v2": [
+            "48",
+            "23"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "If $n (A)=19, n (B)=28$ and $n (A \\cap B)=4$, then $n (A \\cup B)$=[ANS]\nIf $n (A \\cup B)=16, n (A \\cap B)=6$, and $n (A)=n (B)$ then $n (A)$=[ANS]",
+        "answer_v3": [
+            "43",
+            "11"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0046",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "set theory",
+            "inclusion",
+            "exclusion"
+        ],
+        "problem_v1": "There are a total of $117$ foreign language students in a high school where they offer Spanish, French, and German. There are $28$ students who take at least 2 languages at once. If there are $49$ Spanish students, $47$ French students, and $46$ German students, how many students take all three languages at once? Answer: [ANS]",
+        "answer_v1": [
+            "3"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "There are a total of $107$ foreign language students in a high school where they offer Spanish, French, and German. There are $23$ students who take at least 2 languages at once. If there are $40$ Spanish students, $48$ French students, and $41$ German students, how many students take all three languages at once? Answer: [ANS]",
+        "answer_v2": [
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "There are a total of $109$ foreign language students in a high school where they offer Spanish, French, and German. There are $30$ students who take at least 2 languages at once. If there are $44$ Spanish students, $48$ French students, and $43$ German students, how many students take all three languages at once? Answer: [ANS]",
+        "answer_v3": [
+            "4"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0047",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "4",
+        "keywords": [
+            "combinatorics",
+            "PIE"
+        ],
+        "problem_v1": "How many non-negative integer solutions are there to the following equation? ${x_1+x_2+\\cdots+x_{8}=10}$ Answer: [ANS]\nHow many non-negative integer solutions are there to the following inequality? ${x_1+x_2+\\cdots+x_{8}<10}$ Answer: [ANS]",
+        "answer_v1": [
+            "(3.55687E+14)/[10!*(8-1)!]",
+            "(3.55687E+14)/(1.46313E+10)"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "How many non-negative integer solutions are there to the following equation? ${x_1+x_2+\\cdots+x_{10}=5}$ Answer: [ANS]\nHow many non-negative integer solutions are there to the following inequality? ${x_1+x_2+\\cdots+x_{10}<5}$ Answer: [ANS]",
+        "answer_v2": [
+            "(8.71783E+10)/[5!*(10-1)!]",
+            "(8.71783E+10)/(8.70912E+07)"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "How many non-negative integer solutions are there to the following equation? ${x_1+x_2+\\cdots+x_{8}=7}$ Answer: [ANS]\nHow many non-negative integer solutions are there to the following inequality? ${x_1+x_2+\\cdots+x_{8}<7}$ Answer: [ANS]",
+        "answer_v3": [
+            "(8.71783E+10)/[7!*(8-1)!]",
+            "(8.71783E+10)/(2.90304E+07)"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0048",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "5",
+        "keywords": [
+            "combinatorics",
+            "derangements"
+        ],
+        "problem_v1": "On Friday morning, before their Discrete Mathematics lecture, 7 students each leave one bag in the Cloakroom. In how many ways can one bag be returned to each student? Answer: [ANS]\nHow many ways can their bags be returned to them so that none of them get their own bags back? How many ways can their bags be returned to them so that none of them get their own bags back? Answer: [ANS]\nHow many ways can their bags be returned to them so that exactly one of them gets their own bag back? Answer: [ANS]",
+        "answer_v1": [
+            "7!",
+            "1854",
+            "7*265"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "On Friday morning, before their Discrete Mathematics lecture, 4 students each leave one bag in the Cloakroom. In how many ways can one bag be returned to each student? Answer: [ANS]\nHow many ways can their bags be returned to them so that none of them get their own bags back? How many ways can their bags be returned to them so that none of them get their own bags back? Answer: [ANS]\nHow many ways can their bags be returned to them so that exactly one of them gets their own bag back? Answer: [ANS]",
+        "answer_v2": [
+            "4!",
+            "9",
+            "4*2"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "On Friday morning, before their Discrete Mathematics lecture, 5 students each leave one bag in the Cloakroom. In how many ways can one bag be returned to each student? Answer: [ANS]\nHow many ways can their bags be returned to them so that none of them get their own bags back? How many ways can their bags be returned to them so that none of them get their own bags back? Answer: [ANS]\nHow many ways can their bags be returned to them so that exactly one of them gets their own bag back? Answer: [ANS]",
+        "answer_v3": [
+            "5!",
+            "44",
+            "5*9"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0049",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "5",
+        "keywords": [
+            "combinatorics",
+            "nni"
+        ],
+        "problem_v1": "A multiset is a collection of objects, just like a set, but can contain an object more than once (the order of the elements still doesn\u2019t matter). For example, $\\{1, 1, 2, 5, 5, 7\\}$ is a multiset of size 6. How many sets of size 5 can be made using the 10 digits: 0,1,...,9? [ANS]. How many multisets of size 5 can be made using the 10 digits: 0,1,...,9? [ANS].",
+        "answer_v1": [
+            "10!/[5!*(10-5)!]",
+            "14!/[9!*(14-9)!]"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A multiset is a collection of objects, just like a set, but can contain an object more than once (the order of the elements still doesn\u2019t matter). For example, $\\{1, 1, 2, 5, 5, 7\\}$ is a multiset of size 6. How many sets of size 6 can be made using the 7 digits: 0,1,...,6? [ANS]. How many multisets of size 6 can be made using the 7 digits: 0,1,...,6? [ANS].",
+        "answer_v2": [
+            "7!/[6!*(7-6)!]",
+            "12!/[6!*(12-6)!]"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A multiset is a collection of objects, just like a set, but can contain an object more than once (the order of the elements still doesn\u2019t matter). For example, $\\{1, 1, 2, 5, 5, 7\\}$ is a multiset of size 6. How many sets of size 5 can be made using the 8 digits: 0,1,...,7? [ANS]. How many multisets of size 5 can be made using the 8 digits: 0,1,...,7? [ANS].",
+        "answer_v3": [
+            "8!/[5!*(8-5)!]",
+            "12!/[7!*(12-7)!]"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0050",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "5",
+        "keywords": [
+            "combinatorics",
+            "PIE"
+        ],
+        "problem_v1": "How many ways can you give 12 (identical) apples to your 7 favourite Mathematics lecturers (without any restrictions)? How many ways can you give 12 (identical) apples to your 7 favourite Mathematics lecturers (without any restrictions)? Answer: [ANS]\nHow many ways can you give 12 (identical) apples to your 7 favourite Mathematics lecturers if each of them gets at least one apple? Answer: [ANS]\nHow many ways can you give 12 (identical) apples to your 7 favourite Mathematics lecturers if each of them gets at most two apples? Answer: [ANS]",
+        "answer_v1": [
+            "(12+7-1)!/[12!*(7-1)!]",
+            "(12-1)!/[(12-7)!*(7-1)!]",
+            "28"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "How many ways can you give 5 (identical) apples to your 4 favourite Mathematics lecturers (without any restrictions)? How many ways can you give 5 (identical) apples to your 4 favourite Mathematics lecturers (without any restrictions)? Answer: [ANS]\nHow many ways can you give 5 (identical) apples to your 4 favourite Mathematics lecturers if each of them gets at least one apple? Answer: [ANS]\nHow many ways can you give 5 (identical) apples to your 4 favourite Mathematics lecturers if each of them gets at most two apples? Answer: [ANS]",
+        "answer_v2": [
+            "(5+4-1)!/[5!*(4-1)!]",
+            "(5-1)!/[(5-4)!*(4-1)!]",
+            "16"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "How many ways can you give 8 (identical) apples to your 5 favourite Mathematics lecturers (without any restrictions)? How many ways can you give 8 (identical) apples to your 5 favourite Mathematics lecturers (without any restrictions)? Answer: [ANS]\nHow many ways can you give 8 (identical) apples to your 5 favourite Mathematics lecturers if each of them gets at least one apple? Answer: [ANS]\nHow many ways can you give 8 (identical) apples to your 5 favourite Mathematics lecturers if each of them gets at most two apples? Answer: [ANS]",
+        "answer_v3": [
+            "(8+5-1)!/[8!*(5-1)!]",
+            "(8-1)!/[(8-5)!*(5-1)!]",
+            "15"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0051",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "Probability"
+        ],
+        "problem_v1": "Find the number of elements in $A_1 \\cup A_2 \\cup A_3$ if there are 103 elements in $A_1,$ 1002 elements in $A_2$, and 10024 elements in $A_3$ in each of the following situations:\n(a) The sets are pairwise disjoint. [ANS]\n(b) There are 17 elements common to each pair of sets and 3 elements in all three sets. [ANS]\nNote: the answers to this problem must evaluate to the correct answer exactly.",
+        "answer_v1": [
+            "11129",
+            "11081"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Find the number of elements in $A_1 \\cup A_2 \\cup A_3$ if there are 95 elements in $A_1,$ 1009 elements in $A_2$, and 9930 elements in $A_3$ in each of the following situations:\n(a) The sets are pairwise disjoint. [ANS]\n(b) There are 13 elements common to each pair of sets and 5 elements in all three sets. [ANS]\nNote: the answers to this problem must evaluate to the correct answer exactly.",
+        "answer_v2": [
+            "11034",
+            "11000"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Find the number of elements in $A_1 \\cup A_2 \\cup A_3$ if there are 98 elements in $A_1,$ 1002 elements in $A_2$, and 9956 elements in $A_3$ in each of the following situations:\n(a) The sets are pairwise disjoint. [ANS]\n(b) There are 16 elements common to each pair of sets and 2 elements in all three sets. [ANS]\nNote: the answers to this problem must evaluate to the correct answer exactly.",
+        "answer_v3": [
+            "11056",
+            "11010"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0052",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "Probability",
+            "Set",
+            "Inclusion Exclusion",
+            "Count",
+            "set theory",
+            "inclusion",
+            "exclusion"
+        ],
+        "problem_v1": "How many elements are in the union of four sets if each of the sets has 99 elements, each pair of sets share 51 elements, each triple of sets shares 26 elements and there are 6 elements in all four sets. [ANS]",
+        "answer_v1": [
+            "188"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many elements are in the union of four sets if each of the sets has 95 elements, each pair of sets share 55 elements, each triple of sets shares 21 elements and there are 4 elements in all four sets. [ANS]",
+        "answer_v2": [
+            "130"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many elements are in the union of four sets if each of the sets has 96 elements, each pair of sets share 51 elements, each triple of sets shares 23 elements and there are 5 elements in all four sets. [ANS]",
+        "answer_v3": [
+            "165"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0053",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "Probability",
+            "Set",
+            "Inclusion Exclusion",
+            "Count",
+            "set theory",
+            "inclusion",
+            "exclusion"
+        ],
+        "problem_v1": "There are 363 students in a college who have taken a course in calculus, 222 who have take a course in discrete mathematics, and 162 who have taken a course in both calculus and discrete mathematics. How many students at this college have taken a course in either calculus or discrete mathematics? [ANS]",
+        "answer_v1": [
+            "423"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "There are 315 students in a college who have taken a course in calculus, 229 who have take a course in discrete mathematics, and 115 who have taken a course in both calculus and discrete mathematics. How many students at this college have taken a course in either calculus or discrete mathematics? [ANS]",
+        "answer_v2": [
+            "429"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "There are 332 students in a college who have taken a course in calculus, 222 who have take a course in discrete mathematics, and 128 who have taken a course in both calculus and discrete mathematics. How many students at this college have taken a course in either calculus or discrete mathematics? [ANS]",
+        "answer_v3": [
+            "426"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0054",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "set",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "One of Shakespeare's sonnets has a verb in 14 of its 19 lines, an adjective in 11 lines, and both in 8 lines. How many lines have a verb but no adjective? [ANS]\nHow many lines have an adjective but no verb? [ANS]\nHow many have neither an adjective nor a verb? [ANS]",
+        "answer_v1": [
+            "6",
+            "3",
+            "2"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "One of Shakespeare's sonnets has a verb in 9 of its 15 lines, an adjective in 11 lines, and both in 6 lines. How many lines have a verb but no adjective? [ANS]\nHow many lines have an adjective but no verb? [ANS]\nHow many have neither an adjective nor a verb? [ANS]",
+        "answer_v2": [
+            "3",
+            "5",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "One of Shakespeare's sonnets has a verb in 11 of its 17 lines, an adjective in 11 lines, and both in 7 lines. How many lines have a verb but no adjective? [ANS]\nHow many lines have an adjective but no verb? [ANS]\nHow many have neither an adjective nor a verb? [ANS]",
+        "answer_v3": [
+            "4",
+            "4",
+            "2"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0055",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "set",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "175 business executives were surveyed to determine if they regularly read Fortune, Time, or Money magazines. 78 read Fortune, 72 read Time, 44 read Money, 45 read exactly two of the three magazines, 27 read Fortune and Time, 24 read Time and Money, and 5 read all three magazines. How many read none of the three magazines? [ANS]\nHow many read exactly one magazine? [ANS]\nHow many did not read Money? [ANS]",
+        "answer_v1": [
+            "36",
+            "89",
+            "131"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "166 business executives were surveyed to determine if they regularly read Fortune, Time, or Money magazines. 72 read Fortune, 69 read Time, 43 read Money, 46 read exactly two of the three magazines, 22 read Fortune and Time, 22 read Time and Money, and 3 read all three magazines. How many read none of the three magazines? [ANS]\nHow many read exactly one magazine? [ANS]\nHow many did not read Money? [ANS]",
+        "answer_v2": [
+            "34",
+            "83",
+            "123"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "170 business executives were surveyed to determine if they regularly read Fortune, Time, or Money magazines. 74 read Fortune, 72 read Time, 42 read Money, 42 read exactly two of the three magazines, 27 read Fortune and Time, 26 read Time and Money, and 7 read all three magazines. How many read none of the three magazines? [ANS]\nHow many read exactly one magazine? [ANS]\nHow many did not read Money? [ANS]",
+        "answer_v3": [
+            "38",
+            "83",
+            "128"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0056",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "A company conducted a marketing survey of its clientele and found that $207$ own an iPhone and $98$ own an iPad. If $23$ clients own both an iPhone and an iPad, how many interviewed have an iPhone or an iPad? [ANS]",
+        "answer_v1": [
+            "282"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A company conducted a marketing survey of its clientele and found that $156$ own an iPhone and $121$ own an iPad. If $16$ clients own both an iPhone and an iPad, how many interviewed have an iPhone or an iPad? [ANS]",
+        "answer_v2": [
+            "261"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A company conducted a marketing survey of its clientele and found that $173$ own an iPhone and $99$ own an iPad. If $18$ clients own both an iPhone and an iPad, how many interviewed have an iPhone or an iPad? [ANS]",
+        "answer_v3": [
+            "254"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0057",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "Of the $1145$ biologists at a biotechnology company, $307$ study insulin production and $98$ study biological warfare. If $23$ study both insulin production and biological warfare, how many biologists study neither of these subjects? [ANS]",
+        "answer_v1": [
+            "763"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Of the $1067$ biologists at a biotechnology company, $256$ study insulin production and $121$ study biological warfare. If $16$ study both insulin production and biological warfare, how many biologists study neither of these subjects? [ANS]",
+        "answer_v2": [
+            "706"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Of the $1110$ biologists at a biotechnology company, $273$ study insulin production and $99$ study biological warfare. If $18$ study both insulin production and biological warfare, how many biologists study neither of these subjects? [ANS]",
+        "answer_v3": [
+            "756"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0058",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "A company conducted a marketing survey for families with young children and found that $98$ families own a Nintendo DS and $207$ families own a Nintendo Wii. If $23$ own a Wii and a DS, how many own either a Wii or DS, but not both? [ANS]",
+        "answer_v1": [
+            "259"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A company conducted a marketing survey for families with young children and found that $121$ families own a Nintendo DS and $156$ families own a Nintendo Wii. If $16$ own a Wii and a DS, how many own either a Wii or DS, but not both? [ANS]",
+        "answer_v2": [
+            "245"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A company conducted a marketing survey for families with young children and found that $99$ families own a Nintendo DS and $173$ families own a Nintendo Wii. If $18$ own a Wii and a DS, how many own either a Wii or DS, but not both? [ANS]",
+        "answer_v3": [
+            "236"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0059",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "set theory",
+            "union",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "A survey of $1,000$ employees in a company revealed that $262$ like rock music, $376$ like pop music, $127$ like jazz, $116$ like pop and rock music, $61$ like jazz and rock, $33$ like pop and jazz, and $19$ employees like all three. How many employees do not like jazz, pop, or rock music? [ANS]\nHow many employees like pop but not jazz? [ANS]",
+        "answer_v1": [
+            "426",
+            "343"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A survey of $1,000$ employees in a company revealed that $215$ like rock music, $308$ like pop music, $147$ like jazz, $116$ like pop and rock music, $47$ like jazz and rock, $40$ like pop and jazz, and $12$ employees like all three. How many employees do not like jazz, pop, or rock music? [ANS]\nHow many employees like pop but not jazz? [ANS]",
+        "answer_v2": [
+            "521",
+            "268"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A survey of $1,000$ employees in a company revealed that $228$ like rock music, $331$ like pop music, $128$ like jazz, $117$ like pop and rock music, $54$ like jazz and rock, $32$ like pop and jazz, and $22$ employees like all three. How many employees do not like jazz, pop, or rock music? [ANS]\nHow many employees like pop but not jazz? [ANS]",
+        "answer_v3": [
+            "494",
+            "299"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0060",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "3",
+        "keywords": [
+            "set theory",
+            "union",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "In a certain class there are a total of $40$ majors in mathematics, $21$ majors in philosophy, and $6$ students who are double-majoring in both mathematics and philosophy. Suppose that there are $572$ students in the entire class. How many are majoring in neither of these subjects? [ANS]\nHow many students are majoring in mathematics alone? [ANS]",
+        "answer_v1": [
+            "517",
+            "34"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "In a certain class there are a total of $26$ majors in mathematics, $25$ majors in philosophy, and $3$ students who are double-majoring in both mathematics and philosophy. Suppose that there are $533$ students in the entire class. How many are majoring in neither of these subjects? [ANS]\nHow many students are majoring in mathematics alone? [ANS]",
+        "answer_v2": [
+            "485",
+            "23"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "In a certain class there are a total of $31$ majors in mathematics, $21$ majors in philosophy, and $4$ students who are double-majoring in both mathematics and philosophy. Suppose that there are $555$ students in the entire class. How many are majoring in neither of these subjects? [ANS]\nHow many students are majoring in mathematics alone? [ANS]",
+        "answer_v3": [
+            "507",
+            "27"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0061",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "inclusion exclusion"
+        ],
+        "problem_v1": "A company conducted a marketing survey of college students and found that $207$ own a bicycle and $98$ owned a car. If $23$ of those surveyed own both a car and a bicycle, how many interviewed have a car or a bicycle? [ANS]",
+        "answer_v1": [
+            "282"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A company conducted a marketing survey of college students and found that $156$ own a bicycle and $121$ owned a car. If $16$ of those surveyed own both a car and a bicycle, how many interviewed have a car or a bicycle? [ANS]",
+        "answer_v2": [
+            "261"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A company conducted a marketing survey of college students and found that $173$ own a bicycle and $99$ owned a car. If $18$ of those surveyed own both a car and a bicycle, how many interviewed have a car or a bicycle? [ANS]",
+        "answer_v3": [
+            "254"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0062",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "intersection"
+        ],
+        "problem_v1": "A company conducted a survey of $1,000$ investors and found that $688$ investors get the company newsletter in the mail, $494$ get the electronic copy of the newsletter in their email, and $331$ receive both the paper and electronic version of the newsletter. How many investors do not receive the newsletter at all? [ANS]\nHow many investors receive the electronic version only? [ANS]",
+        "answer_v1": [
+            "149",
+            "163"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A company conducted a survey of $1,000$ investors and found that $587$ investors get the company newsletter in the mail, $520$ get the electronic copy of the newsletter in their email, and $307$ receive both the paper and electronic version of the newsletter. How many investors do not receive the newsletter at all? [ANS]\nHow many investors receive the electronic version only? [ANS]",
+        "answer_v2": [
+            "200",
+            "213"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A company conducted a survey of $1,000$ investors and found that $622$ investors get the company newsletter in the mail, $496$ get the electronic copy of the newsletter in their email, and $314$ receive both the paper and electronic version of the newsletter. How many investors do not receive the newsletter at all? [ANS]\nHow many investors receive the electronic version only? [ANS]",
+        "answer_v3": [
+            "196",
+            "182"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0063",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "intersection"
+        ],
+        "problem_v1": "A company conducted a survey of $346$ of its employees. Of those surveyed, it was discovered that $133$ like baseball, $50$ like hockey, and $23$ like both baseball and hockey. Let $B$ denote the set of employees which like baseball and $H$ the set of employees which like hockey. How many employees are there in the set $B \\cup H'$? [ANS]\nHow many employees are in the set $(B \\cap H)'$? [ANS]",
+        "answer_v1": [
+            "319",
+            "323"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A company conducted a survey of $270$ of its employees. Of those surveyed, it was discovered that $125$ like baseball, $63$ like hockey, and $16$ like both baseball and hockey. Let $B$ denote the set of employees which like baseball and $H$ the set of employees which like hockey. How many employees are there in the set $B \\cup H'$? [ANS]\nHow many employees are in the set $(B \\cap H)'$? [ANS]",
+        "answer_v2": [
+            "223",
+            "254"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A company conducted a survey of $312$ of its employees. Of those surveyed, it was discovered that $128$ like baseball, $51$ like hockey, and $18$ like both baseball and hockey. Let $B$ denote the set of employees which like baseball and $H$ the set of employees which like hockey. How many employees are there in the set $B \\cup H'$? [ANS]\nHow many employees are in the set $(B \\cap H)'$? [ANS]",
+        "answer_v3": [
+            "279",
+            "294"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0064",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Inclusion/exclusion",
+        "level": "2",
+        "keywords": [
+            "set theory",
+            "union",
+            "intersection"
+        ],
+        "problem_v1": "A company conducted a survey of $200$ of its employees and found that $113$ employees get the company newsletter in the mail, $50$ get the electronic copy of the newsletter in their email, and $23$ receive both the paper and electronic version of the newsletter. Let $G$ denote the set of employees which get the letter by mail, and let $P$ denote the set of employees which get the newsletter by email. How many employees are there in the set $G \\cap P'$? [ANS]\nHow many employees are in the set $(G \\cup P)'$? [ANS]",
+        "answer_v1": [
+            "90",
+            "60"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "A company conducted a survey of $200$ of its employees and found that $79$ employees get the company newsletter in the mail, $63$ get the electronic copy of the newsletter in their email, and $16$ receive both the paper and electronic version of the newsletter. Let $G$ denote the set of employees which get the letter by mail, and let $P$ denote the set of employees which get the newsletter by email. How many employees are there in the set $G \\cap P'$? [ANS]\nHow many employees are in the set $(G \\cup P)'$? [ANS]",
+        "answer_v2": [
+            "63",
+            "74"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "A company conducted a survey of $200$ of its employees and found that $90$ employees get the company newsletter in the mail, $51$ get the electronic copy of the newsletter in their email, and $18$ receive both the paper and electronic version of the newsletter. Let $G$ denote the set of employees which get the letter by mail, and let $P$ denote the set of employees which get the newsletter by email. How many employees are there in the set $G \\cap P'$? [ANS]\nHow many employees are in the set $(G \\cup P)'$? [ANS]",
+        "answer_v3": [
+            "72",
+            "77"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0065",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Stars and bars",
+        "level": "4",
+        "keywords": [
+            "Counting",
+            "logarithms",
+            "exponentials"
+        ],
+        "problem_v1": "Willy Wonka gives everyone who visits his factory 15 pieces of candy to take home. He never gives a person 2 or more pieces of the same type of candy. If Mr. Wonka has 24 different types of candy, in how many different ways could Mr. Wonka give a visitor his candy? Mr. Wonka can distribute candy in [ANS] different ways. If 180 people visit Mr. Wonka's factory each day, Mr. Wonka can go for [ANS] days without repeating candy selections (giving two visitors the same selection of candy).",
+        "answer_v1": [
+            "1307504",
+            "7263"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Willy Wonka gives everyone who visits his factory 6 pieces of candy to take home. He never gives a person 2 or more pieces of the same type of candy. If Mr. Wonka has 28 different types of candy, in how many different ways could Mr. Wonka give a visitor his candy? Mr. Wonka can distribute candy in [ANS] different ways. If 155 people visit Mr. Wonka's factory each day, Mr. Wonka can go for [ANS] days without repeating candy selections (giving two visitors the same selection of candy).",
+        "answer_v2": [
+            "376740",
+            "2430"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Willy Wonka gives everyone who visits his factory 9 pieces of candy to take home. He never gives a person 2 or more pieces of the same type of candy. If Mr. Wonka has 25 different types of candy, in how many different ways could Mr. Wonka give a visitor his candy? Mr. Wonka can distribute candy in [ANS] different ways. If 165 people visit Mr. Wonka's factory each day, Mr. Wonka can go for [ANS] days without repeating candy selections (giving two visitors the same selection of candy).",
+        "answer_v3": [
+            "2042975",
+            "12381"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0066",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Stars and bars",
+        "level": "3",
+        "keywords": [
+            "discrete",
+            "permutation"
+        ],
+        "problem_v1": "A store is selling 5 types of hard candies: cherry, strawberry, orange, lemon and pineapple. How many ways are there to choose:\n(a) 31 candies?\nAnswer=[ANS]\n(b) 31 candies with at least a piece of each flavor?\nAnswer=[ANS]\n(b) 31 candies with at least 3 cherry and at least 5 lemon?\nAnswer=[ANS]",
+        "answer_v1": [
+            "52360",
+            "27405",
+            "17550"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "A store is selling 5 types of hard candies: cherry, strawberry, orange, lemon and pineapple. How many ways are there to choose:\n(a) 17 candies?\nAnswer=[ANS]\n(b) 17 candies with at least a piece of each flavor?\nAnswer=[ANS]\n(b) 17 candies with at least 5 cherry and at least 2 lemon?\nAnswer=[ANS]",
+        "answer_v2": [
+            "5985",
+            "1820",
+            "1001"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "A store is selling 5 types of hard candies: cherry, strawberry, orange, lemon and pineapple. How many ways are there to choose:\n(a) 22 candies?\nAnswer=[ANS]\n(b) 22 candies with at least a piece of each flavor?\nAnswer=[ANS]\n(b) 22 candies with at least 4 cherry and at least 3 lemon?\nAnswer=[ANS]",
+        "answer_v3": [
+            "14950",
+            "5985",
+            "3876"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0067",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Stars and bars",
+        "level": "3",
+        "keywords": [
+            "counting",
+            "generalized combinations"
+        ],
+        "problem_v1": "After a (not very successful) trick or treating round, Candice has 14 Tootsie rolls and 12 Twizzlers in her pillow case. Her mother asks her to share the loot with her three younger brothers. (A) How many different ways can she do this? [ANS]\n(B) How many different ways can she do this after her Mother warns her to give at least one of each type of candies to each of her brothers? [ANS]",
+        "answer_v1": [
+            "309400",
+            "80080"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "After a (not very successful) trick or treating round, Candice has 8 Tootsie rolls and 15 Twizzlers in her pillow case. Her mother asks her to share the loot with her three younger brothers. (A) How many different ways can she do this? [ANS]\n(B) How many different ways can she do this after her Mother warns her to give at least one of each type of candies to each of her brothers? [ANS]",
+        "answer_v2": [
+            "134640",
+            "25480"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "After a (not very successful) trick or treating round, Candice has 10 Tootsie rolls and 12 Twizzlers in her pillow case. Her mother asks her to share the loot with her three younger brothers. (A) How many different ways can she do this? [ANS]\n(B) How many different ways can she do this after her Mother warns her to give at least one of each type of candies to each of her brothers? [ANS]",
+        "answer_v3": [
+            "130130",
+            "26400"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0068",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Stars and bars",
+        "level": "3",
+        "keywords": [
+            "counting",
+            "generalized combinations"
+        ],
+        "problem_v1": "Santa's elves are creating treat bags containing a selection of Kit Kats, Reese's cups and Almond Joys. (A) How many different types of bags can they make containing 13 chocolate bars. [ANS]\n(B) How many different types of bags can they make containing 13 chocolate bars if Santa wants to have at least 2 Kit Kat(s), 2 Reese's cup(s) and 2 Almond Joy(s) in the bag. [ANS]",
+        "answer_v1": [
+            "105",
+            "36"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Santa's elves are creating treat bags containing a selection of Kit Kats, Reese's cups and Almond Joys. (A) How many different types of bags can they make containing 10 chocolate bars. [ANS]\n(B) How many different types of bags can they make containing 10 chocolate bars if Santa wants to have at least 1 Kit Kat(s), 2 Reese's cup(s) and 1 Almond Joy(s) in the bag. [ANS]",
+        "answer_v2": [
+            "66",
+            "28"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Santa's elves are creating treat bags containing a selection of Kit Kats, Reese's cups and Almond Joys. (A) How many different types of bags can they make containing 12 chocolate bars. [ANS]\n(B) How many different types of bags can they make containing 12 chocolate bars if Santa wants to have at least 1 Kit Kat(s), 2 Reese's cup(s) and 1 Almond Joy(s) in the bag. [ANS]",
+        "answer_v3": [
+            "91",
+            "45"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0069",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Recursive",
+        "level": "3",
+        "keywords": [
+            "counting",
+            "combinations",
+            "Fibonacci"
+        ],
+        "problem_v1": "How many ways can we climb a staircase with 9 steps if we can take either 1 or 2 steps at a time? Hint: Group the different ways according to the number of double steps. [ANS]",
+        "answer_v1": [
+            "55"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "How many ways can we climb a staircase with 6 steps if we can take either 1 or 2 steps at a time? Hint: Group the different ways according to the number of double steps. [ANS]",
+        "answer_v2": [
+            "13"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "How many ways can we climb a staircase with 7 steps if we can take either 1 or 2 steps at a time? Hint: Group the different ways according to the number of double steps. [ANS]",
+        "answer_v3": [
+            "21"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0070",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "3",
+        "keywords": [
+            "combinatorics",
+            "proofs",
+            "binomial coefficient"
+        ],
+        "problem_v1": "Are the following statements true or false?\n[ANS] 1. ${n \\choose 2}+{{n-2}\\choose{k-2}}={n \\choose k}+{k \\choose 2}$ [ANS] 2. $n!=(n-1)\\big((n-1)!+(n-2)!\\big) \\quad \\text{for} n \\geq 2$ [ANS] 3. ${n \\choose 0}+{n \\choose 1}+{n \\choose 2}+\\cdots+{n \\choose n}=n^2$ [ANS] 4. ${n \\choose 2}{{n-2}\\choose{k-2}}={n \\choose k} {k \\choose 2}$ [ANS] 5. $\\sum_{k=0}^n {n \\choose k}^2={{2n} \\choose n}$ [ANS] 6. ${n \\choose 0}-{n \\choose 1}+{n \\choose 2}+\\cdots+(-1)^n {n \\choose n}=0$ [ANS] 7. $D_n=(n-1)\\big(D_{n-1}+D_{n-2}\\big)$ where $D_n$ is the number of derangements of $n$ objects, and $n\\geq 2$",
+        "answer_v1": [
+            "F",
+            "T",
+            "F",
+            "T",
+            "T",
+            "T",
+            "T"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ]
+        ],
+        "problem_v2": "Are the following statements true or false?\n[ANS] 1. $\\sum_{k=1}^n k (n+1-k)={{n+3} \\choose 2}$ [ANS] 2. $\\sum_{k=0}^n 3^k {n \\choose k}=2^n$ [ANS] 3. ${n \\choose 0}+{n \\choose 1}+{n \\choose 2}+\\cdots+{n \\choose n}=n^2$ [ANS] 4. $D_n=(n-1)\\big(D_{n-1}-D_{n-2}\\big)$ where $D_n$ is the number of derangements of $n$ objects, and $n\\geq 2$ [ANS] 5. ${n \\choose k}={{n-1}\\choose{k-1}}{{n-1}\\choose{k}}$ [ANS] 6. $D_n=(n-1)\\big(D_{n-1}+D_{n-2}\\big)$ where $D_n$ is the number of derangements of $n$ objects, and $n\\geq 2$ [ANS] 7. $\\sum_{k=0}^n {n \\choose k}^2={{2n} \\choose n}$",
+        "answer_v2": [
+            "F",
+            "F",
+            "F",
+            "F",
+            "F",
+            "T",
+            "T"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ]
+        ],
+        "problem_v3": "Are the following statements true or false?\n[ANS] 1. ${n \\choose k}={{n-1}\\choose{k-1}}+{{n-1}\\choose{k}}$ [ANS] 2. ${n \\choose 0}+{n \\choose 1}+{n \\choose 2}+\\cdots+{n \\choose n}=n^2$ [ANS] 3. ${n \\choose 2}{{n-2}\\choose{k-2}}={n \\choose k} {k \\choose 2}$ [ANS] 4. ${n \\choose k}={n \\choose {n-k}}$ [ANS] 5. $\\sum_{k=1}^n k (n+1-k)={{n+3} \\choose 2}$ [ANS] 6. $\\sum_{k=0}^n 2^k {n \\choose k}=3^n$ [ANS] 7. $n!=(n-1)\\big((n-1)!+(n-2)!\\big) \\quad \\text{for} n \\geq 2$",
+        "answer_v3": [
+            "T",
+            "F",
+            "T",
+            "T",
+            "F",
+            "T",
+            "T"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ]
+        ]
+    },
+    {
+        "id": "Combinatorics_0071",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "3",
+        "keywords": [
+            "Discrete",
+            "combination"
+        ],
+        "problem_v1": "A coin is tossed 14 times. a) How many different outcomes are possible? [ANS]\nb) How many different outcomes have exactly 8 heads? [ANS]\nc) How many different outcomes have at least 2 heads? [ANS]\nd) How many different outcomes have at most 10 heads? [ANS]",
+        "answer_v1": [
+            "16384",
+            "3003",
+            "16369",
+            "15914"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "A coin is tossed 8 times. a) How many different outcomes are possible? [ANS]\nb) How many different outcomes have exactly 6 heads? [ANS]\nc) How many different outcomes have at least 2 heads? [ANS]\nd) How many different outcomes have at most 4 heads? [ANS]",
+        "answer_v2": [
+            "256",
+            "28",
+            "247",
+            "163"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "A coin is tossed 10 times. a) How many different outcomes are possible? [ANS]\nb) How many different outcomes have exactly 6 heads? [ANS]\nc) How many different outcomes have at least 2 heads? [ANS]\nd) How many different outcomes have at most 6 heads? [ANS]",
+        "answer_v3": [
+            "1024",
+            "210",
+            "1013",
+            "848"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0072",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "2",
+        "keywords": [
+            "discrete",
+            "permutation"
+        ],
+        "problem_v1": "You have 28 cards and 11 envelopes (labeled 1,2,..,11). In how many ways can you put the 28 cards into the envelopes if\n(a) The cards are distinct?\nAnswer=[ANS]\n(b) The cards are identical?\nAnswer=[ANS]\n(b) The cards are identical and no envelope can be left empty?\nAnswer=[ANS]",
+        "answer_v1": [
+            "1.44209936106499E+29",
+            "472733756",
+            "8436285"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "You have 20 cards and 15 envelopes (labeled 1,2,..,15). In how many ways can you put the 20 cards into the envelopes if\n(a) The cards are distinct?\nAnswer=[ANS]\n(b) The cards are identical?\nAnswer=[ANS]\n(b) The cards are identical and no envelope can be left empty?\nAnswer=[ANS]",
+        "answer_v2": [
+            "3.32525673007965E+23",
+            "1391975640",
+            "11628"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "You have 22 cards and 11 envelopes (labeled 1,2,..,11). In how many ways can you put the 22 cards into the envelopes if\n(a) The cards are distinct?\nAnswer=[ANS]\n(b) The cards are identical?\nAnswer=[ANS]\n(b) The cards are identical and no envelope can be left empty?\nAnswer=[ANS]",
+        "answer_v3": [
+            "8.14027493868398E+22",
+            "64512240",
+            "352716"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0073",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "3",
+        "keywords": [
+            "counting"
+        ],
+        "problem_v1": "There are 15 portable mini suites (a.k.a. cages) in a row at the Paws and Claws Holiday Pet Resort. They are neatly labeled with their guests' names. There are 7 poodles and 8 tabbies. How many ways can the \"suites\" be arranged if:\na) there are no restrictions. [ANS]\nb) cats and dogs must alternate. [ANS]\nc) dogs must be next to each other. [ANS]\nd) dogs must be next to each other and cats must be next to each other. [ANS]",
+        "answer_v1": [
+            "1.30767E+12",
+            "2.03213E+08",
+            "1.82892E+09",
+            "4.06426E+08"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "There are 7 portable mini suites (a.k.a. cages) in a row at the Paws and Claws Holiday Pet Resort. They are neatly labeled with their guests' names. There are 3 poodles and 4 tabbies. How many ways can the \"suites\" be arranged if:\na) there are no restrictions. [ANS]\nb) cats and dogs must alternate. [ANS]\nc) dogs must be next to each other. [ANS]\nd) dogs must be next to each other and cats must be next to each other. [ANS]",
+        "answer_v2": [
+            "5040",
+            "144",
+            "720",
+            "288"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "There are 9 portable mini suites (a.k.a. cages) in a row at the Paws and Claws Holiday Pet Resort. They are neatly labeled with their guests' names. There are 4 poodles and 5 tabbies. How many ways can the \"suites\" be arranged if:\na) there are no restrictions. [ANS]\nb) cats and dogs must alternate. [ANS]\nc) dogs must be next to each other. [ANS]\nd) dogs must be next to each other and cats must be next to each other. [ANS]",
+        "answer_v3": [
+            "362880",
+            "2880",
+            "17280",
+            "5760"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0074",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "3",
+        "keywords": [
+            "counting",
+            "repeated combinations"
+        ],
+        "problem_v1": "To avoid collisions with invasive species of aliens, new imperial regulations allow only positive integer space jumps parallel to the three space axes defined in the Jedi council's booklet of rules and regulations. How many ways can the Millenium Falcon travel from Earth with coordinates (3,2,3) to the Wookiee smugglers trading place at (10,6,7)? [ANS]",
+        "answer_v1": [
+            "450450"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "To avoid collisions with invasive species of aliens, new imperial regulations allow only positive integer space jumps parallel to the three space axes defined in the Jedi council's booklet of rules and regulations. How many ways can the Millenium Falcon travel from Earth with coordinates (0,4,0) to the Wookiee smugglers trading place at (4,12,4)? [ANS]",
+        "answer_v2": [
+            "900900"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "To avoid collisions with invasive species of aliens, new imperial regulations allow only positive integer space jumps parallel to the three space axes defined in the Jedi council's booklet of rules and regulations. How many ways can the Millenium Falcon travel from Earth with coordinates (1,3,1) to the Wookiee smugglers trading place at (6,6,5)? [ANS]",
+        "answer_v3": [
+            "27720"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0075",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "3",
+        "keywords": [
+            "counting",
+            "combinations",
+            "permutations"
+        ],
+        "problem_v1": "You are rearranging your bookshelf to make it more interesting and harder to find anything on it. On one of the shelves you plan to put 13 biographies and 7 mysteries. How many ways can you arrange them on the shelf if you don't want any two mystery books next to each other (i.e. they need to be separated by at least one biography, maybe more...). [ANS]",
+        "answer_v1": [
+            "1.07711E+17"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "You are rearranging your bookshelf to make it more interesting and harder to find anything on it. On one of the shelves you plan to put 10 biographies and 8 mysteries. How many ways can you arrange them on the shelf if you don't want any two mystery books next to each other (i.e. they need to be separated by at least one biography, maybe more...). [ANS]",
+        "answer_v2": [
+            "2.41417E+13"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "You are rearranging your bookshelf to make it more interesting and harder to find anything on it. On one of the shelves you plan to put 11 biographies and 7 mysteries. How many ways can you arrange them on the shelf if you don't want any two mystery books next to each other (i.e. they need to be separated by at least one biography, maybe more...). [ANS]",
+        "answer_v3": [
+            "1.59335E+14"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0076",
+        "subject": "Combinatorics",
+        "topic": "Counting",
+        "subtopic": "Multiple techniques",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "A DNA sequence can be represented as a string of the letters ACTG (short for adenine, cytosine, guanine, and thymine).\n(a) How many DNA sequences are exactly 28 letters long? [ANS]\n(b) Given a DNA sequence of length 28, how many single letter mutations are possible? [ANS]\n(c) Given a DNA sequence of length 28, how many double letter mutations are possible? [ANS]",
+        "answer_v1": [
+            "7.20576E+16",
+            "84",
+            "3402"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "A DNA sequence can be represented as a string of the letters ACTG (short for adenine, cytosine, guanine, and thymine).\n(a) How many DNA sequences are exactly 20 letters long? [ANS]\n(b) Given a DNA sequence of length 20, how many single letter mutations are possible? [ANS]\n(c) Given a DNA sequence of length 20, how many double letter mutations are possible? [ANS]",
+        "answer_v2": [
+            "1.09951E+12",
+            "60",
+            "1710"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "A DNA sequence can be represented as a string of the letters ACTG (short for adenine, cytosine, guanine, and thymine).\n(a) How many DNA sequences are exactly 23 letters long? [ANS]\n(b) Given a DNA sequence of length 23, how many single letter mutations are possible? [ANS]\n(c) Given a DNA sequence of length 23, how many double letter mutations are possible? [ANS]",
+        "answer_v3": [
+            "7.03687E+13",
+            "69",
+            "2277"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0077",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "2",
+        "keywords": [
+            "Recursive",
+            "Sequence"
+        ],
+        "problem_v1": "Find f(1), f(2), f(3) and f(4) if f(n) is defined recursively by $f(0)=4$ and for $n=0,1,2, \\dots$ by:\n(a) $f(n+1)=1 f(n)$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]\n(b) $f(n+1)=3 f(n)+7$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]\n(b) $f(n+1)=f(n)^2-2 f(n)-2$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]",
+        "answer_v1": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "19",
+            "64",
+            "199",
+            "604",
+            "6",
+            "22",
+            "438",
+            "190966"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find f(1), f(2), f(3) and f(4) if f(n) is defined recursively by $f(0)=2$ and for $n=0,1,2, \\dots$ by:\n(a) $f(n+1)=3 f(n)$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]\n(b) $f(n+1)=2 f(n)+5$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]\n(b) $f(n+1)=f(n)^2-4 f(n)-2$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]",
+        "answer_v2": [
+            "6",
+            "18",
+            "54",
+            "162",
+            "9",
+            "23",
+            "51",
+            "107",
+            "-6",
+            "58",
+            "3130",
+            "9784378"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find f(1), f(2), f(3) and f(4) if f(n) is defined recursively by $f(0)=2$ and for $n=0,1,2, \\dots$ by:\n(a) $f(n+1)=1 f(n)$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]\n(b) $f(n+1)=2 f(n)+6$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]\n(b) $f(n+1)=f(n)^2-1 f(n)-2$ $f(1)=$ [ANS] $f(2)=$ [ANS] $f(3)=$ [ANS] $f(4)=$ [ANS]",
+        "answer_v3": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "10",
+            "26",
+            "58",
+            "122",
+            "0",
+            "-2",
+            "4",
+            "10"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0078",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "5",
+        "keywords": [
+            "Recursive",
+            "Sequence",
+            "Ackermann"
+        ],
+        "problem_v1": "Consider the following inductive definition of a version of Ackermann's function: $A(m,n)=\\begin{cases} 2n \\text{if} m=0 \\\\ 0 \\text{if} m \\geq 1 \\text{and} n=0 \\\\ 2 \\text{if} m \\geq 1 \\text{and} n=1 \\\\ A(m-1,A(m,n-1)) \\text{if} m \\geq 1 \\text{and} n \\geq 2 \\end{cases}$ Find the following values of the Ackermann's function: $A(2,3)=$ [ANS] $A(2,0)=$ [ANS] $A(2,1)=$ [ANS] $A(2,2)=$ [ANS] $A(1,0)=$ [ANS] $A(3,3)=$ [ANS]",
+        "answer_v1": [
+            "16",
+            "0",
+            "2",
+            "4",
+            "0",
+            "65536"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Consider the following inductive definition of a version of Ackermann's function: $A(m,n)=\\begin{cases} 2n \\text{if} m=0 \\\\ 0 \\text{if} m \\geq 1 \\text{and} n=0 \\\\ 2 \\text{if} m \\geq 1 \\text{and} n=1 \\\\ A(m-1,A(m,n-1)) \\text{if} m \\geq 1 \\text{and} n \\geq 2 \\end{cases}$ Find the following values of the Ackermann's function: $A(0,2)=$ [ANS] $A(3,2)=$ [ANS] $A(0,3)=$ [ANS] $A(1,2)=$ [ANS] $A(3,1)=$ [ANS] $A(3,3)=$ [ANS]",
+        "answer_v2": [
+            "4",
+            "4",
+            "6",
+            "4",
+            "2",
+            "65536"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Consider the following inductive definition of a version of Ackermann's function: $A(m,n)=\\begin{cases} 2n \\text{if} m=0 \\\\ 0 \\text{if} m \\geq 1 \\text{and} n=0 \\\\ 2 \\text{if} m \\geq 1 \\text{and} n=1 \\\\ A(m-1,A(m,n-1)) \\text{if} m \\geq 1 \\text{and} n \\geq 2 \\end{cases}$ Find the following values of the Ackermann's function: $A(1,1)=$ [ANS] $A(2,1)=$ [ANS] $A(1,0)=$ [ANS] $A(2,2)=$ [ANS] $A(0,3)=$ [ANS] $A(3,3)=$ [ANS]",
+        "answer_v3": [
+            "2",
+            "2",
+            "0",
+            "4",
+            "6",
+            "65536"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0079",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "1",
+        "keywords": [
+            "Sequences",
+            "algebra",
+            "sequence"
+        ],
+        "problem_v1": "Use a graphing calculator to find the first 10 terms of the sequence $ a_n=\\frac{1}{a_{n-1}}$ and $a_1=20$.. its 9th term is [ANS] ; its 10th term is [ANS].",
+        "answer_v1": [
+            "20",
+            "0.05"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Use a graphing calculator to find the first 10 terms of the sequence $ a_n=\\frac{1}{a_{n-1}}$ and $a_1=3$.. its 9th term is [ANS] ; its 10th term is [ANS].",
+        "answer_v2": [
+            "3",
+            "0.333333333333333"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Use a graphing calculator to find the first 10 terms of the sequence $ a_n=\\frac{1}{a_{n-1}}$ and $a_1=9$.. its 9th term is [ANS] ; its 10th term is [ANS].",
+        "answer_v3": [
+            "9",
+            "0.111111111111111"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0080",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "2",
+        "keywords": [
+            "Sequences",
+            "algebra",
+            "arithmetic sequence"
+        ],
+        "problem_v1": "Write down the first five terms of the following recursively defined sequence. a_1=3; \\ \\ a_{n+1}=-2 a_n+2 [ANS], $\\ $ [ANS], $\\ $ [ANS], $\\ $ [ANS], $\\ \\ $ [ANS]",
+        "answer_v1": [
+            "3",
+            "-4",
+            "10",
+            "-18",
+            "38"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write down the first five terms of the following recursively defined sequence. a_1=-5; \\ \\ a_{n+1}=-2 a_n+9 [ANS], $\\ $ [ANS], $\\ $ [ANS], $\\ $ [ANS], $\\ \\ $ [ANS]",
+        "answer_v2": [
+            "-5",
+            "19",
+            "-29",
+            "67",
+            "-125"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write down the first five terms of the following recursively defined sequence. a_1=-2; \\ \\ a_{n+1}=-2 a_n+2 [ANS], $\\ $ [ANS], $\\ $ [ANS], $\\ $ [ANS], $\\ \\ $ [ANS]",
+        "answer_v3": [
+            "-2",
+            "6",
+            "-10",
+            "22",
+            "-42"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0081",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "2",
+        "keywords": [
+            "Sequences"
+        ],
+        "problem_v1": "Suppose $a_n=3 a_{n-1}+1 a_{n-2}+2 a_{n-3}$ and $a_4=$-6, $a_5=$-30, and $a_6=$-104. Find $a_1, a_2,$ and $a_3$.\n$a_1=$ [ANS]. $a_2=$ [ANS]. $a_3=$ [ANS].",
+        "answer_v1": [
+            "5",
+            "-4",
+            "-4"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Suppose $a_n=-5 a_{n-1}+6 a_{n-2}-5 a_{n-3}$ and $a_4=$ 89, $a_5=$-514, and $a_6=$ 3124. Find $a_1, a_2,$ and $a_3$.\n$a_1=$ [ANS]. $a_2=$ [ANS]. $a_3=$ [ANS].",
+        "answer_v2": [
+            "-3",
+            "9",
+            "-4"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Suppose $a_n=-2 a_{n-1}+1 a_{n-2}-3 a_{n-3}$ and $a_4=$-3, $a_5=$ 21, and $a_6=$-36. Find $a_1, a_2,$ and $a_3$.\n$a_1=$ [ANS]. $a_2=$ [ANS]. $a_3=$ [ANS].",
+        "answer_v3": [
+            "1",
+            "-6",
+            "-3"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0082",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "2",
+        "keywords": [
+            "Recurrence Relation"
+        ],
+        "problem_v1": "Decide if each of the following recurrence relations is a linear homogeneous recurrence with constant coefficients (lhcc). Answer \"Y\" for yes and \"N\" for no. [ANS] 1. $a_n=4 a_{n-2}+5 a_{n-4}+9 a_{n-7}$ [ANS] 2. $a_n=n^2 a_{n-1}$ [ANS] 3. $a_n=3$ [ANS] 4. $a_n=2n a_{n-1}+a_{n-2}$ [ANS] 5. $a_n=a_{n-1}+2$ [ANS] 6. $a_n=a_{n-2}$\nFind the degree of the following lhcc recurrences: [ANS] 1. $a_n=4 a_{n-4}$ [ANS] 2. $a_n=a_{n-1}+a_{n-2}+a_{n-3}$ [ANS] 3. $a_n=2 a_{n-1}+2 a_{n-6}$ [ANS] 4. $a_n=7 a_{n-1}+9 a_{n-5}$",
+        "answer_v1": [
+            "Y",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "4",
+            "3",
+            "6",
+            "5"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Decide if each of the following recurrence relations is a linear homogeneous recurrence with constant coefficients (lhcc). Answer \"Y\" for yes and \"N\" for no. [ANS] 1. $a_n=a_{n-1}^2$ [ANS] 2. $a_n=n^2 a_{n-1}$ [ANS] 3. $a_n=a_{n-1}+2 a_{n-3}$ [ANS] 4. $a_n=a_{n-1}+a_{n-2}+4n$ [ANS] 5. $a_n=a_{n-1}+2$ [ANS] 6. $a_n=a_{n-1}+a_{n-4}$\nFind the degree of the following lhcc recurrences: [ANS] 1. $a_n=4 a_{n-4}$ [ANS] 2. $a_n=a_{n-1}+a_{n-2}+a_{n-3}$ [ANS] 3. $a_n=5 a_{n-1}$ [ANS] 4. $a_n=2 a_{n-1}+2 a_{n-6}$",
+        "answer_v2": [
+            "N",
+            "N",
+            "Y",
+            "N",
+            "N",
+            "Y",
+            "4",
+            "3",
+            "1",
+            "6"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Decide if each of the following recurrence relations is a linear homogeneous recurrence with constant coefficients (lhcc). Answer \"Y\" for yes and \"N\" for no. [ANS] 1. $a_n=a_{n-1}+2 a_{n-3}$ [ANS] 2. $a_n=4 a_{n-2}+5 a_{n-4}+9 a_{n-7}$ [ANS] 3. $a_n=3$ [ANS] 4. $a_n=3 a_{n-1}+4 a_{n-2}+5 a_{n-3}$ [ANS] 5. $a_n=a_{n-1}+a_{n-2}+4n$ [ANS] 6. $a_n=a_{n-1}+a_{n-4}$\nFind the degree of the following lhcc recurrences: [ANS] 1. $a_n=a_{n-7}+7 a_{n-8}$ [ANS] 2. $a_n=4 a_{n-4}$ [ANS] 3. $a_n=7 a_{n-1}+9 a_{n-5}$ [ANS] 4. $a_n=a_{n-1}+a_{n-2}+a_{n-3}$",
+        "answer_v3": [
+            "Y",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "8",
+            "4",
+            "5",
+            "3"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0083",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "4",
+        "keywords": [
+            "Recurrence Relation"
+        ],
+        "problem_v1": "If $\\lbrace a_n \\rbrace$ is a sequence of real numbers, the first difference $\\nabla a_n$ is the sequence given by \\nabla a_n=\\begin{cases} a_n-a_{n-1} \\text{if} n > 1 \\\\ 0 \\text{if} n=1. \\end{cases} For example if $\\lbrace a_n \\rbrace$ is the sequence $1,3,5,7,9, \\dots$ then $\\nabla a_n$ is the sequence $0,2,2,2,2, \\dots$. Notice the sequence $\\nabla a_n$ always starts with 0 and the subsequent entries keep track of the differences in the original sequence $\\lbrace a_n \\rbrace$. Fill in the blanks below:\n$a_n: 1,3,9,27,81, \\dots$ $\\nabla a_n: 0,2,6,18,54, \\dots$\n$b_n: 1, 4, 9, 16, 25, 36, \\dots$ $\\nabla b_n: 0$, [ANS], [ANS], [ANS], [ANS], [ANS]\n$c_n: 1, 2, 5, 14, 41, 122, \\dots$ $\\nabla c_n: 0$, [ANS], [ANS], [ANS], [ANS], [ANS]\nSimilarly one defines $\\nabla^2 a_n$ by: \\nabla^2 a_n=\\begin{cases} \\nabla a_n-\\nabla a_{n-1} \\text{if} n > 1 \\\\ 0 \\text{if} n=1 \\end{cases} So for example:\n$a_n: 1,2,3,5,8,13,21,\\dots$ $\\nabla a_n: 0,1,1,2,3,5,8, \\dots$ $\\nabla^2 a_n: 0,1,0,1,1,2,3, \\dots$\nFill in the following blanks:\n$b_n: 0,1,3,6,10,15,21,\\dots,$ (Note $b_n=C(n,2)$). $\\nabla b_n: 0,$ [ANS], [ANS], [ANS], [ANS], [ANS]\n$\\nabla^2 b_n: 0,$ [ANS], [ANS], [ANS], [ANS], [ANS]",
+        "answer_v1": [
+            "3",
+            "5",
+            "7",
+            "9",
+            "11",
+            "1",
+            "3",
+            "9",
+            "27",
+            "81",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "If $\\lbrace a_n \\rbrace$ is a sequence of real numbers, the first difference $\\nabla a_n$ is the sequence given by \\nabla a_n=\\begin{cases} a_n-a_{n-1} \\text{if} n > 1 \\\\ 0 \\text{if} n=1. \\end{cases} For example if $\\lbrace a_n \\rbrace$ is the sequence $1,3,5,7,9, \\dots$ then $\\nabla a_n$ is the sequence $0,2,2,2,2, \\dots$. Notice the sequence $\\nabla a_n$ always starts with 0 and the subsequent entries keep track of the differences in the original sequence $\\lbrace a_n \\rbrace$. Fill in the blanks below:\n$a_n: 1,3,9,27,81, \\dots$ $\\nabla a_n: 0,2,6,18,54, \\dots$\n$b_n: 1, 2, 5, 10, 17, 26, \\dots$ $\\nabla b_n: 0$, [ANS], [ANS], [ANS], [ANS], [ANS]\n$c_n: 1, 2, 6, 22, 86, 342, \\dots$ $\\nabla c_n: 0$, [ANS], [ANS], [ANS], [ANS], [ANS]\nSimilarly one defines $\\nabla^2 a_n$ by: \\nabla^2 a_n=\\begin{cases} \\nabla a_n-\\nabla a_{n-1} \\text{if} n > 1 \\\\ 0 \\text{if} n=1 \\end{cases} So for example:\n$a_n: 1,2,3,5,8,13,21,\\dots$ $\\nabla a_n: 0,1,1,2,3,5,8, \\dots$ $\\nabla^2 a_n: 0,1,0,1,1,2,3, \\dots$\nFill in the following blanks:\n$b_n: 0,1,3,6,10,15,21,\\dots,$ (Note $b_n=C(n,2)$). $\\nabla b_n: 0,$ [ANS], [ANS], [ANS], [ANS], [ANS]\n$\\nabla^2 b_n: 0,$ [ANS], [ANS], [ANS], [ANS], [ANS]",
+        "answer_v2": [
+            "1",
+            "3",
+            "5",
+            "7",
+            "9",
+            "1",
+            "4",
+            "16",
+            "64",
+            "256",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "If $\\lbrace a_n \\rbrace$ is a sequence of real numbers, the first difference $\\nabla a_n$ is the sequence given by \\nabla a_n=\\begin{cases} a_n-a_{n-1} \\text{if} n > 1 \\\\ 0 \\text{if} n=1. \\end{cases} For example if $\\lbrace a_n \\rbrace$ is the sequence $1,3,5,7,9, \\dots$ then $\\nabla a_n$ is the sequence $0,2,2,2,2, \\dots$. Notice the sequence $\\nabla a_n$ always starts with 0 and the subsequent entries keep track of the differences in the original sequence $\\lbrace a_n \\rbrace$. Fill in the blanks below:\n$a_n: 1,3,9,27,81, \\dots$ $\\nabla a_n: 0,2,6,18,54, \\dots$\n$b_n: 1, 2, 5, 10, 17, 26, \\dots$ $\\nabla b_n: 0$, [ANS], [ANS], [ANS], [ANS], [ANS]\n$c_n: 1, 2, 5, 14, 41, 122, \\dots$ $\\nabla c_n: 0$, [ANS], [ANS], [ANS], [ANS], [ANS]\nSimilarly one defines $\\nabla^2 a_n$ by: \\nabla^2 a_n=\\begin{cases} \\nabla a_n-\\nabla a_{n-1} \\text{if} n > 1 \\\\ 0 \\text{if} n=1 \\end{cases} So for example:\n$a_n: 1,2,3,5,8,13,21,\\dots$ $\\nabla a_n: 0,1,1,2,3,5,8, \\dots$ $\\nabla^2 a_n: 0,1,0,1,1,2,3, \\dots$\nFill in the following blanks:\n$b_n: 0,1,3,6,10,15,21,\\dots,$ (Note $b_n=C(n,2)$). $\\nabla b_n: 0,$ [ANS], [ANS], [ANS], [ANS], [ANS]\n$\\nabla^2 b_n: 0,$ [ANS], [ANS], [ANS], [ANS], [ANS]",
+        "answer_v3": [
+            "1",
+            "3",
+            "5",
+            "7",
+            "9",
+            "1",
+            "3",
+            "9",
+            "27",
+            "81",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0084",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "1",
+        "keywords": [
+            "recursion",
+            "recurrence relations"
+        ],
+        "problem_v1": "Laura is given a starting salary of $2300$ dollars and is promised a $10$ percent raise every month. What will her monthly salaries be for the next three months? Salary next month=[ANS]\nSalary the month after next=[ANS]\nSalary the month after next=[ANS]",
+        "answer_v1": [
+            "2300*(1+10/100)^1",
+            "2300*(1+10/100)^2",
+            "2300*(1+10/100)^3"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Laura is given a starting salary of $1500$ dollars and is promised a $12$ percent raise every month. What will her monthly salaries be for the next three months? Salary next month=[ANS]\nSalary the month after next=[ANS]\nSalary the month after next=[ANS]",
+        "answer_v2": [
+            "1500*(1+12/100)^1",
+            "1500*(1+12/100)^2",
+            "1500*(1+12/100)^3"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Laura is given a starting salary of $1800$ dollars and is promised a $11$ percent raise every month. What will her monthly salaries be for the next three months? Salary next month=[ANS]\nSalary the month after next=[ANS]\nSalary the month after next=[ANS]",
+        "answer_v3": [
+            "1800*(1+11/100)^1",
+            "1800*(1+11/100)^2",
+            "1800*(1+11/100)^3"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0085",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Concepts",
+        "level": "6",
+        "keywords": [
+            "recursion",
+            "recurrence relations"
+        ],
+        "problem_v1": "The half-life of a radioactive element is the amount of time it takes for half of the mass of a sample to decay; a sample loses half of its mass over its half-life. Nobelium-259 has a half-life of approximately one hour. Suppose a $12800$-atom sample of Nobelium-259 is allowed to decay. How much mass will remain after six hours? mass remaining=[ANS] atoms",
+        "answer_v1": [
+            "12800/(2^6)"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "The half-life of a radioactive element is the amount of time it takes for half of the mass of a sample to decay; a sample loses half of its mass over its half-life. Nobelium-259 has a half-life of approximately one hour. Suppose a $1600$-atom sample of Nobelium-259 is allowed to decay. How much mass will remain after six hours? mass remaining=[ANS] atoms",
+        "answer_v2": [
+            "1600/(2^6)"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "The half-life of a radioactive element is the amount of time it takes for half of the mass of a sample to decay; a sample loses half of its mass over its half-life. Nobelium-259 has a half-life of approximately one hour. Suppose a $3200$-atom sample of Nobelium-259 is allowed to decay. How much mass will remain after six hours? mass remaining=[ANS] atoms",
+        "answer_v3": [
+            "3200/(2^6)"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0086",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Solving homogeneous",
+        "level": "3",
+        "keywords": [
+            "Recurrence Relation"
+        ],
+        "problem_v1": "Find the solution to the following lhcc recurrence: $a_{n}=-1 a_{n-1}+20 a_{n-2} \\text{for} n \\geq 2$ with initial conditions $a_0=2, a_1=5$.\nThe solution is of the form: a_n=\\alpha_1 (r_1)^n+\\alpha_2 (r_2)^n for suitable constants $\\alpha_1, \\alpha_2, r_1, r_2$ with $r_1 \\leq r_2$. Find these constants. $r_1=$ [ANS] $r_2=$ [ANS] $\\alpha_1=$ [ANS] $\\alpha_2=$ [ANS]",
+        "answer_v1": [
+            "-5",
+            "4",
+            "0.333333333333333",
+            "1.66666666666667"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the solution to the following lhcc recurrence: $a_{n}=4 a_{n-1}+12 a_{n-2} \\text{for} n \\geq 2$ with initial conditions $a_0=1, a_1=4$.\nThe solution is of the form: a_n=\\alpha_1 (r_1)^n+\\alpha_2 (r_2)^n for suitable constants $\\alpha_1, \\alpha_2, r_1, r_2$ with $r_1 \\leq r_2$. Find these constants. $r_1=$ [ANS] $r_2=$ [ANS] $\\alpha_1=$ [ANS] $\\alpha_2=$ [ANS]",
+        "answer_v2": [
+            "-2",
+            "6",
+            "0.25",
+            "0.75"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the solution to the following lhcc recurrence: $a_{n}=2 a_{n-1}+15 a_{n-2} \\text{for} n \\geq 2$ with initial conditions $a_0=1, a_1=4$.\nThe solution is of the form: a_n=\\alpha_1 (r_1)^n+\\alpha_2 (r_2)^n for suitable constants $\\alpha_1, \\alpha_2, r_1, r_2$ with $r_1 \\leq r_2$. Find these constants. $r_1=$ [ANS] $r_2=$ [ANS] $\\alpha_1=$ [ANS] $\\alpha_2=$ [ANS]",
+        "answer_v3": [
+            "-3",
+            "5",
+            "0.125",
+            "0.875"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Combinatorics_0087",
+        "subject": "Combinatorics",
+        "topic": "Recurrence relations",
+        "subtopic": "Solving nonhomogeneous",
+        "level": "3",
+        "keywords": [
+            "nonhomogeneous",
+            "recurrence"
+        ],
+        "problem_v1": "Find the solution to the following recurrence: $a_{n}=10 a_{n-1}-21 a_{n-2}+144 n\\text{for} n \\geq 2$ with initial conditions $a_0=48, a_1=116$. $a_n=$ [ANS]",
+        "answer_v1": [
+            "6*(7)^n+10*(3)^n + 32 + 12*n"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the solution to the following recurrence: $a_{n}=2 a_{n-1}+143 a_{n-2}+20736 n\\text{for} n \\geq 2$ with initial conditions $a_0=-308, a_1=-356$. $a_n=$ [ANS]",
+        "answer_v2": [
+            "-14*(-11)^n+-6*(13)^n + -288 + -144*n"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the solution to the following recurrence: $a_{n}=-2 a_{n-1}+15 a_{n-2}+144 n\\text{for} n \\geq 2$ with initial conditions $a_0=-36, a_1=16$. $a_n=$ [ANS]",
+        "answer_v3": [
+            "-10*(-5)^n+2*(3)^n + -28 + -12*n"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    }
+]

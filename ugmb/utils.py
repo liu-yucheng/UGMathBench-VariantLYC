@@ -50,20 +50,24 @@ NO_PRECEDING_PUNCS = ["!", ")", "]", "}", "\\\\"] + STRIP_STRS
 PRM800K_ANS_PRRFIX = "# Answer"
 GSM8K_ANS_PREFIX = "####"
 
+
 def get_encoding_type(file_path):
     with open(file_path, 'rb') as f:
         sample = f.read(1024)
         cur_encoding = chardet.detect(sample)['encoding']
         return cur_encoding
 
+
 def read_json(file_path):
     with open(file_path, 'r', encoding=get_encoding_type(file_path), errors="ignore") as f:
         data = json.load(f)
         return data
-    
+
+
 def write_json(data, file_path):
     with open(file_path, 'w', encoding='utf-8', errors="ignore") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 def save2jsonl(name, data):
     with open(name, "w") as file:
@@ -71,9 +75,11 @@ def save2jsonl(name, data):
             json_str = json.dumps(dict_obj)
             file.write(json_str + "\n")
 
+
 def mkdir(path):
     if not os.path.exists(path):
         os.makedirs(path)
+
 
 def readjsonl2list(name):
     data = []  # Create an empty list to store the dictionaries
@@ -83,6 +89,7 @@ def readjsonl2list(name):
             dict_obj = json.loads(line)
             data.append(dict_obj)
     return data
+
 
 def contains_chinese(d):
     def is_chinese_char(ch):
@@ -107,7 +114,8 @@ def extract_code(text):
         return match.group(1).strip()
     else:
         return None
-    
+
+
 def norm_str2bool(s: str) -> bool | None:
     """Converts a string representation of a boolean value to its corresponding boolean value."""
     # TODO: deal with OL with boolean
@@ -122,7 +130,8 @@ def norm_str2bool(s: str) -> bool | None:
         return False
     else:
         return None
-    
+
+
 def latex2sympy_fix(s: str):
     sp_symbol = parse_latex(s)
 
@@ -288,6 +297,7 @@ UNITS = [
     r"(?<!\\)p\.?m\.?",  # 1\pm\sqrt{5}
 ]
 
+
 def has_non_ascii(s):
     for char in s:
         if ord(char) > 127:
@@ -406,8 +416,9 @@ def fix_a_slash_b(s: str) -> str:
 
     return result
 
+
 def fix_inv_func(s: str) -> str:
-    func_list = "arcsin|arccos|arctan|arcsec|arccsc|arccot|arcsinh|arccosh|arctanh|arcsech|arccsch|arccoth".split("|") 
+    func_list = "arcsin|arccos|arctan|arcsec|arccsc|arccot|arcsinh|arccosh|arctanh|arcsech|arccsch|arccoth".split("|")
     conv_list = "asin|acos|atan|asec|acsc|acot|asinh|acosh|atanh|asech|acsch|acoth".split("|")
     for c, f in zip(conv_list, func_list):
         s = s.replace(c, f)
@@ -502,7 +513,7 @@ LATEX_CMDS = [
     "\\textsuperscript",
     "\\textsubscript",
     "\\text",
-    "\mbox",
+    "\\mbox",
     "\\renewcommand{\\arraystretch}",
 ]
 
@@ -578,6 +589,7 @@ SIMPLE_REPLACE_MAP = {
     ":": "/",  # Ratio like 3:2
 }
 
+
 def make_prompt(prompt_dict, data):
     prompt_prefix_multiple = (
         "The following is an undergraduate-level mathematical problem in {subject}. You need to solve the problem by completing all placeholders [ANS].\n\n"
@@ -592,7 +604,6 @@ def make_prompt(prompt_dict, data):
         "Problem:\n{problem}\n\n"
         'All mathematical formulas and symbols you output should be represented with LaTeX. Please end your response with: "The final answer is \\boxed{ANSWER}", where ANSWER should be your final answer.'
     )
-
 
     type2descriptions = {
         "UOL": 'an unordered list of answers surrounded by parentheses with any answer types, for example, (1, x^2, True), where "unordered list" means changing the order of elements results in the same answer',
@@ -613,18 +624,21 @@ def make_prompt(prompt_dict, data):
             desc = type2descriptions[item['answer_type'][0]]
             if item['answer_type'][0] in ['MCS', 'MCM']:
                 desc = desc.format(options=item['options'][0])
-            item['prompt'] += prompt_prefix_single.format(subject=item['subject'], answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
+            item['prompt'] += prompt_prefix_single.format(subject=item['subject'],
+                                                          answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
         else:
             desc = ""
             for i, ty in enumerate(item['answer_type']):
                 if i == 0:
-                    desc += type2descriptions[ty] 
+                    desc += type2descriptions[ty]
                 else:
                     desc += ", " + type2descriptions[ty]
                 if ty in ['MCS', 'MCM']:
-                    desc = desc.format(options=item['options'][i]) 
-            item['prompt'] += prompt_prefix_multiple.format(subject=item['subject'], num_of_answers=len(item['answer']), answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
-        item['prompt'] += prompt_dict['prompt_after_query'] + prompt_dict['resp_prompt'] + prompt_dict['prompt_before_resp']
+                    desc = desc.format(options=item['options'][i])
+            item['prompt'] += prompt_prefix_multiple.format(subject=item['subject'], num_of_answers=len(
+                item['answer']), answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
+        item['prompt'] += prompt_dict['prompt_after_query'] + \
+            prompt_dict['resp_prompt'] + prompt_dict['prompt_before_resp']
     return data
 
 
@@ -643,7 +657,6 @@ def make_prompt_with_template(tokenizer, data, sys_prompt=""):
         'All mathematical formulas and symbols you output should be represented with LaTeX. Please end your response with: "The final answer is \\boxed{ANSWER}", where ANSWER should be your final answer.'
     )
 
-
     type2descriptions = {
         "UOL": 'an unordered list of answers surrounded by parentheses with any answer types, for example, (1, x^2, True), where "unordered list" means changing the order of elements results in the same answer',
         "OL": 'an ordered list of answers surrounded by parentheses with any answer types, for example, (1, x^2, True), where "ordered list" means changing the order of elements results in different answers',
@@ -658,24 +671,26 @@ def make_prompt_with_template(tokenizer, data, sys_prompt=""):
     }
 
     for item in data:
-        #item['prompt'] = prompt_dict['sys_prompt'] + prompt_dict['query_prompt']
+        # item['prompt'] = prompt_dict['sys_prompt'] + prompt_dict['query_prompt']
         item['prompt'] = ""
         if len(item['answer']) == 1:
             desc = type2descriptions[item['answer_type'][0]]
             if item['answer_type'][0] in ['MCS', 'MCM']:
                 desc = desc.format(options=item['options'][0])
-            item['prompt'] += prompt_prefix_single.format(subject=item['subject'], answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
+            item['prompt'] += prompt_prefix_single.format(subject=item['subject'],
+                                                          answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
         else:
             desc = ""
             for i, ty in enumerate(item['answer_type']):
                 if i == 0:
-                    desc += type2descriptions[ty] 
+                    desc += type2descriptions[ty]
                 else:
                     desc += ", " + type2descriptions[ty]
                 if ty in ['MCS', 'MCM']:
-                    desc = desc.format(options=item['options'][i]) 
-            item['prompt'] += prompt_prefix_multiple.format(subject=item['subject'], num_of_answers=len(item['answer']), answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
-        #item['prompt'] += prompt_dict['prompt_after_query'] + prompt_dict['resp_prompt'] + prompt_dict['prompt_before_resp']
+                    desc = desc.format(options=item['options'][i])
+            item['prompt'] += prompt_prefix_multiple.format(subject=item['subject'], num_of_answers=len(
+                item['answer']), answer_type_description=desc, problem=item['problem'], ANSWER="{ANSWER}")
+        # item['prompt'] += prompt_dict['prompt_after_query'] + prompt_dict['resp_prompt'] + prompt_dict['prompt_before_resp']
         messages = [
             {"role": "system", "content": sys_prompt},
             {"role": "user", "content": item['prompt']}
@@ -708,13 +723,14 @@ def last_boxed_only_string(string):
                 right_brace_idx = i
                 break
         i += 1
-    
+
     if right_brace_idx == None:
         retval = None
     else:
         retval = string[idx:right_brace_idx + 1]
-    
+
     return retval
+
 
 def remove_boxed(s):
     left = "\\boxed{"
