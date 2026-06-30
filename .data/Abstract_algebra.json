@@ -1,0 +1,2445 @@
+[
+    {
+        "id": "Abstract_algebra_0000",
+        "subject": "Abstract_algebra",
+        "topic": "Fields and polynomials",
+        "subtopic": "Polynomials",
+        "level": "3",
+        "keywords": [
+            "minimal polynomials"
+        ],
+        "problem_v1": "Determine the minimal polynomial $f(x)$ of the following quantities:\n(a) $5+2 i$ over $\\mathbb{R}$, where $i=\\sqrt{-1}$ $f(x)=$ [ANS]\n(b) $5+2 i$ over $\\mathbb{C}$, where $i=\\sqrt{-1}$ $f(x)=$ [ANS]\n(c) $5^{1/4}$ over $\\mathbb{Q}$ $f(x)=$ [ANS]\n(d) $\\sqrt{3}+\\sqrt{5}$ over $\\mathbb{Q}$ $f(x)=$ [ANS]\n(e) $\\sqrt{3}+\\sqrt{5}$ over $\\mathbb{Q}(c)$, where $c=\\sqrt{15}$ $f(x)=$ [ANS]\n(Your answer should be written using $c$, not $\\sqrt{15}$)",
+        "answer_v1": [
+            "x^2-10*x+29",
+            "x-(5+2*i)",
+            "x^4-5",
+            "x^4-16*x^2+4",
+            "x^2-2*c-8"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Determine the minimal polynomial $f(x)$ of the following quantities:\n(a) $-9+9 i$ over $\\mathbb{R}$, where $i=\\sqrt{-1}$ $f(x)=$ [ANS]\n(b) $-9+9 i$ over $\\mathbb{C}$, where $i=\\sqrt{-1}$ $f(x)=$ [ANS]\n(c) $2^{1/3}$ over $\\mathbb{Q}$ $f(x)=$ [ANS]\n(d) $\\sqrt{13}+\\sqrt{3}$ over $\\mathbb{Q}$ $f(x)=$ [ANS]\n(e) $\\sqrt{13}+\\sqrt{3}$ over $\\mathbb{Q}(c)$, where $c=\\sqrt{39}$ $f(x)=$ [ANS]\n(Your answer should be written using $c$, not $\\sqrt{39}$)",
+        "answer_v2": [
+            "x^2+18*x+162",
+            "x-(9*i-9)",
+            "x^3-2",
+            "x^4-32*x^2+100",
+            "x^2-2*c-16"
+        ],
+        "answer_type_v2": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Determine the minimal polynomial $f(x)$ of the following quantities:\n(a) $-4+2 i$ over $\\mathbb{R}$, where $i=\\sqrt{-1}$ $f(x)=$ [ANS]\n(b) $-4+2 i$ over $\\mathbb{C}$, where $i=\\sqrt{-1}$ $f(x)=$ [ANS]\n(c) $3^{1/3}$ over $\\mathbb{Q}$ $f(x)=$ [ANS]\n(d) $\\sqrt{3}+\\sqrt{5}$ over $\\mathbb{Q}$ $f(x)=$ [ANS]\n(e) $\\sqrt{3}+\\sqrt{5}$ over $\\mathbb{Q}(c)$, where $c=\\sqrt{15}$ $f(x)=$ [ANS]\n(Your answer should be written using $c$, not $\\sqrt{15}$)",
+        "answer_v3": [
+            "x^2+8*x+20",
+            "x-(2*i-4)",
+            "x^3-3",
+            "x^4-16*x^2+4",
+            "x^2-2*c-8"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0001",
+        "subject": "Abstract_algebra",
+        "topic": "Fields and polynomials",
+        "subtopic": "Polynomials",
+        "level": "4",
+        "keywords": [
+            "quotient fields",
+            "polynomial rings"
+        ],
+        "problem_v1": "Let $t \\in \\mathbb{Q}[x]/(x^2-11)$ be a root of the irreducible polynomial $x^2-11 \\in \\mathbb{Q}[x]$. Express each of the following elements in the form $u+wt$ with $u, w \\in \\mathbb{Q}$. The correct answers may involve fractions.\n(a) $t^5$: [ANS] $+$ [ANS] $t$\n(b) $(6-t)(7+2t)$: [ANS] $+$ [ANS] $t$\n(c) $(7+2t)^2$: [ANS] $+$ [ANS] $t$\n(d) $1/(6-t)$: [ANS] $+$ [ANS] $t$",
+        "answer_v1": [
+            "0",
+            "121",
+            "20",
+            "5",
+            "93",
+            "28",
+            "0.24",
+            "0.04"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Let $t \\in \\mathbb{Q}[x]/(x^2-3)$ be a root of the irreducible polynomial $x^2-3 \\in \\mathbb{Q}[x]$. Express each of the following elements in the form $u+wt$ with $u, w \\in \\mathbb{Q}$. The correct answers may involve fractions.\n(a) $t^5$: [ANS] $+$ [ANS] $t$\n(b) $(2-t)(1+2t)$: [ANS] $+$ [ANS] $t$\n(c) $(1+2t)^2$: [ANS] $+$ [ANS] $t$\n(d) $1/(2-t)$: [ANS] $+$ [ANS] $t$",
+        "answer_v2": [
+            "0",
+            "9",
+            "-4",
+            "3",
+            "13",
+            "4",
+            "2",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Let $t \\in \\mathbb{Q}[x]/(x^2-5)$ be a root of the irreducible polynomial $x^2-5 \\in \\mathbb{Q}[x]$. Express each of the following elements in the form $u+wt$ with $u, w \\in \\mathbb{Q}$. The correct answers may involve fractions.\n(a) $t^5$: [ANS] $+$ [ANS] $t$\n(b) $(3-t)(1+2t)$: [ANS] $+$ [ANS] $t$\n(c) $(1+2t)^2$: [ANS] $+$ [ANS] $t$\n(d) $1/(3-t)$: [ANS] $+$ [ANS] $t$",
+        "answer_v3": [
+            "0",
+            "25",
+            "-7",
+            "5",
+            "21",
+            "4",
+            "0.75",
+            "0.25"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0002",
+        "subject": "Abstract_algebra",
+        "topic": "Fields and polynomials",
+        "subtopic": "Polynomials",
+        "level": "",
+        "keywords": [
+            "polynomials"
+        ],
+        "problem_v1": "Find a polynomial $f(x)$ of degree 3 over $\\mathbb{Z}_{11}$ such that f(0)=6, \\quad f(7)=7, \\quad f(8)=8 $f(x)=$ [ANS]",
+        "answer_v1": [
+            "x^3+2*x^2+6"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find a polynomial $f(x)$ of degree 3 over $\\mathbb{Z}_{3}$ such that f(0)=2, \\quad f(1)=1, \\quad f(2)=2 $f(x)=$ [ANS]",
+        "answer_v2": [
+            "x^3+x^2+2"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find a polynomial $f(x)$ of degree 3 over $\\mathbb{Z}_{5}$ such that f(0)=3, \\quad f(2)=2, \\quad f(3)=3 $f(x)=$ [ANS]",
+        "answer_v3": [
+            "x^3+3*x^2+2*x+3"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0003",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Group axioms",
+        "level": "3",
+        "keywords": [
+            "group tables",
+            "center of groups"
+        ],
+        "problem_v1": "The center of a group $G$ is defined to be the set of all elements $x$ in $G$ such that $xy=yx$ for all $y$ in $G$.\nConsider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & x2 & x3 & x4 & x5 & e & x7 & x8 & x9 & x10 & x11 & x6 \\\\ \\hline x2 & x2 & x3 & x4 & x5 & e & x1 & x8 & x9 & x10 & x11 & x6 & x7 \\\\ \\hline x3 & x3 & x4 & x5 & e & x1 & x2 & x9 & x10 & x11 & x6 & x7 & x8 \\\\ \\hline x4 & x4 & x5 & e & x1 & x2 & x3 & x10 & x11 & x6 & x7 & x8 & x9 \\\\ \\hline x5 & x5 & e & x1 & x2 & x3 & x4 & x11 & x6 & x7 & x8 & x9 & x10 \\\\ \\hline x6 & x6 & x11 & x10 & x9 & x8 & x7 & x3 & x2 & x1 & e & x5 & x4 \\\\ \\hline x7 & x7 & x6 & x11 & x10 & x9 & x8 & x4 & x3 & x2 & x1 & e & x5 \\\\ \\hline x8 & x8 & x7 & x6 & x11 & x10 & x9 & x5 & x4 & x3 & x2 & x1 & e \\\\ \\hline x9 & x9 & x8 & x7 & x6 & x11 & x10 & e & x5 & x4 & x3 & x2 & x1 \\\\ \\hline x10 & x10 & x9 & x8 & x7 & x6 & x11 & x1 & e & x5 & x4 & x3 & x2 \\\\ \\hline x11 & x11 & x10 & x9 & x8 & x7 & x6 & x2 & x1 & e & x5 & x4 & x3 \\\\ \\hline \\end{array}$\nUsing this group table, determine the elements that lie in the center of $G$ and enter them as a comma-separated list. [ANS]",
+        "answer_v1": [
+            "(e, x3)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "The center of a group $G$ is defined to be the set of all elements $x$ in $G$ such that $xy=yx$ for all $y$ in $G$.\nConsider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & e & x3 & x2 & x6 & x7 & x4 & x5 & x11 & x10 & x9 & x8 \\\\ \\hline x2 & x2 & x3 & e & x1 & x7 & x6 & x5 & x4 & x9 & x8 & x11 & x10 \\\\ \\hline x3 & x3 & x2 & x1 & e & x5 & x4 & x7 & x6 & x10 & x11 & x8 & x9 \\\\ \\hline x4 & x4 & x7 & x5 & x6 & x11 & x8 & x10 & x9 & x2 & x1 & x3 & e \\\\ \\hline x5 & x5 & x6 & x4 & x7 & x9 & x10 & x8 & x11 & x1 & x2 & e & x3 \\\\ \\hline x6 & x6 & x5 & x7 & x4 & x8 & x11 & x9 & x10 & x3 & e & x2 & x1 \\\\ \\hline x7 & x7 & x4 & x6 & x5 & x10 & x9 & x11 & x8 & e & x3 & x1 & x2 \\\\ \\hline x8 & x8 & x10 & x11 & x9 & x1 & x3 & x2 & e & x7 & x5 & x4 & x6 \\\\ \\hline x9 & x9 & x11 & x10 & x8 & x3 & x1 & e & x2 & x4 & x6 & x7 & x5 \\\\ \\hline x10 & x10 & x8 & x9 & x11 & x2 & e & x1 & x3 & x6 & x4 & x5 & x7 \\\\ \\hline x11 & x11 & x9 & x8 & x10 & e & x2 & x3 & x1 & x5 & x7 & x6 & x4 \\\\ \\hline \\end{array}$\nUsing this group table, determine the elements that lie in the center of $G$ and enter them as a comma-separated list. [ANS]",
+        "answer_v2": [
+            "e"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "The center of a group $G$ is defined to be the set of all elements $x$ in $G$ such that $xy=yx$ for all $y$ in $G$.\nConsider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & x2 & x3 & x4 & x5 & e & x7 & x8 & x9 & x10 & x11 & x6 \\\\ \\hline x2 & x2 & x3 & x4 & x5 & e & x1 & x8 & x9 & x10 & x11 & x6 & x7 \\\\ \\hline x3 & x3 & x4 & x5 & e & x1 & x2 & x9 & x10 & x11 & x6 & x7 & x8 \\\\ \\hline x4 & x4 & x5 & e & x1 & x2 & x3 & x10 & x11 & x6 & x7 & x8 & x9 \\\\ \\hline x5 & x5 & e & x1 & x2 & x3 & x4 & x11 & x6 & x7 & x8 & x9 & x10 \\\\ \\hline x6 & x6 & x7 & x8 & x9 & x10 & x11 & e & x1 & x2 & x3 & x4 & x5 \\\\ \\hline x7 & x7 & x8 & x9 & x10 & x11 & x6 & x1 & x2 & x3 & x4 & x5 & e \\\\ \\hline x8 & x8 & x9 & x10 & x11 & x6 & x7 & x2 & x3 & x4 & x5 & e & x1 \\\\ \\hline x9 & x9 & x10 & x11 & x6 & x7 & x8 & x3 & x4 & x5 & e & x1 & x2 \\\\ \\hline x10 & x10 & x11 & x6 & x7 & x8 & x9 & x4 & x5 & e & x1 & x2 & x3 \\\\ \\hline x11 & x11 & x6 & x7 & x8 & x9 & x10 & x5 & e & x1 & x2 & x3 & x4 \\\\ \\hline \\end{array}$\nUsing this group table, determine the elements that lie in the center of $G$ and enter them as a comma-separated list. [ANS]",
+        "answer_v3": [
+            "(e, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0004",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Group axioms",
+        "level": "3",
+        "keywords": [
+            "group tables",
+            "order of elements"
+        ],
+        "problem_v1": "The following is the group table of a group whose elements are $\\lbrace e, x1, x2, \\ldots, x11 \\rbrace$, where $e$ is the identity:\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & x2 & x3 & x4 & x5 & e & x7 & x8 & x9 & x10 & x11 & x6 \\\\ \\hline x2 & x2 & x3 & x4 & x5 & e & x1 & x8 & x9 & x10 & x11 & x6 & x7 \\\\ \\hline x3 & x3 & x4 & x5 & e & x1 & x2 & x9 & x10 & x11 & x6 & x7 & x8 \\\\ \\hline x4 & x4 & x5 & e & x1 & x2 & x3 & x10 & x11 & x6 & x7 & x8 & x9 \\\\ \\hline x5 & x5 & e & x1 & x2 & x3 & x4 & x11 & x6 & x7 & x8 & x9 & x10 \\\\ \\hline x6 & x6 & x11 & x10 & x9 & x8 & x7 & x3 & x2 & x1 & e & x5 & x4 \\\\ \\hline x7 & x7 & x6 & x11 & x10 & x9 & x8 & x4 & x3 & x2 & x1 & e & x5 \\\\ \\hline x8 & x8 & x7 & x6 & x11 & x10 & x9 & x5 & x4 & x3 & x2 & x1 & e \\\\ \\hline x9 & x9 & x8 & x7 & x6 & x11 & x10 & e & x5 & x4 & x3 & x2 & x1 \\\\ \\hline x10 & x10 & x9 & x8 & x7 & x6 & x11 & x1 & e & x5 & x4 & x3 & x2 \\\\ \\hline x11 & x11 & x10 & x9 & x8 & x7 & x6 & x2 & x1 & e & x5 & x4 & x3 \\\\ \\hline \\end{array}$\n(a) Express each of the following elements in terms of one element from $\\lbrace e, x1, x2, \\ldots, x11 \\rbrace$.\n$\\begin{array}{cc}\\hline (x7)^2 & [ANS] \\\\ \\hline (x8)^3 & [ANS] \\\\ \\hline (x7)(x8) & [ANS] \\\\ \\hline (x8)(x7) & [ANS] \\\\ \\hline (x7)^{-1} & [ANS] \\\\ \\hline \\end{array}$\n(b) Find all elements $x$ such that $x^3=e$. Enter N if no such element exists. [ANS]\n(c) Find all elements $x$ such that $x^2=x7$. Enter N if no such element exists. [ANS]\n(d) Find all elements $x$ such that $x^3=x8$. Enter N if no such element exists. [ANS]",
+        "answer_v1": [
+            "x3",
+            "x11",
+            "x2",
+            "x4",
+            "x10",
+            "(e, x2, x4)",
+            "N",
+            "x11"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "UOL",
+            "EX",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "The following is the group table of a group whose elements are $\\lbrace e, x1, x2, \\ldots, x11 \\rbrace$, where $e$ is the identity:\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & e & x3 & x2 & x6 & x7 & x4 & x5 & x11 & x10 & x9 & x8 \\\\ \\hline x2 & x2 & x3 & e & x1 & x7 & x6 & x5 & x4 & x9 & x8 & x11 & x10 \\\\ \\hline x3 & x3 & x2 & x1 & e & x5 & x4 & x7 & x6 & x10 & x11 & x8 & x9 \\\\ \\hline x4 & x4 & x7 & x5 & x6 & x11 & x8 & x10 & x9 & x2 & x1 & x3 & e \\\\ \\hline x5 & x5 & x6 & x4 & x7 & x9 & x10 & x8 & x11 & x1 & x2 & e & x3 \\\\ \\hline x6 & x6 & x5 & x7 & x4 & x8 & x11 & x9 & x10 & x3 & e & x2 & x1 \\\\ \\hline x7 & x7 & x4 & x6 & x5 & x10 & x9 & x11 & x8 & e & x3 & x1 & x2 \\\\ \\hline x8 & x8 & x10 & x11 & x9 & x1 & x3 & x2 & e & x7 & x5 & x4 & x6 \\\\ \\hline x9 & x9 & x11 & x10 & x8 & x3 & x1 & e & x2 & x4 & x6 & x7 & x5 \\\\ \\hline x10 & x10 & x8 & x9 & x11 & x2 & e & x1 & x3 & x6 & x4 & x5 & x7 \\\\ \\hline x11 & x11 & x9 & x8 & x10 & e & x2 & x3 & x1 & x5 & x7 & x6 & x4 \\\\ \\hline \\end{array}$\n(a) Express each of the following elements in terms of one element from $\\lbrace e, x1, x2, \\ldots, x11 \\rbrace$.\n$\\begin{array}{cc}\\hline (x11)^2 & [ANS] \\\\ \\hline (x2)^3 & [ANS] \\\\ \\hline (x11)(x2) & [ANS] \\\\ \\hline (x2)(x11) & [ANS] \\\\ \\hline (x11)^{-1} & [ANS] \\\\ \\hline \\end{array}$\n(b) Find all elements $x$ such that $x^3=e$. Enter N if no such element exists. [ANS]\n(c) Find all elements $x$ such that $x^2=x11$. Enter N if no such element exists. [ANS]\n(d) Find all elements $x$ such that $x^3=x2$. Enter N if no such element exists. [ANS]",
+        "answer_v2": [
+            "x4",
+            "x2",
+            "x8",
+            "x10",
+            "x4",
+            "(e, x4, x5, x6, x7, x8, x9, x10, x11)",
+            "x4",
+            "x2"
+        ],
+        "answer_type_v2": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "UOL",
+            "EX",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "The following is the group table of a group whose elements are $\\lbrace e, x1, x2, \\ldots, x11 \\rbrace$, where $e$ is the identity:\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & x2 & x3 & x4 & x5 & e & x7 & x8 & x9 & x10 & x11 & x6 \\\\ \\hline x2 & x2 & x3 & x4 & x5 & e & x1 & x8 & x9 & x10 & x11 & x6 & x7 \\\\ \\hline x3 & x3 & x4 & x5 & e & x1 & x2 & x9 & x10 & x11 & x6 & x7 & x8 \\\\ \\hline x4 & x4 & x5 & e & x1 & x2 & x3 & x10 & x11 & x6 & x7 & x8 & x9 \\\\ \\hline x5 & x5 & e & x1 & x2 & x3 & x4 & x11 & x6 & x7 & x8 & x9 & x10 \\\\ \\hline x6 & x6 & x7 & x8 & x9 & x10 & x11 & e & x1 & x2 & x3 & x4 & x5 \\\\ \\hline x7 & x7 & x8 & x9 & x10 & x11 & x6 & x1 & x2 & x3 & x4 & x5 & e \\\\ \\hline x8 & x8 & x9 & x10 & x11 & x6 & x7 & x2 & x3 & x4 & x5 & e & x1 \\\\ \\hline x9 & x9 & x10 & x11 & x6 & x7 & x8 & x3 & x4 & x5 & e & x1 & x2 \\\\ \\hline x10 & x10 & x11 & x6 & x7 & x8 & x9 & x4 & x5 & e & x1 & x2 & x3 \\\\ \\hline x11 & x11 & x6 & x7 & x8 & x9 & x10 & x5 & e & x1 & x2 & x3 & x4 \\\\ \\hline \\end{array}$\n(a) Express each of the following elements in terms of one element from $\\lbrace e, x1, x2, \\ldots, x11 \\rbrace$.\n$\\begin{array}{cc}\\hline (x7)^2 & [ANS] \\\\ \\hline (x3)^3 & [ANS] \\\\ \\hline (x7)(x3) & [ANS] \\\\ \\hline (x3)(x7) & [ANS] \\\\ \\hline (x7)^{-1} & [ANS] \\\\ \\hline \\end{array}$\n(b) Find all elements $x$ such that $x^3=e$. Enter N if no such element exists. [ANS]\n(c) Find all elements $x$ such that $x^2=x7$. Enter N if no such element exists. [ANS]\n(d) Find all elements $x$ such that $x^3=x3$. Enter N if no such element exists. [ANS]",
+        "answer_v3": [
+            "x2",
+            "x3",
+            "x10",
+            "x10",
+            "x11",
+            "(e, x2, x4)",
+            "N",
+            "(x1, x3, x5)"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "UOL",
+            "EX",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0005",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Group axioms",
+        "level": "3",
+        "keywords": [
+            "group tables",
+            "commutativity"
+        ],
+        "problem_v1": "Two elements $x$, $y$ of a group are said to commute with each other if $xy=yx$.\nConsider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & x2 & x3 & x4 & x5 & e & x7 & x8 & x9 & x10 & x11 & x6 \\\\ \\hline x2 & x2 & x3 & x4 & x5 & e & x1 & x8 & x9 & x10 & x11 & x6 & x7 \\\\ \\hline x3 & x3 & x4 & x5 & e & x1 & x2 & x9 & x10 & x11 & x6 & x7 & x8 \\\\ \\hline x4 & x4 & x5 & e & x1 & x2 & x3 & x10 & x11 & x6 & x7 & x8 & x9 \\\\ \\hline x5 & x5 & e & x1 & x2 & x3 & x4 & x11 & x6 & x7 & x8 & x9 & x10 \\\\ \\hline x6 & x6 & x11 & x10 & x9 & x8 & x7 & x3 & x2 & x1 & e & x5 & x4 \\\\ \\hline x7 & x7 & x6 & x11 & x10 & x9 & x8 & x4 & x3 & x2 & x1 & e & x5 \\\\ \\hline x8 & x8 & x7 & x6 & x11 & x10 & x9 & x5 & x4 & x3 & x2 & x1 & e \\\\ \\hline x9 & x9 & x8 & x7 & x6 & x11 & x10 & e & x5 & x4 & x3 & x2 & x1 \\\\ \\hline x10 & x10 & x9 & x8 & x7 & x6 & x11 & x1 & e & x5 & x4 & x3 & x2 \\\\ \\hline x11 & x11 & x10 & x9 & x8 & x7 & x6 & x2 & x1 & e & x5 & x4 & x3 \\\\ \\hline \\end{array}$\nUsing this group table, determine the elements that commute with $x7$ and enter them as a comma-separated list. [ANS]",
+        "answer_v1": [
+            "(e, x3, x7, x10)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Two elements $x$, $y$ of a group are said to commute with each other if $xy=yx$.\nConsider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & e & x3 & x2 & x6 & x7 & x4 & x5 & x11 & x10 & x9 & x8 \\\\ \\hline x2 & x2 & x3 & e & x1 & x7 & x6 & x5 & x4 & x9 & x8 & x11 & x10 \\\\ \\hline x3 & x3 & x2 & x1 & e & x5 & x4 & x7 & x6 & x10 & x11 & x8 & x9 \\\\ \\hline x4 & x4 & x7 & x5 & x6 & x11 & x8 & x10 & x9 & x2 & x1 & x3 & e \\\\ \\hline x5 & x5 & x6 & x4 & x7 & x9 & x10 & x8 & x11 & x1 & x2 & e & x3 \\\\ \\hline x6 & x6 & x5 & x7 & x4 & x8 & x11 & x9 & x10 & x3 & e & x2 & x1 \\\\ \\hline x7 & x7 & x4 & x6 & x5 & x10 & x9 & x11 & x8 & e & x3 & x1 & x2 \\\\ \\hline x8 & x8 & x10 & x11 & x9 & x1 & x3 & x2 & e & x7 & x5 & x4 & x6 \\\\ \\hline x9 & x9 & x11 & x10 & x8 & x3 & x1 & e & x2 & x4 & x6 & x7 & x5 \\\\ \\hline x10 & x10 & x8 & x9 & x11 & x2 & e & x1 & x3 & x6 & x4 & x5 & x7 \\\\ \\hline x11 & x11 & x9 & x8 & x10 & e & x2 & x3 & x1 & x5 & x7 & x6 & x4 \\\\ \\hline \\end{array}$\nUsing this group table, determine the elements that commute with $x11$ and enter them as a comma-separated list. [ANS]",
+        "answer_v2": [
+            "(e, x4, x11)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Two elements $x$, $y$ of a group are said to commute with each other if $xy=yx$.\nConsider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline e & e & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 \\\\ \\hline x1 & x1 & x2 & x3 & x4 & x5 & e & x7 & x8 & x9 & x10 & x11 & x6 \\\\ \\hline x2 & x2 & x3 & x4 & x5 & e & x1 & x8 & x9 & x10 & x11 & x6 & x7 \\\\ \\hline x3 & x3 & x4 & x5 & e & x1 & x2 & x9 & x10 & x11 & x6 & x7 & x8 \\\\ \\hline x4 & x4 & x5 & e & x1 & x2 & x3 & x10 & x11 & x6 & x7 & x8 & x9 \\\\ \\hline x5 & x5 & e & x1 & x2 & x3 & x4 & x11 & x6 & x7 & x8 & x9 & x10 \\\\ \\hline x6 & x6 & x7 & x8 & x9 & x10 & x11 & e & x1 & x2 & x3 & x4 & x5 \\\\ \\hline x7 & x7 & x8 & x9 & x10 & x11 & x6 & x1 & x2 & x3 & x4 & x5 & e \\\\ \\hline x8 & x8 & x9 & x10 & x11 & x6 & x7 & x2 & x3 & x4 & x5 & e & x1 \\\\ \\hline x9 & x9 & x10 & x11 & x6 & x7 & x8 & x3 & x4 & x5 & e & x1 & x2 \\\\ \\hline x10 & x10 & x11 & x6 & x7 & x8 & x9 & x4 & x5 & e & x1 & x2 & x3 \\\\ \\hline x11 & x11 & x6 & x7 & x8 & x9 & x10 & x5 & e & x1 & x2 & x3 & x4 \\\\ \\hline \\end{array}$\nUsing this group table, determine the elements that commute with $x7$ and enter them as a comma-separated list. [ANS]",
+        "answer_v3": [
+            "(e, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0006",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Subgroups",
+        "level": "3",
+        "keywords": [
+            "subgroups"
+        ],
+        "problem_v1": "Find all elements of the subgroup $\\langle 12 \\rangle$ in $\\mathbb{Z}_{84}$. [ANS]\nFind all elements of the subgroup $\\langle 9 \\rangle$ in $\\mathbb{Z}_{72}$. [ANS]\nFor both parts, enter your answers as comma-separated lists.",
+        "answer_v1": [
+            "(0, 12, 24, 36, 48, 60, 72)",
+            "(0, 9, 18, 27, 36, 45, 54, 63)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Find all elements of the subgroup $\\langle 6 \\rangle$ in $\\mathbb{Z}_{42}$. [ANS]\nFind all elements of the subgroup $\\langle 12 \\rangle$ in $\\mathbb{Z}_{96}$. [ANS]\nFor both parts, enter your answers as comma-separated lists.",
+        "answer_v2": [
+            "(0, 6, 12, 18, 24, 30, 36)",
+            "(0, 12, 24, 36, 48, 60, 72, 84)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Find all elements of the subgroup $\\langle 8 \\rangle$ in $\\mathbb{Z}_{56}$. [ANS]\nFind all elements of the subgroup $\\langle 11 \\rangle$ in $\\mathbb{Z}_{77}$. [ANS]\nFor both parts, enter your answers as comma-separated lists.",
+        "answer_v3": [
+            "(0, 8, 16, 24, 32, 40, 48)",
+            "(0, 11, 22, 33, 44, 55, 66)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0007",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Subgroups",
+        "level": "3",
+        "keywords": [
+            "group tables",
+            "order of elements"
+        ],
+        "problem_v1": "Consider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} \\\\ \\hline e & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} \\\\ \\hline x_{1} & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & e & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} & x_{6} \\\\ \\hline x_{2} & x_{2} & x_{3} & x_{4} & x_{5} & e & x_{1} & x_{8} & x_{9} & x_{10} & x_{11} & x_{6} & x_{7} \\\\ \\hline x_{3} & x_{3} & x_{4} & x_{5} & e & x_{1} & x_{2} & x_{9} & x_{10} & x_{11} & x_{6} & x_{7} & x_{8} \\\\ \\hline x_{4} & x_{4} & x_{5} & e & x_{1} & x_{2} & x_{3} & x_{10} & x_{11} & x_{6} & x_{7} & x_{8} & x_{9} \\\\ \\hline x_{5} & x_{5} & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{11} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} \\\\ \\hline x_{6} & x_{6} & x_{11} & x_{10} & x_{9} & x_{8} & x_{7} & x_{3} & x_{2} & x_{1} & e & x_{5} & x_{4} \\\\ \\hline x_{7} & x_{7} & x_{6} & x_{11} & x_{10} & x_{9} & x_{8} & x_{4} & x_{3} & x_{2} & x_{1} & e & x_{5} \\\\ \\hline x_{8} & x_{8} & x_{7} & x_{6} & x_{11} & x_{10} & x_{9} & x_{5} & x_{4} & x_{3} & x_{2} & x_{1} & e \\\\ \\hline x_{9} & x_{9} & x_{8} & x_{7} & x_{6} & x_{11} & x_{10} & e & x_{5} & x_{4} & x_{3} & x_{2} & x_{1} \\\\ \\hline x_{10} & x_{10} & x_{9} & x_{8} & x_{7} & x_{6} & x_{11} & x_{1} & e & x_{5} & x_{4} & x_{3} & x_{2} \\\\ \\hline x_{11} & x_{11} & x_{10} & x_{9} & x_{8} & x_{7} & x_{6} & x_{2} & x_{1} & e & x_{5} & x_{4} & x_{3} \\\\ \\hline \\end{array}$\nDetermine the order of the following elements and complete the table:\n$\\begin{array}{cc}\\hline x & order(x) \\\\ \\hline x_{7} & [ANS] \\\\ \\hline x_{8} & [ANS] \\\\ \\hline x_{7} x_{8} & [ANS] \\\\ \\hline (x_{7})^{2}(x_{8}) & [ANS] \\\\ \\hline (x_{7})^{-1}(x_{8}) & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v1": [
+            "4",
+            "4",
+            "3",
+            "4",
+            "6"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Consider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} \\\\ \\hline e & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} \\\\ \\hline x_{1} & x_{1} & e & x_{3} & x_{2} & x_{6} & x_{7} & x_{4} & x_{5} & x_{11} & x_{10} & x_{9} & x_{8} \\\\ \\hline x_{2} & x_{2} & x_{3} & e & x_{1} & x_{7} & x_{6} & x_{5} & x_{4} & x_{9} & x_{8} & x_{11} & x_{10} \\\\ \\hline x_{3} & x_{3} & x_{2} & x_{1} & e & x_{5} & x_{4} & x_{7} & x_{6} & x_{10} & x_{11} & x_{8} & x_{9} \\\\ \\hline x_{4} & x_{4} & x_{7} & x_{5} & x_{6} & x_{11} & x_{8} & x_{10} & x_{9} & x_{2} & x_{1} & x_{3} & e \\\\ \\hline x_{5} & x_{5} & x_{6} & x_{4} & x_{7} & x_{9} & x_{10} & x_{8} & x_{11} & x_{1} & x_{2} & e & x_{3} \\\\ \\hline x_{6} & x_{6} & x_{5} & x_{7} & x_{4} & x_{8} & x_{11} & x_{9} & x_{10} & x_{3} & e & x_{2} & x_{1} \\\\ \\hline x_{7} & x_{7} & x_{4} & x_{6} & x_{5} & x_{10} & x_{9} & x_{11} & x_{8} & e & x_{3} & x_{1} & x_{2} \\\\ \\hline x_{8} & x_{8} & x_{10} & x_{11} & x_{9} & x_{1} & x_{3} & x_{2} & e & x_{7} & x_{5} & x_{4} & x_{6} \\\\ \\hline x_{9} & x_{9} & x_{11} & x_{10} & x_{8} & x_{3} & x_{1} & e & x_{2} & x_{4} & x_{6} & x_{7} & x_{5} \\\\ \\hline x_{10} & x_{10} & x_{8} & x_{9} & x_{11} & x_{2} & e & x_{1} & x_{3} & x_{6} & x_{4} & x_{5} & x_{7} \\\\ \\hline x_{11} & x_{11} & x_{9} & x_{8} & x_{10} & e & x_{2} & x_{3} & x_{1} & x_{5} & x_{7} & x_{6} & x_{4} \\\\ \\hline \\end{array}$\nDetermine the order of the following elements and complete the table:\n$\\begin{array}{cc}\\hline x & order(x) \\\\ \\hline x_{11} & [ANS] \\\\ \\hline x_{2} & [ANS] \\\\ \\hline x_{11} x_{2} & [ANS] \\\\ \\hline (x_{11})^{2}(x_{2}) & [ANS] \\\\ \\hline (x_{11})^{-1}(x_{2}) & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v2": [
+            "3",
+            "2",
+            "3",
+            "3",
+            "3"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Consider the group whose group table is given as follows ($e$ is the identity element):\n$\\begin{array}{ccccccccccccc}\\hline & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} \\\\ \\hline e & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} \\\\ \\hline x_{1} & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & e & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} & x_{6} \\\\ \\hline x_{2} & x_{2} & x_{3} & x_{4} & x_{5} & e & x_{1} & x_{8} & x_{9} & x_{10} & x_{11} & x_{6} & x_{7} \\\\ \\hline x_{3} & x_{3} & x_{4} & x_{5} & e & x_{1} & x_{2} & x_{9} & x_{10} & x_{11} & x_{6} & x_{7} & x_{8} \\\\ \\hline x_{4} & x_{4} & x_{5} & e & x_{1} & x_{2} & x_{3} & x_{10} & x_{11} & x_{6} & x_{7} & x_{8} & x_{9} \\\\ \\hline x_{5} & x_{5} & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{11} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} \\\\ \\hline x_{6} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} & e & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} \\\\ \\hline x_{7} & x_{7} & x_{8} & x_{9} & x_{10} & x_{11} & x_{6} & x_{1} & x_{2} & x_{3} & x_{4} & x_{5} & e \\\\ \\hline x_{8} & x_{8} & x_{9} & x_{10} & x_{11} & x_{6} & x_{7} & x_{2} & x_{3} & x_{4} & x_{5} & e & x_{1} \\\\ \\hline x_{9} & x_{9} & x_{10} & x_{11} & x_{6} & x_{7} & x_{8} & x_{3} & x_{4} & x_{5} & e & x_{1} & x_{2} \\\\ \\hline x_{10} & x_{10} & x_{11} & x_{6} & x_{7} & x_{8} & x_{9} & x_{4} & x_{5} & e & x_{1} & x_{2} & x_{3} \\\\ \\hline x_{11} & x_{11} & x_{6} & x_{7} & x_{8} & x_{9} & x_{10} & x_{5} & e & x_{1} & x_{2} & x_{3} & x_{4} \\\\ \\hline \\end{array}$\nDetermine the order of the following elements and complete the table:\n$\\begin{array}{cc}\\hline x & order(x) \\\\ \\hline x_{7} & [ANS] \\\\ \\hline x_{3} & [ANS] \\\\ \\hline x_{7} x_{3} & [ANS] \\\\ \\hline (x_{7})^{2}(x_{3}) & [ANS] \\\\ \\hline (x_{7})^{-1}(x_{3}) & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v3": [
+            "6",
+            "2",
+            "6",
+            "6",
+            "6"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0008",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Subgroups",
+        "level": "3",
+        "keywords": [
+            "subgroups",
+            "generators"
+        ],
+        "problem_v1": "Find all elements $x$ in $U(198)$ such that $\\langle x \\rangle$=$\\langle 17 \\rangle$: [ANS]\nAlso find all elements $x$ in $U(189)$ such that $\\langle x \\rangle$=$\\langle 4 \\rangle$: [ANS]\nFor both parts, enter your answers as comma-separated lists.",
+        "answer_v1": [
+            "(17, 161, 107, 35)",
+            "(4, 16, 67, 79, 130, 142)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Find all elements $x$ in $U(164)$ such that $\\langle x \\rangle$=$\\langle 3 \\rangle$: [ANS]\nAlso find all elements $x$ in $U(205)$ such that $\\langle x \\rangle$=$\\langle 3 \\rangle$: [ANS]\nFor both parts, enter your answers as comma-separated lists.",
+        "answer_v2": [
+            "(3, 27, 79, 55)",
+            "(3, 27, 38, 137)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Find all elements $x$ in $U(175)$ such that $\\langle x \\rangle$=$\\langle 6 \\rangle$: [ANS]\nAlso find all elements $x$ in $U(190)$ such that $\\langle x \\rangle$=$\\langle 61 \\rangle$: [ANS]\nFor both parts, enter your answers as comma-separated lists.",
+        "answer_v3": [
+            "(6, 41, 111, 146)",
+            "(61, 111, 161, 131, 101, 81)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0009",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Subgroups",
+        "level": "4",
+        "keywords": [
+            "subgroups",
+            "generators"
+        ],
+        "problem_v1": "Find one pair of elements $x,$ $y$ in $U(14)$ such that $\\langle x \\rangle$ and $\\langle y \\rangle$ are proper subgroups of $U(14)$ and that $\\langle x,y \\rangle=U(14)$. Be sure that $x<y$ with $1 \\leq x, y<n$.\n$(x,y)=($ [ANS] $,$ [ANS] $)$",
+        "answer_v1": [
+            "9",
+            "13"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find one pair of elements $x,$ $y$ in $U(7)$ such that $\\langle x \\rangle$ and $\\langle y \\rangle$ are proper subgroups of $U(7)$ and that $\\langle x,y \\rangle=U(7)$. Be sure that $x<y$ with $1 \\leq x, y<n$.\n$(x,y)=($ [ANS] $,$ [ANS] $)$",
+        "answer_v2": [
+            "(2, 6)"
+        ],
+        "answer_type_v2": [
+            "OL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find one pair of elements $x,$ $y$ in $U(8)$ such that $\\langle x \\rangle$ and $\\langle y \\rangle$ are proper subgroups of $U(8)$ and that $\\langle x,y \\rangle=U(8)$. Be sure that $x<y$ with $1 \\leq x, y<n$.\n$(x,y)=($ [ANS] $,$ [ANS] $)$",
+        "answer_v3": [
+            "(3, 5)"
+        ],
+        "answer_type_v3": [
+            "OL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0010",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cyclic groups",
+        "level": "3",
+        "keywords": [
+            "cyclic groups",
+            "generators"
+        ],
+        "problem_v1": "Determine all generators of $\\mathbb{Z}_{21}$. Enter your answer as a comma-separated list. [ANS]",
+        "answer_v1": [
+            "(1, 2, 4, 5, 8, 10, 11, 13, 16, 17, 19, 20)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Determine all generators of $\\mathbb{Z}_{15}$. Enter your answer as a comma-separated list. [ANS]",
+        "answer_v2": [
+            "(1, 2, 4, 7, 8, 11, 13, 14)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Determine all generators of $\\mathbb{Z}_{18}$. Enter your answer as a comma-separated list. [ANS]",
+        "answer_v3": [
+            "(1, 5, 7, 11, 13, 17)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0011",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cyclic groups",
+        "level": "3",
+        "keywords": [
+            "cyclic groups",
+            "order of elements"
+        ],
+        "problem_v1": "(a) Find all elements in $\\{  cyclic(143)  \\}$ of order $13$. [ANS]\n(b) Find all elements in the subgroup $\\langle 13 \\rangle$ of $\\{  cyclic(143)  \\}$. [ANS]",
+        "answer_v1": [
+            "(11, 22, 33, 44, 55, 66, 77, 88, 99, 110, 121, 132)",
+            "(0, 13, 26, 39, 52, 65, 78, 91, 104, 117, 130)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "(a) Find all elements in $\\{  cyclic(51)  \\}$ of order $3$. [ANS]\n(b) Find all elements in the subgroup $\\langle 3 \\rangle$ of $\\{  cyclic(51)  \\}$. [ANS]",
+        "answer_v2": [
+            "(17, 34)",
+            "(0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "(a) Find all elements in $\\{  cyclic(55)  \\}$ of order $5$. [ANS]\n(b) Find all elements in the subgroup $\\langle 5 \\rangle$ of $\\{  cyclic(55)  \\}$. [ANS]",
+        "answer_v3": [
+            "(11, 22, 33, 44)",
+            "(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0012",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cyclic groups",
+        "level": "4",
+        "keywords": [
+            "cyclic groups",
+            "generators",
+            "subgroups"
+        ],
+        "problem_v1": "Find all elements $x_1, x_2, x_3,...$ in $\\mathbb{Z}_{35}$ such that each $\\langle x_i \\rangle$ is a proper subgroup of $\\mathbb{Z}_{35}$. Enter your answer as a comma-separated list. [ANS]",
+        "answer_v1": [
+            "(0, 5, 7, 10, 14, 15, 20, 21, 25, 28, 30)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find all elements $x_1, x_2, x_3,...$ in $\\mathbb{Z}_{33}$ such that each $\\langle x_i \\rangle$ is a proper subgroup of $\\mathbb{Z}_{33}$. Enter your answer as a comma-separated list. [ANS]",
+        "answer_v2": [
+            "(0, 3, 6, 9, 11, 12, 15, 18, 21, 22, 24, 27, 30)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find all elements $x_1, x_2, x_3,...$ in $\\mathbb{Z}_{28}$ such that each $\\langle x_i \\rangle$ is a proper subgroup of $\\mathbb{Z}_{28}$. Enter your answer as a comma-separated list. [ANS]",
+        "answer_v3": [
+            "(0, 2, 4, 6, 7, 8, 10, 12, 14, 16, 18, 20, 21, 22, 24, 26)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0013",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cyclic groups",
+        "level": "6",
+        "keywords": [
+            "cyclic groups",
+            "generators",
+            "subgroups"
+        ],
+        "problem_v1": "Find one pair $(x, y)$ of elements of $\\mathbb{Z}_{1309}$ such that both $\\langle x \\rangle, \\langle y \\rangle$ are proper subgroups of $\\mathbb{Z}_{1309}$, and that $\\langle x, y \\rangle=\\mathbb{Z}_{1309}$.\n$x=$ [ANS]\n$y=$ [ANS]\nHINT: 1309 is a product of three primes.",
+        "answer_v1": [
+            "(17, 11)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find one pair $(x, y)$ of elements of $\\mathbb{Z}_{114}$ such that both $\\langle x \\rangle, \\langle y \\rangle$ are proper subgroups of $\\mathbb{Z}_{114}$, and that $\\langle x, y \\rangle=\\mathbb{Z}_{114}$.\n$x=$ [ANS]\n$y=$ [ANS]\nHINT: 114 is a product of three primes.",
+        "answer_v2": [
+            "(2, 19)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find one pair $(x, y)$ of elements of $\\mathbb{Z}_{195}$ such that both $\\langle x \\rangle, \\langle y \\rangle$ are proper subgroups of $\\mathbb{Z}_{195}$, and that $\\langle x, y \\rangle=\\mathbb{Z}_{195}$.\n$x=$ [ANS]\n$y=$ [ANS]\nHINT: 195 is a product of three primes.",
+        "answer_v3": [
+            "(5, 13)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0014",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cyclic groups",
+        "level": "4",
+        "keywords": [
+            "cyclic groups",
+            "order of groups",
+            "order of elements",
+            "subgroups"
+        ],
+        "problem_v1": "Let $x,$ $y$ be elements of a group G. If $\\textrm{ord}(x)=18$ and $\\textrm{ord}(y)=24$, what are the possible values for the order of $\\langle x \\rangle \\cap \\langle y \\rangle$? Enter your answer as a list of numbers separated by commas, or a single number if there is only one possible value. [ANS]",
+        "answer_v1": [
+            "(1, 2, 3, 6)"
+        ],
+        "answer_type_v1": [
+            "OL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Let $x,$ $y$ be elements of a group G. If $\\textrm{ord}(x)=12$ and $\\textrm{ord}(y)=15$, what are the possible values for the order of $\\langle x \\rangle \\cap \\langle y \\rangle$? Enter your answer as a list of numbers separated by commas, or a single number if there is only one possible value. [ANS]",
+        "answer_v2": [
+            "(1, 3)"
+        ],
+        "answer_type_v2": [
+            "OL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Let $x,$ $y$ be elements of a group G. If $\\textrm{ord}(x)=14$ and $\\textrm{ord}(y)=21$, what are the possible values for the order of $\\langle x \\rangle \\cap \\langle y \\rangle$? Enter your answer as a list of numbers separated by commas, or a single number if there is only one possible value. [ANS]",
+        "answer_v3": [
+            "(1, 7)"
+        ],
+        "answer_type_v3": [
+            "OL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0015",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cyclic groups",
+        "level": "2",
+        "keywords": [
+            "cyclic groups",
+            "order of elements"
+        ],
+        "problem_v1": "Determine the order of every element of $\\mathbb{Z}_{21}$. Enter your answer as a comma-separated ORDERED list of this form:\n$\\textrm{ord}(0),$ $\\textrm{ord}(1),$... $\\textrm{ord}(j),$... [ANS]",
+        "answer_v1": [
+            "(1, 21, 21, 7, 21, 21, 7, 3, 21, 7, 21, 21, 7, 21, 3, 7, 21, 21, 7, 21, 21)"
+        ],
+        "answer_type_v1": [
+            "OL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Determine the order of every element of $\\mathbb{Z}_{15}$. Enter your answer as a comma-separated ORDERED list of this form:\n$\\textrm{ord}(0),$ $\\textrm{ord}(1),$... $\\textrm{ord}(j),$... [ANS]",
+        "answer_v2": [
+            "(1, 15, 15, 5, 15, 3, 5, 15, 15, 5, 3, 15, 5, 15, 15)"
+        ],
+        "answer_type_v2": [
+            "OL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Determine the order of every element of $\\mathbb{Z}_{18}$. Enter your answer as a comma-separated ORDERED list of this form:\n$\\textrm{ord}(0),$ $\\textrm{ord}(1),$... $\\textrm{ord}(j),$... [ANS]",
+        "answer_v3": [
+            "(1, 18, 9, 6, 9, 18, 3, 18, 9, 2, 9, 18, 3, 18, 9, 6, 9, 18)"
+        ],
+        "answer_type_v3": [
+            "OL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0017",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Product of groups",
+        "level": "4",
+        "keywords": [
+            "product of groups",
+            "generators"
+        ],
+        "problem_v1": "Find a pair of NON-IDENTITY elements $A, B$ in $\\mathbb{Z}_{176}$ such that $\\mathbb{Z}_{176}$ is isomorphic to $\\langle A \\rangle \\times \\langle B \\rangle$.\n$A, B=$ [ANS]",
+        "answer_v1": [
+            "(16, 11)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find a pair of NON-IDENTITY elements $A, B$ in $\\mathbb{Z}_{75}$ such that $\\mathbb{Z}_{75}$ is isomorphic to $\\langle A \\rangle \\times \\langle B \\rangle$.\n$A, B=$ [ANS]",
+        "answer_v2": [
+            "(3, 25)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find a pair of NON-IDENTITY elements $A, B$ in $\\mathbb{Z}_{77}$ such that $\\mathbb{Z}_{77}$ is isomorphic to $\\langle A \\rangle \\times \\langle B \\rangle$.\n$A, B=$ [ANS]",
+        "answer_v3": [
+            "(7, 11)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0018",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Product of groups",
+        "level": "4",
+        "keywords": [
+            "products of groups",
+            "generators"
+        ],
+        "problem_v1": "Find a pair of elements $A, B$ in $U(63)$ such that $U(63)$ is isomorphic to $\\langle A \\rangle \\times \\langle B \\rangle$. Be sure to enter your answer as a comma-separated list of two POSITIVE integers $< 63$. $A, B=$ [ANS]",
+        "answer_v1": [
+            "(10, 29)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find a pair of elements $A, B$ in $U(69)$ such that $U(69)$ is isomorphic to $\\langle A \\rangle \\times \\langle B \\rangle$. Be sure to enter your answer as a comma-separated list of two POSITIVE integers $< 69$. $A, B=$ [ANS]",
+        "answer_v2": [
+            "(47, 28)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find a pair of elements $A, B$ in $U(91)$ such that $U(91)$ is isomorphic to $\\langle A \\rangle \\times \\langle B \\rangle$. Be sure to enter your answer as a comma-separated list of two POSITIVE integers $< 91$. $A, B=$ [ANS]",
+        "answer_v3": [
+            "(66, 15)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0019",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cosets, Lagrange's theorem, and normality",
+        "level": "2",
+        "keywords": [
+            "cosets"
+        ],
+        "problem_v1": "Let $H$ be a subgroup of $G$. For any element $g$ in $G$. recall that the left coset $gH$ is by definition the subset:\n$gH:=\\lbrace gh: h \\in H \\rbrace$\nFor each of the following triples of $(G, H, g)$, write down the elements of the left coset $gH$ (enter your answer as a comma-separated list):\n(i) $G=\\mathbb{Z}_{80}$, $H=10 \\mathbb{Z}_{80}$, $g=53 \\pmod{80}$ [ANS]\n(ii) $G=$ the quaternion group $Q_8=\\lbrace 1,-1, i,-i, j,-j, k,-k \\rbrace$ $H=\\left<k\\right>$ $g$ $=k$ [ANS]",
+        "answer_v1": [
+            "(53, 63, 73, 3, 13, 23, 33, 43)",
+            "(1, -1, k, -k)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Let $H$ be a subgroup of $G$. For any element $g$ in $G$. recall that the left coset $gH$ is by definition the subset:\n$gH:=\\lbrace gh: h \\in H \\rbrace$\nFor each of the following triples of $(G, H, g)$, write down the elements of the left coset $gH$ (enter your answer as a comma-separated list):\n(i) $G=\\mathbb{Z}_{56}$, $H=14 \\mathbb{Z}_{56}$, $g=12 \\pmod{56}$ [ANS]\n(ii) $G=$ the quaternion group $Q_8=\\lbrace 1,-1, i,-i, j,-j, k,-k \\rbrace$ $H=\\left<j\\right>$ $g$ $=-i$ [ANS]",
+        "answer_v2": [
+            "(12, 26, 40, 54)",
+            "(-i, i, k, -k)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Let $H$ be a subgroup of $G$. For any element $g$ in $G$. recall that the left coset $gH$ is by definition the subset:\n$gH:=\\lbrace gh: h \\in H \\rbrace$\nFor each of the following triples of $(G, H, g)$, write down the elements of the left coset $gH$ (enter your answer as a comma-separated list):\n(i) $G=\\mathbb{Z}_{55}$, $H=11 \\mathbb{Z}_{55}$, $g=19 \\pmod{55}$ [ANS]\n(ii) $G=$ the quaternion group $Q_8=\\lbrace 1,-1, i,-i, j,-j, k,-k \\rbrace$ $H=\\left<j\\right>$ $g$ $=k$ [ANS]",
+        "answer_v3": [
+            "(19, 30, 41, 52, 8)",
+            "(k, -k, i, -i)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0020",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cosets, Lagrange's theorem, and normality",
+        "level": "2",
+        "keywords": [
+            "cosets",
+            "coset representatives"
+        ],
+        "problem_v1": "Find a complete set of coset representatives of the subgroup $\\langle 19 \\rangle$ in $U(56)$. Enter your answer as a comma separated list; make sure that EACH coset representative you enter\n$\\ast$ is $>0$ and $< 56$, and $\\ast$ is the smallest possible value in this range, i.e. if you enter the value $A$, there is not another value $0<B<$ with $B<A$ such that $A, B$ represents the same coset. [ANS]\nFind a complete set of coset representatives of the subgroup $\\langle 8 \\rangle$ in $U(51)$. Enter your answer as a comma separated list; make sure that EACH coset representative you enter\n$\\ast$ is $>0$ and $< 51$, and $\\ast$ is the smallest possible value in this range, i.e. if you enter the value $A$, there is not another value $0<B<$ with $B<A$ such that $A, B$ represents the same coset. [ANS]",
+        "answer_v1": [
+            "(1, 5, 11, 29)",
+            "(1, 5, 11, 19)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Find a complete set of coset representatives of the subgroup $\\langle 4 \\rangle$ in $U(35)$. Enter your answer as a comma separated list; make sure that EACH coset representative you enter\n$\\ast$ is $>0$ and $< 35$, and $\\ast$ is the smallest possible value in this range, i.e. if you enter the value $A$, there is not another value $0<B<$ with $B<A$ such that $A, B$ represents the same coset. [ANS]\nFind a complete set of coset representatives of the subgroup $\\langle 20 \\rangle$ in $U(63)$. Enter your answer as a comma separated list; make sure that EACH coset representative you enter\n$\\ast$ is $>0$ and $< 63$, and $\\ast$ is the smallest possible value in this range, i.e. if you enter the value $A$, there is not another value $0<B<$ with $B<A$ such that $A, B$ represents the same coset. [ANS]",
+        "answer_v2": [
+            "(1, 2, 3, 6)",
+            "(1, 2, 4, 5, 8, 10)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Find a complete set of coset representatives of the subgroup $\\langle 37 \\rangle$ in $U(42)$. Enter your answer as a comma separated list; make sure that EACH coset representative you enter\n$\\ast$ is $>0$ and $< 42$, and $\\ast$ is the smallest possible value in this range, i.e. if you enter the value $A$, there is not another value $0<B<$ with $B<A$ such that $A, B$ represents the same coset. [ANS]\nFind a complete set of coset representatives of the subgroup $\\langle 21 \\rangle$ in $U(52)$. Enter your answer as a comma separated list; make sure that EACH coset representative you enter\n$\\ast$ is $>0$ and $< 52$, and $\\ast$ is the smallest possible value in this range, i.e. if you enter the value $A$, there is not another value $0<B<$ with $B<A$ such that $A, B$ represents the same coset. [ANS]",
+        "answer_v3": [
+            "(1, 5, 11, 13)",
+            "(1, 3, 7, 9, 27, 29)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0022",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cosets, Lagrange's theorem, and normality",
+        "level": "6",
+        "keywords": [
+            "Lagrange theorem"
+        ],
+        "problem_v1": "Let $H$ be a proper subgroup of a group $G$, and let $K$ be a proper subgroup of $H$. If $\\#K=35$ and $\\#G=350$, what are the possible orders of $H$? Enter your answer as a comma separated list. [ANS]",
+        "answer_v1": [
+            "(70, 175)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Let $H$ be a proper subgroup of a group $G$, and let $K$ be a proper subgroup of $H$. If $\\#K=22$ and $\\#G=308$, what are the possible orders of $H$? Enter your answer as a comma separated list. [ANS]",
+        "answer_v2": [
+            "(44, 154)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Let $H$ be a proper subgroup of a group $G$, and let $K$ be a proper subgroup of $H$. If $\\#K=26$ and $\\#G=260$, what are the possible orders of $H$? Enter your answer as a comma separated list. [ANS]",
+        "answer_v3": [
+            "(52, 130)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0023",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Cosets, Lagrange's theorem, and normality",
+        "level": "2",
+        "keywords": [
+            "cosets"
+        ],
+        "problem_v1": "(a) Determine all elements of the coset $4+\\langle 10 \\rangle$ in the group $\\mathbb{Z}_{14}$. Enter your answer as a comma separated list; make sure that each element you enter is $\\geq 0$ and $< 14$. [ANS]\n(b) Determine all elements of the coset $1 \\langle 26 \\rangle$ in the group $U(57)$. Enter your answer as a comma separated list; make sure that each element you enter is $>0$ and $< 57$. [ANS]",
+        "answer_v1": [
+            "(4, 6, 8, 10, 12, 0, 2)",
+            "(26, 49, 20, 7, 11, 1)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "(a) Determine all elements of the coset $1+\\langle 6 \\rangle$ in the group $\\mathbb{Z}_{6}$. Enter your answer as a comma separated list; make sure that each element you enter is $\\geq 0$ and $< 6$. [ANS]\n(b) Determine all elements of the coset $2 \\langle 26 \\rangle$ in the group $U(57)$. Enter your answer as a comma separated list; make sure that each element you enter is $>0$ and $< 57$. [ANS]",
+        "answer_v2": [
+            "1",
+            "(52, 41, 40, 14, 22, 2)"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "(a) Determine all elements of the coset $2+\\langle 6 \\rangle$ in the group $\\mathbb{Z}_{9}$. Enter your answer as a comma separated list; make sure that each element you enter is $\\geq 0$ and $< 9$. [ANS]\n(b) Determine all elements of the coset $1 \\langle 41 \\rangle$ in the group $U(72)$. Enter your answer as a comma separated list; make sure that each element you enter is $>0$ and $< 72$. [ANS]",
+        "answer_v3": [
+            "(2, 5, 8)",
+            "(41, 25, 17, 49, 65, 1)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0024",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Homomorphisms",
+        "level": "6",
+        "keywords": [
+            "group homomorphisms",
+            "cyclic groups",
+            "order of groups",
+            "image"
+        ],
+        "problem_v1": "In this problem we determine the number of group homomorphisms\n$f: \\mathbb{Z}_{245} \\rightarrow \\mathbb{Z}_{175}$\nsuch that the image of $f$ has size exactly $7$.\nFirst, since $245 \\equiv 0$ $\\pmod{245}$, we have\n$\\begin{array}{llllllll} 0 & \\equiv & f(0) && \\text{property of homomorphisms} \\\\ & \\equiv & f(245) \\\\ & \\equiv & 245 f(1) \\pmod{175} && \\text{property of homomorphisms.} \\end{array}$ On the other hand, $f(1)$ is an element of $\\mathbb{Z}_{175}$ so $0 \\equiv 175 f(1) \\pmod{175}$.\nThus $\\gcd(245,175) f(1) \\equiv 0$ $\\pmod{175}$ i.e. $35 f(1) \\equiv 0$ $\\pmod{175}$ whence $(\\ast)$ $f(1)=5 u$ for some $u$ in $\\mathbb{Z}_{175}$.\nOn the other hand, the image of $f$ is a subgroup of the cyclic group $\\mathbb{Z}_{175}$. But a cyclic group has at most ONE subgroup of any given order, so if the image of $f$ has size $7$ then the elements of the image of $f$ must be [ANS] (please enter your answer as an ORDERED list)\nCombine this with $(\\ast)$ and we see that in order for the image of $f$ to have size $7$, the choices for $f(1)$ are [ANS] (please enter your answer as an ORDERED list)\nConsequently, the number of such functions $f$ is [ANS]. Please enter your answer as a number.",
+        "answer_v1": [
+            "(0, 25, 50, 75, 100, 125, 150)",
+            "(25, 50, 75, 100, 125, 150)",
+            "6"
+        ],
+        "answer_type_v1": [
+            "OL",
+            "OL",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "In this problem we determine the number of group homomorphisms\n$f: \\mathbb{Z}_{28} \\rightarrow \\mathbb{Z}_{98}$\nsuch that the image of $f$ has size exactly $2$.\nFirst, since $28 \\equiv 0$ $\\pmod{28}$, we have\n$\\begin{array}{llllllll} 0 & \\equiv & f(0) && \\text{property of homomorphisms} \\\\ & \\equiv & f(28) \\\\ & \\equiv & 28 f(1) \\pmod{98} && \\text{property of homomorphisms.} \\end{array}$ On the other hand, $f(1)$ is an element of $\\mathbb{Z}_{98}$ so $0 \\equiv 98 f(1) \\pmod{98}$.\nThus $\\gcd(28,98) f(1) \\equiv 0$ $\\pmod{98}$ i.e. $14 f(1) \\equiv 0$ $\\pmod{98}$ whence $(\\ast)$ $f(1)=7 u$ for some $u$ in $\\mathbb{Z}_{98}$.\nOn the other hand, the image of $f$ is a subgroup of the cyclic group $\\mathbb{Z}_{98}$. But a cyclic group has at most ONE subgroup of any given order, so if the image of $f$ has size $2$ then the elements of the image of $f$ must be [ANS] (please enter your answer as an ORDERED list)\nCombine this with $(\\ast)$ and we see that in order for the image of $f$ to have size $2$, the choices for $f(1)$ are [ANS] (please enter your answer as an ORDERED list)\nConsequently, the number of such functions $f$ is [ANS]. Please enter your answer as a number.",
+        "answer_v2": [
+            "(0, 49)",
+            "49",
+            "1"
+        ],
+        "answer_type_v2": [
+            "OL",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "In this problem we determine the number of group homomorphisms\n$f: \\mathbb{Z}_{45} \\rightarrow \\mathbb{Z}_{75}$\nsuch that the image of $f$ has size exactly $3$.\nFirst, since $45 \\equiv 0$ $\\pmod{45}$, we have\n$\\begin{array}{llllllll} 0 & \\equiv & f(0) && \\text{property of homomorphisms} \\\\ & \\equiv & f(45) \\\\ & \\equiv & 45 f(1) \\pmod{75} && \\text{property of homomorphisms.} \\end{array}$ On the other hand, $f(1)$ is an element of $\\mathbb{Z}_{75}$ so $0 \\equiv 75 f(1) \\pmod{75}$.\nThus $\\gcd(45,75) f(1) \\equiv 0$ $\\pmod{75}$ i.e. $15 f(1) \\equiv 0$ $\\pmod{75}$ whence $(\\ast)$ $f(1)=5 u$ for some $u$ in $\\mathbb{Z}_{75}$.\nOn the other hand, the image of $f$ is a subgroup of the cyclic group $\\mathbb{Z}_{75}$. But a cyclic group has at most ONE subgroup of any given order, so if the image of $f$ has size $3$ then the elements of the image of $f$ must be [ANS] (please enter your answer as an ORDERED list)\nCombine this with $(\\ast)$ and we see that in order for the image of $f$ to have size $3$, the choices for $f(1)$ are [ANS] (please enter your answer as an ORDERED list)\nConsequently, the number of such functions $f$ is [ANS]. Please enter your answer as a number.",
+        "answer_v3": [
+            "(0, 25, 50)",
+            "(25, 50)",
+            "2"
+        ],
+        "answer_type_v3": [
+            "OL",
+            "OL",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0025",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Group actions",
+        "level": "6",
+        "keywords": [
+            "group actions",
+            "orbit-stabilizer theorem"
+        ],
+        "problem_v1": "Let $G$ be a finite group of order $77$ acting on a finite set $S$ of size $11$. What are the possible values for the NUMBER of orbits of this $G$-action? Enter your answer as a comma-separated list. [ANS]",
+        "answer_v1": [
+            "(1, 5, 11)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Let $G$ be a finite group of order $35$ acting on a finite set $S$ of size $7$. What are the possible values for the NUMBER of orbits of this $G$-action? Enter your answer as a comma-separated list. [ANS]",
+        "answer_v2": [
+            "(1, 3, 7)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Let $G$ be a finite group of order $15$ acting on a finite set $S$ of size $5$. What are the possible values for the NUMBER of orbits of this $G$-action? Enter your answer as a comma-separated list. [ANS]",
+        "answer_v3": [
+            "(1, 3, 5)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0026",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Group actions",
+        "level": "6",
+        "keywords": [
+            "group actions",
+            "orbit-stabilizer theorem"
+        ],
+        "problem_v1": "Let $G$ be a finite group of order $35$ acting on a finite set $S$ of size $34$. What are the possible values for the size of the orbit of an element of $S$? Enter your answer as a comma-separated list. [ANS]",
+        "answer_v1": [
+            "(1, 5, 7)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Let $G$ be a finite group of order $49$ acting on a finite set $S$ of size $17$. What are the possible values for the size of the orbit of an element of $S$? Enter your answer as a comma-separated list. [ANS]",
+        "answer_v2": [
+            "(1, 7)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Let $G$ be a finite group of order $36$ acting on a finite set $S$ of size $23$. What are the possible values for the size of the orbit of an element of $S$? Enter your answer as a comma-separated list. [ANS]",
+        "answer_v3": [
+            "(1, 2, 3, 4, 6, 9, 12, 18)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0027",
+        "subject": "Abstract_algebra",
+        "topic": "Groups",
+        "subtopic": "Group actions",
+        "level": "4",
+        "keywords": [
+            "group actions",
+            "conjugation",
+            "conjugacy classes"
+        ],
+        "problem_v1": "In this problem we determine the conjugacy class of the elements $a^{6} b^0$ and $a^{6} b^1$ in the dihedral group $D_{11}$.\nComplete the table by entering Y or N in each entry:\n$\\begin{array}{ccc}\\hline i & is a^i b^0conjugate to a^{6} b^0? & is a^i b^1conjugate to a^{6} b^1? \\\\ \\hline 0 & [ANS] & [ANS] \\\\ \\hline 1 & [ANS] & [ANS] \\\\ \\hline 2 & [ANS] & [ANS] \\\\ \\hline 3 & [ANS] & [ANS] \\\\ \\hline 4 & [ANS] & [ANS] \\\\ \\hline 5 & [ANS] & [ANS] \\\\ \\hline 6 & [ANS] & [ANS] \\\\ \\hline 7 & [ANS] & [ANS] \\\\ \\hline 8 & [ANS] & [ANS] \\\\ \\hline 9 & [ANS] & [ANS] \\\\ \\hline 10 & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v1": [
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "N",
+            "Y"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "In this problem we determine the conjugacy class of the elements $a^{5} b^0$ and $a^{5} b^1$ in the dihedral group $D_{6}$.\nComplete the table by entering Y or N in each entry:\n$\\begin{array}{ccc}\\hline i & is a^i b^0conjugate to a^{5} b^0? & is a^i b^1conjugate to a^{5} b^1? \\\\ \\hline 0 & [ANS] & [ANS] \\\\ \\hline 1 & [ANS] & [ANS] \\\\ \\hline 2 & [ANS] & [ANS] \\\\ \\hline 3 & [ANS] & [ANS] \\\\ \\hline 4 & [ANS] & [ANS] \\\\ \\hline 5 & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v2": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "N",
+            "N",
+            "Y",
+            "Y"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "In this problem we determine the conjugacy class of the elements $a^{5} b^0$ and $a^{5} b^1$ in the dihedral group $D_{8}$.\nComplete the table by entering Y or N in each entry:\n$\\begin{array}{ccc}\\hline i & is a^i b^0conjugate to a^{5} b^0? & is a^i b^1conjugate to a^{5} b^1? \\\\ \\hline 0 & [ANS] & [ANS] \\\\ \\hline 1 & [ANS] & [ANS] \\\\ \\hline 2 & [ANS] & [ANS] \\\\ \\hline 3 & [ANS] & [ANS] \\\\ \\hline 4 & [ANS] & [ANS] \\\\ \\hline 5 & [ANS] & [ANS] \\\\ \\hline 6 & [ANS] & [ANS] \\\\ \\hline 7 & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v3": [
+            "N",
+            "N",
+            "N",
+            "Y",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "N",
+            "N",
+            "Y"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0028",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ring axioms",
+        "level": "2",
+        "keywords": [
+            "ring axioms"
+        ],
+        "problem_v1": "Let $a=148$ and $b=157$ be elements in the ring $\\mathbb{Z}_{175}$. Evaluate the following expressions. For each one, enter your answer as an integer $0 \\leq n < 175$.\n(a) $a+b=$ [ANS]\n(b) $a-b=$ [ANS]\n(c) $a \\times b=$ [ANS]",
+        "answer_v1": [
+            "130",
+            "166",
+            "136"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Let $a=40$ and $b=62$ be elements in the ring $\\mathbb{Z}_{63}$. Evaluate the following expressions. For each one, enter your answer as an integer $0 \\leq n < 63$.\n(a) $a+b=$ [ANS]\n(b) $a-b=$ [ANS]\n(c) $a \\times b=$ [ANS]",
+        "answer_v2": [
+            "39",
+            "41",
+            "23"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Let $a=56$ and $b=60$ be elements in the ring $\\mathbb{Z}_{75}$. Evaluate the following expressions. For each one, enter your answer as an integer $0 \\leq n < 75$.\n(a) $a+b=$ [ANS]\n(b) $a-b=$ [ANS]\n(c) $a \\times b=$ [ANS]",
+        "answer_v3": [
+            "41",
+            "71",
+            "60"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0029",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ring axioms",
+        "level": "3",
+        "keywords": [
+            "ring axioms"
+        ],
+        "problem_v1": "For any set $X$, denote by $P^X$ the set of all subsets of $X$ (including the empty set $\\emptyset$ and $X$ itself). This is called the power set of $X$.\nIf $A, B$ are elements of $P^X$, define\n$A+B:=(A-B) \\cup (B-A)$\n$A \\times B:=A \\cap B$\nFACT: $P^X$ together with these two operations forms a commutative ring with a multiplicative identity.\nFor the rest of this exercise, take $X$ to be the set $\\lbrace {1,2,3,4,5,6,7,8,9} \\rbrace$.\n(a) How many elements are there in $P^X$? [ANS]\nNow let $A,B$ be two subsets of $X$ defined as follows:\nA=\\lbrace {1,2,4,5,8,9} \\rbrace\nB=\\lbrace {1,2,7,9} \\rbrace Enter the elements of each set below as a comma-separated list. Input N for the empty set.\n(b) What is the additive inverse of the subset $A$? $\\lbrace$ [ANS] $\\rbrace$\n(c) What is $A+B$? $\\lbrace$ [ANS] $\\rbrace$\n(d) What is $A \\times B$? $\\lbrace$ [ANS] $\\rbrace$",
+        "answer_v1": [
+            "512",
+            "(1, 2, 4, 5, 8, 9)",
+            "(4, 5, 7, 8)",
+            "(1, 2, 9)"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For any set $X$, denote by $P^X$ the set of all subsets of $X$ (including the empty set $\\emptyset$ and $X$ itself). This is called the power set of $X$.\nIf $A, B$ are elements of $P^X$, define\n$A+B:=(A-B) \\cup (B-A)$\n$A \\times B:=A \\cap B$\nFACT: $P^X$ together with these two operations forms a commutative ring with a multiplicative identity.\nFor the rest of this exercise, take $X$ to be the set $\\lbrace {1,2,3,4,5,6} \\rbrace$.\n(a) How many elements are there in $P^X$? [ANS]\nNow let $A,B$ be two subsets of $X$ defined as follows:\nA=\\lbrace {2,3,4,5,6} \\rbrace\nB=\\lbrace {3,4,5} \\rbrace Enter the elements of each set below as a comma-separated list. Input N for the empty set.\n(b) What is the additive inverse of the subset $A$? $\\lbrace$ [ANS] $\\rbrace$\n(c) What is $A+B$? $\\lbrace$ [ANS] $\\rbrace$\n(d) What is $A \\times B$? $\\lbrace$ [ANS] $\\rbrace$",
+        "answer_v2": [
+            "64",
+            "(2, 3, 4, 5, 6)",
+            "(2, 6)",
+            "(3, 4, 5)"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For any set $X$, denote by $P^X$ the set of all subsets of $X$ (including the empty set $\\emptyset$ and $X$ itself). This is called the power set of $X$.\nIf $A, B$ are elements of $P^X$, define\n$A+B:=(A-B) \\cup (B-A)$\n$A \\times B:=A \\cap B$\nFACT: $P^X$ together with these two operations forms a commutative ring with a multiplicative identity.\nFor the rest of this exercise, take $X$ to be the set $\\lbrace {1,2,3,4,5,6,7} \\rbrace$.\n(a) How many elements are there in $P^X$? [ANS]\nNow let $A,B$ be two subsets of $X$ defined as follows:\nA=\\lbrace {1,3,4,6,7} \\rbrace\nB=\\lbrace {1,2,4} \\rbrace Enter the elements of each set below as a comma-separated list. Input N for the empty set.\n(b) What is the additive inverse of the subset $A$? $\\lbrace$ [ANS] $\\rbrace$\n(c) What is $A+B$? $\\lbrace$ [ANS] $\\rbrace$\n(d) What is $A \\times B$? $\\lbrace$ [ANS] $\\rbrace$",
+        "answer_v3": [
+            "128",
+            "(1, 3, 4, 6, 7)",
+            "(2, 3, 6, 7)",
+            "(1, 4)"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0030",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ring axioms",
+        "level": "3",
+        "keywords": [
+            "ring axioms",
+            "inverse"
+        ],
+        "problem_v1": "(a) Find the multiplicative inverse of $38$ in $\\mathbb{Z}_{39}$. [ANS]\n(b) Find the multiplicative inverse of $30$ in $\\mathbb{Z}_{31}$. [ANS]\n(c) In general, what is the multiplicative inverse of $(n-1)$ in $\\mathbb{Z}_{n}$? [ANS]",
+        "answer_v1": [
+            "38",
+            "30",
+            "n-1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "(a) Find the multiplicative inverse of $8$ in $\\mathbb{Z}_{9}$. [ANS]\n(b) Find the multiplicative inverse of $46$ in $\\mathbb{Z}_{47}$. [ANS]\n(c) In general, what is the multiplicative inverse of $(n-1)$ in $\\mathbb{Z}_{n}$? [ANS]",
+        "answer_v2": [
+            "8",
+            "46",
+            "n-1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "(a) Find the multiplicative inverse of $19$ in $\\mathbb{Z}_{20}$. [ANS]\n(b) Find the multiplicative inverse of $32$ in $\\mathbb{Z}_{33}$. [ANS]\n(c) In general, what is the multiplicative inverse of $(n-1)$ in $\\mathbb{Z}_{n}$? [ANS]",
+        "answer_v3": [
+            "19",
+            "32",
+            "n-1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "EX"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0031",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Units and zero divisors",
+        "level": "4",
+        "keywords": [
+            "commutativity",
+            "zero-divisors"
+        ],
+        "problem_v1": "Denote by $R$ the set of all functions from the set $\\lbrace-8, 8, 9, 10 \\rbrace$ to the ring $\\mathbb{Z}_{45}$. FACT: $R$ becomes a ring under the following operations:\n$f+g: a \\mapsto f(a)+g(a), f*g: a \\mapsto f(a)g(a)$ (a) Is $R$ a commutative ring? (Y/N) [ANS]\n(b) How many units are there in $R$? [ANS]\n(c) Give an example of a non-zero $f \\in R$ that is a zero-divisor by filling in the following table:\n$\\begin{array}{cc}\\hline x & f(x) \\\\ \\hline-8 & [ANS] \\\\ \\hline 8 & [ANS] \\\\ \\hline 9 & [ANS] \\\\ \\hline 10 & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v1": [
+            "Y",
+            "331776",
+            "(3, 0, 0, 0)"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "NV",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Denote by $R$ the set of all functions from the set $\\lbrace-10, 2, 8, 10 \\rbrace$ to the ring $\\mathbb{Z}_{30}$. FACT: $R$ becomes a ring under the following operations:\n$f+g: a \\mapsto f(a)+g(a), f*g: a \\mapsto f(a)g(a)$ (a) Is $R$ a commutative ring? (Y/N) [ANS]\n(b) How many units are there in $R$? [ANS]\n(c) Give an example of a non-zero $f \\in R$ that is a zero-divisor by filling in the following table:\n$\\begin{array}{cc}\\hline x & f(x) \\\\ \\hline-10 & [ANS] \\\\ \\hline 2 & [ANS] \\\\ \\hline 8 & [ANS] \\\\ \\hline 10 & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v2": [
+            "Y",
+            "4096",
+            "(2, 0, 0, 0)"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "NV",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Denote by $R$ the set of all functions from the set $\\lbrace-8,-1, 2, 8 \\rbrace$ to the ring $\\mathbb{Z}_{18}$. FACT: $R$ becomes a ring under the following operations:\n$f+g: a \\mapsto f(a)+g(a), f*g: a \\mapsto f(a)g(a)$ (a) Is $R$ a commutative ring? (Y/N) [ANS]\n(b) How many units are there in $R$? [ANS]\n(c) Give an example of a non-zero $f \\in R$ that is a zero-divisor by filling in the following table:\n$\\begin{array}{cc}\\hline x & f(x) \\\\ \\hline-8 & [ANS] \\\\ \\hline-1 & [ANS] \\\\ \\hline 2 & [ANS] \\\\ \\hline 8 & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v3": [
+            "TF",
+            "1296",
+            "(2, 0, 0, 0)"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "NV",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0032",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Units and zero divisors",
+        "level": "3",
+        "keywords": [
+            "characteristic"
+        ],
+        "problem_v1": "(a) Determine the characteristic of the ring $\\mathbb{Z}_{46} \\times \\mathbb{Z}_{36}$. [ANS]\n(b) Determine the characteristic of the ring $\\mathbb{Z}_{38} \\times \\mathbb{Z}_{21}$. [ANS]\n(c) Determine the characteristic of the ring $\\mathbb{Z} \\times \\mathbb{Z}_{35}$. [ANS]",
+        "answer_v1": [
+            "828",
+            "798",
+            "0"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "(a) Determine the characteristic of the ring $\\mathbb{Z}_{6} \\times \\mathbb{Z}_{56}$. [ANS]\n(b) Determine the characteristic of the ring $\\mathbb{Z}_{10} \\times \\mathbb{Z}_{21}$. [ANS]\n(c) Determine the characteristic of the ring $\\mathbb{Z} \\times \\mathbb{Z}_{57}$. [ANS]",
+        "answer_v2": [
+            "168",
+            "210",
+            "0"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "(a) Determine the characteristic of the ring $\\mathbb{Z}_{20} \\times \\mathbb{Z}_{18}$. [ANS]\n(b) Determine the characteristic of the ring $\\mathbb{Z}_{34} \\times \\mathbb{Z}_{49}$. [ANS]\n(c) Determine the characteristic of the ring $\\mathbb{Z} \\times \\mathbb{Z}_{55}$. [ANS]",
+        "answer_v3": [
+            "180",
+            "1666",
+            "0"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0033",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Units and zero divisors",
+        "level": "4",
+        "keywords": [
+            "characteristic",
+            "integral domains"
+        ],
+        "problem_v1": "For each of the following rings, determine its characteristic and determine if it is an integral domain.\n$\\begin{array}{ccc}\\hline & characteristic & integral domain? (Y/N) \\\\ \\hline \\mathbb{Z} \\times \\mathbb{Z}_{36} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{44} \\times \\mathbb{Z}_{19} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{41} \\times \\mathbb{Z}_{41} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}[x] & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{38}[x] & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v1": [
+            "0",
+            "N",
+            "836",
+            "N",
+            "41",
+            "N",
+            "0",
+            "Y",
+            "38",
+            "N"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For each of the following rings, determine its characteristic and determine if it is an integral domain.\n$\\begin{array}{ccc}\\hline & characteristic & integral domain? (Y/N) \\\\ \\hline \\mathbb{Z} \\times \\mathbb{Z}_{56} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{21} \\times \\mathbb{Z}_{57} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{3} \\times \\mathbb{Z}_{3} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}[x] & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{10}[x] & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v2": [
+            "0",
+            "N",
+            "399",
+            "N",
+            "3",
+            "N",
+            "0",
+            "Y",
+            "10",
+            "N"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "EX",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For each of the following rings, determine its characteristic and determine if it is an integral domain.\n$\\begin{array}{ccc}\\hline & characteristic & integral domain? (Y/N) \\\\ \\hline \\mathbb{Z} \\times \\mathbb{Z}_{37} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{34} \\times \\mathbb{Z}_{14} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{13} \\times \\mathbb{Z}_{13} & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}[x] & [ANS] & [ANS] \\\\ \\hline \\mathbb{Z}_{18}[x] & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v3": [
+            "0",
+            "N",
+            "238",
+            "N",
+            "13",
+            "N",
+            "0",
+            "Y",
+            "18",
+            "N"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0034",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Units and zero divisors",
+        "level": "2",
+        "keywords": [
+            "inverse",
+            "zero-divisors"
+        ],
+        "problem_v1": "For each of the following elements of the ring $\\mathbb{Z}_{45}$, determine if it satisfies the following properties. If it is a unit, enter its inverse in the last column; if it is not, enter 0.\n$\\begin{array}{ccc}\\hline & zero-divisor? (Y/N) & inverse \\\\ \\hline 25 & [ANS] & [ANS] \\\\ \\hline 31 & [ANS] & [ANS] \\\\ \\hline 14 & [ANS] & [ANS] \\\\ \\hline 15 & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v1": [
+            "Y",
+            "0",
+            "N",
+            "16",
+            "N",
+            "29",
+            "Y",
+            "0"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For each of the following elements of the ring $\\mathbb{Z}_{30}$, determine if it satisfies the following properties. If it is a unit, enter its inverse in the last column; if it is not, enter 0.\n$\\begin{array}{ccc}\\hline & zero-divisor? (Y/N) & inverse \\\\ \\hline 9 & [ANS] & [ANS] \\\\ \\hline 13 & [ANS] & [ANS] \\\\ \\hline 5 & [ANS] & [ANS] \\\\ \\hline 23 & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v2": [
+            "Y",
+            "0",
+            "N",
+            "7",
+            "Y",
+            "0",
+            "N",
+            "17"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For each of the following elements of the ring $\\mathbb{Z}_{18}$, determine if it satisfies the following properties. If it is a unit, enter its inverse in the last column; if it is not, enter 0.\n$\\begin{array}{ccc}\\hline & zero-divisor? (Y/N) & inverse \\\\ \\hline 5 & [ANS] & [ANS] \\\\ \\hline 11 & [ANS] & [ANS] \\\\ \\hline 6 & [ANS] & [ANS] \\\\ \\hline 15 & [ANS] & [ANS] \\\\ \\hline \\end{array}$",
+        "answer_v3": [
+            "N",
+            "11",
+            "N",
+            "5",
+            "Y",
+            "0",
+            "Y",
+            "0"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV",
+            "TF",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0035",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Units and zero divisors",
+        "level": "3",
+        "keywords": [
+            "zero-divisors"
+        ],
+        "problem_v1": "For which of the integers $n \\in \\lbrace 34, 59, 73, 25, 30, 50, 58, 38 \\rbrace$ is it true that if $x, y \\in \\mathbb{Z}_{n}$ satisfy $45x=45 y$ then $x=y$? [ANS]",
+        "answer_v1": [
+            "(73, 34, 58, 59, 38)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "For which of the integers $n \\in \\lbrace 37, 35, 34, 19, 32, 18, 7, 95 \\rbrace$ is it true that if $x, y \\in \\mathbb{Z}_{n}$ satisfy $30x=30 y$ then $x=y$? [ANS]",
+        "answer_v2": [
+            "(7, 19, 37)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "For which of the integers $n \\in \\lbrace 87, 92, 35, 82, 21, 29, 55, 19 \\rbrace$ is it true that if $x, y \\in \\mathbb{Z}_{n}$ satisfy $18x=18 y$ then $x=y$? [ANS]",
+        "answer_v3": [
+            "(55, 35, 19, 29)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0036",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Units and zero divisors",
+        "level": "6",
+        "keywords": [
+            "zero divisors",
+            "Chinese remainder theorem"
+        ],
+        "problem_v1": "Find all integers $n$ in the set $\\lbrace 33, 31, 48, 29, 24, 23, 26, 53, 42 \\rbrace$ such that the ring $\\mathbb{Z}_{n}$ satisifies the following properties:\n(a) $(xy=0) \\Rightarrow (x=0 \\textrm{or} y=0)$ \n(b) $(xy=xz \\textrm{and} x \\neq 0) \\Rightarrow (y=z)$ \n(c) $(x^2=x) \\Rightarrow (x=0 \\textrm{or} x=1)$ [ANS]\nReminder: In the ring $\\mathbb{Z}_{n}$, $0$ means $0 \\pmod{n}$, and equality means congruent modulo $n$. Hint for (c): The Chinese reminder theorem could be useful here.",
+        "answer_v1": [
+            "(31, 53, 23, 29)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find all integers $n$ in the set $\\lbrace 26, 38, 41, 43, 48, 31, 42 \\rbrace$ such that the ring $\\mathbb{Z}_{n}$ satisifies the following properties:\n(a) $(xy=0) \\Rightarrow (x=0 \\textrm{or} y=0)$ \n(b) $(xy=xz \\textrm{and} x \\neq 0) \\Rightarrow (y=z)$ \n(c) $(x^2=x) \\Rightarrow (x=0 \\textrm{or} x=1)$ [ANS]\nReminder: In the ring $\\mathbb{Z}_{n}$, $0$ means $0 \\pmod{n}$, and equality means congruent modulo $n$. Hint for (c): The Chinese reminder theorem could be useful here.",
+        "answer_v2": [
+            "(41, 31, 43)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find all integers $n$ in the set $\\lbrace 37, 42, 26, 24, 38, 23, 53, 28, 43, 47, 33 \\rbrace$ such that the ring $\\mathbb{Z}_{n}$ satisifies the following properties:\n(a) $(xy=0) \\Rightarrow (x=0 \\textrm{or} y=0)$ \n(b) $(xy=xz \\textrm{and} x \\neq 0) \\Rightarrow (y=z)$ \n(c) $(x^2=x) \\Rightarrow (x=0 \\textrm{or} x=1)$ [ANS]\nReminder: In the ring $\\mathbb{Z}_{n}$, $0$ means $0 \\pmod{n}$, and equality means congruent modulo $n$. Hint for (c): The Chinese reminder theorem could be useful here.",
+        "answer_v3": [
+            "(37, 47, 43, 23, 53)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0037",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ideals and homomorphisms",
+        "level": "6",
+        "keywords": [
+            "ring homomorphisms"
+        ],
+        "problem_v1": "Determine the number of possible ring homomorphisms for each pair of rings:\n(a) $\\mathbb{Z}_{45} \\rightarrow \\mathbb{Z}_{45}$: [ANS]\n(b) $\\mathbb{Z}_{33} \\rightarrow \\mathbb{Z}_{11}$: [ANS]\n(c) $\\mathbb{Z}_{93} \\rightarrow \\mathbb{Z}_{16}$: [ANS]\nNote: For this problem we do NOT require ring homomorphisms to take the multiplicative identity to the multiplicative identity.",
+        "answer_v1": [
+            "45",
+            "11",
+            "0"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Determine the number of possible ring homomorphisms for each pair of rings:\n(a) $\\mathbb{Z}_{23} \\rightarrow \\mathbb{Z}_{23}$: [ANS]\n(b) $\\mathbb{Z}_{55} \\rightarrow \\mathbb{Z}_{8}$: [ANS]\n(c) $\\mathbb{Z}_{72} \\rightarrow \\mathbb{Z}_{24}$: [ANS]\nNote: For this problem we do NOT require ring homomorphisms to take the multiplicative identity to the multiplicative identity.",
+        "answer_v2": [
+            "23",
+            "0",
+            "24"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Determine the number of possible ring homomorphisms for each pair of rings:\n(a) $\\mathbb{Z}_{35} \\rightarrow \\mathbb{Z}_{35}$: [ANS]\n(b) $\\mathbb{Z}_{139} \\rightarrow \\mathbb{Z}_{21}$: [ANS]\n(c) $\\mathbb{Z}_{36} \\rightarrow \\mathbb{Z}_{9}$: [ANS]\nNote: For this problem we do NOT require ring homomorphisms to take the multiplicative identity to the multiplicative identity.",
+        "answer_v3": [
+            "35",
+            "0",
+            "9"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0038",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ideals and homomorphisms",
+        "level": "2",
+        "keywords": [
+            "ideals"
+        ],
+        "problem_v1": "In the ring $\\mathbb{Z}_{88}$, express each of the following ideals in the form $(m)$ for some element $m$ in the ring, where $0 \\leq m < 88$.\n(a) $(51)+(55)$ $($ [ANS] $)$\n(b) $(51)(55)$ $($ [ANS] $)$\n(c) $(51) \\cap (55)$ $($ [ANS] $)$",
+        "answer_v1": [
+            "1",
+            "77",
+            "77"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "In the ring $\\mathbb{Z}_{54}$, express each of the following ideals in the form $(m)$ for some element $m$ in the ring, where $0 \\leq m < 54$.\n(a) $(49)+(9)$ $($ [ANS] $)$\n(b) $(49)(9)$ $($ [ANS] $)$\n(c) $(49) \\cap (9)$ $($ [ANS] $)$",
+        "answer_v2": [
+            "1",
+            "9",
+            "9"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "In the ring $\\mathbb{Z}_{65}$, express each of the following ideals in the form $(m)$ for some element $m$ in the ring, where $0 \\leq m < 65$.\n(a) $(39)+(18)$ $($ [ANS] $)$\n(b) $(39)(18)$ $($ [ANS] $)$\n(c) $(39) \\cap (18)$ $($ [ANS] $)$",
+        "answer_v3": [
+            "3",
+            "52",
+            "52"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0039",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ideals and homomorphisms",
+        "level": "3",
+        "keywords": [
+            "maximal ideals"
+        ],
+        "problem_v1": "It is a fact that every ideal of $\\mathbb{Z}_{144}$ is of the form $(b)$ for some element $b$ of $\\mathbb{Z}_{144}$.\n(a) Determine all maximal ideals of $\\mathbb{Z}_{144}$ containing the ideal $(64)$. Enter a generator for each of these ideals. That is, if you think $(64)$ is contained in the maximal ideals $(a)$ and $(b)$, enter $a, b$. [ANS]",
+        "answer_v1": [
+            "2"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "It is a fact that every ideal of $\\mathbb{Z}_{42}$ is of the form $(b)$ for some element $b$ of $\\mathbb{Z}_{42}$.\n(a) Determine all maximal ideals of $\\mathbb{Z}_{42}$ containing the ideal $(36)$. Enter a generator for each of these ideals. That is, if you think $(36)$ is contained in the maximal ideals $(a)$ and $(b)$, enter $a, b$. [ANS]",
+        "answer_v2": [
+            "(2, 3)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "It is a fact that every ideal of $\\mathbb{Z}_{70}$ is of the form $(b)$ for some element $b$ of $\\mathbb{Z}_{70}$.\n(a) Determine all maximal ideals of $\\mathbb{Z}_{70}$ containing the ideal $(50)$. Enter a generator for each of these ideals. That is, if you think $(50)$ is contained in the maximal ideals $(a)$ and $(b)$, enter $a, b$. [ANS]",
+        "answer_v3": [
+            "(2, 5)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0040",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ideals and homomorphisms",
+        "level": "3",
+        "keywords": [
+            "ideals",
+            "generators"
+        ],
+        "problem_v1": "It is a fact that every ideal of $\\mathbb{Z}_{72}$ is of the form $(b)$ for some element $b$ of $\\mathbb{Z}_{72}$.\n(a) Find all the ideals $I$ of $\\mathbb{Z}_{72}$ that are contained in the ideal $(162)$: $(162) \\subseteq I \\subseteq \\mathbb{Z}_{72}$. In the answer blank below list one generator for each ideal. Separate the generators by commas. [ANS]\n(b) Find all the ideals $J$ of $\\mathbb{Z}_{72}$ that contain the ideal $(162)$: J \\subseteq (162) \\subseteq \\mathbb{Z}_{72}. As in part (a), list one generator for each ideal, separated by commas. [ANS]\nRemember that an ideal contains, and is contained in, itself!",
+        "answer_v1": [
+            "(0, 18, 36, 54)",
+            "(1, 2, 3, 6, 9, 18)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "It is a fact that every ideal of $\\mathbb{Z}_{40}$ is of the form $(b)$ for some element $b$ of $\\mathbb{Z}_{40}$.\n(a) Find all the ideals $I$ of $\\mathbb{Z}_{40}$ that are contained in the ideal $(56)$: $(56) \\subseteq I \\subseteq \\mathbb{Z}_{40}$. In the answer blank below list one generator for each ideal. Separate the generators by commas. [ANS]\n(b) Find all the ideals $J$ of $\\mathbb{Z}_{40}$ that contain the ideal $(56)$: J \\subseteq (56) \\subseteq \\mathbb{Z}_{40}. As in part (a), list one generator for each ideal, separated by commas. [ANS]\nRemember that an ideal contains, and is contained in, itself!",
+        "answer_v2": [
+            "(0, 8, 16, 24, 32)",
+            "(1, 2, 4, 8)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "It is a fact that every ideal of $\\mathbb{Z}_{108}$ is of the form $(b)$ for some element $b$ of $\\mathbb{Z}_{108}$.\n(a) Find all the ideals $I$ of $\\mathbb{Z}_{108}$ that are contained in the ideal $(60)$: $(60) \\subseteq I \\subseteq \\mathbb{Z}_{108}$. In the answer blank below list one generator for each ideal. Separate the generators by commas. [ANS]\n(b) Find all the ideals $J$ of $\\mathbb{Z}_{108}$ that contain the ideal $(60)$: J \\subseteq (60) \\subseteq \\mathbb{Z}_{108}. As in part (a), list one generator for each ideal, separated by commas. [ANS]\nRemember that an ideal contains, and is contained in, itself!",
+        "answer_v3": [
+            "(0, 12, 24, 36, 48, 60, 72, 84, 96)",
+            "(1, 2, 3, 4, 6, 12)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0041",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Ideals and homomorphisms",
+        "level": "2",
+        "keywords": [
+            "ideals"
+        ],
+        "problem_v1": "(a) Determine all elements in the ideal $(10)$ of $\\mathbb{Z}_{30}$. [ANS]\n(b) Determine all elements in the ideal $(10)+(12)$ of $\\mathbb{Z}_{30}$. [ANS]\n(c) Determine all elements $m$ of $\\mathbb{Z}_{30}$ such that $(10)+(m)$ is a proper ideal of $\\mathbb{Z}_{30}$. [ANS]",
+        "answer_v1": [
+            "(0, 10, 20)",
+            "(0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28)",
+            "(0, 2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18, 20, 22, 24, 25, 26, 28)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "(a) Determine all elements in the ideal $(14)$ of $\\mathbb{Z}_{28}$. [ANS]\n(b) Determine all elements in the ideal $(14)+(12)$ of $\\mathbb{Z}_{28}$. [ANS]\n(c) Determine all elements $m$ of $\\mathbb{Z}_{28}$ such that $(14)+(m)$ is a proper ideal of $\\mathbb{Z}_{28}$. [ANS]",
+        "answer_v2": [
+            "(0, 14)",
+            "(0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26)",
+            "(0, 2, 4, 6, 7, 8, 10, 12, 14, 16, 18, 20, 21, 22, 24, 26)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "(a) Determine all elements in the ideal $(10)$ of $\\mathbb{Z}_{20}$. [ANS]\n(b) Determine all elements in the ideal $(10)+(8)$ of $\\mathbb{Z}_{20}$. [ANS]\n(c) Determine all elements $m$ of $\\mathbb{Z}_{20}$ such that $(10)+(m)$ is a proper ideal of $\\mathbb{Z}_{20}$. [ANS]",
+        "answer_v3": [
+            "(0, 10)",
+            "(0, 2, 4, 6, 8, 10, 12, 14, 16, 18)",
+            "(0, 2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0042",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Quotient rings and polynomial rings",
+        "level": "5",
+        "keywords": [
+            "quotient rings",
+            "polynomial rings"
+        ],
+        "problem_v1": "Find all elements $b \\in \\mathbb{Z}_{7}$ such that the quotient ring\n$\\mathbb{Z}_{7} [x]/(x^2+4*x+b)$ is a field. [ANS]",
+        "answer_v1": [
+            "(1, 5, 6)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find all elements $b \\in \\mathbb{Z}_{2}$ such that the quotient ring\n$\\mathbb{Z}_{2} [x]/(x^2+x+b)$ is a field. [ANS]",
+        "answer_v2": [
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find all elements $b \\in \\mathbb{Z}_{3}$ such that the quotient ring\n$\\mathbb{Z}_{3} [x]/(x^2+x+b)$ is a field. [ANS]",
+        "answer_v3": [
+            "2"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Abstract_algebra_0043",
+        "subject": "Abstract_algebra",
+        "topic": "Rings",
+        "subtopic": "Quotient rings and polynomial rings",
+        "level": "3",
+        "keywords": [
+            "polynomials rings",
+            "associates"
+        ],
+        "problem_v1": "(a) Find all associates of $(7*x^4+7*x^3+8)$ in $\\mathbb{Z}_{12} [x]$. Make sure the coefficients are $\\geq 0$ and $< 12$. [ANS]\n(b) Find all associates of $(1+i)$ in $\\mathbb{Z}[i]$. [ANS]",
+        "answer_v1": [
+            "(7*x^4+7*x^3+8, 11*x^4+11*x^3+4, x^4+x^3+8, 5*x^4+5*x^3+4)",
+            "(1+i, -1-i, -1+i, 1-i)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "(a) Find all associates of $(5*x^9+x^3+2)$ in $\\mathbb{Z}_{6} [x]$. Make sure the coefficients are $\\geq 0$ and $< 6$. [ANS]\n(b) Find all associates of $(-6-3i)$ in $\\mathbb{Z}[i]$. [ANS]",
+        "answer_v2": [
+            "(5*x^9+x^3+2, x^9+5*x^3+4)",
+            "(-6-3i, 6+3i, 3-6i, -3+6i)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "(a) Find all associates of $(5*x^9+3*x^7+6)$ in $\\mathbb{Z}_{8} [x]$. Make sure the coefficients are $\\geq 0$ and $< 8$. [ANS]\n(b) Find all associates of $(-6-4i)$ in $\\mathbb{Z}[i]$. [ANS]",
+        "answer_v3": [
+            "(5*x^9+3*x^7+6, 7*x^9+x^7+2, x^9+7*x^7+6, 3*x^9+5*x^7+2)",
+            "(-6-4i, 6+4i, 4-6i, -4+6i)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    }
+]

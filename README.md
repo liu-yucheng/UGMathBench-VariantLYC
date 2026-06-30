@@ -1,16 +1,42 @@
+# [liu-yucheng/UGMathBench-VariantLYC](https://github.com/liu-yucheng/UGMathBench-VariantLYC)
 
+(Variant LYC) Repo of UGMathBench: A Diverse and Dynamic Benchmark for Undergraduate-Level Mathematical Reasoning with Large Language Models.
 
-<h1 align="center">
-    <img src="./imgs/logo.jpg" alt="Logo" style="height: 3em; display: inline-block; vertical-align: middle;"> <br>UGMathBench
-</h1>
-<p align="center">
-    <a href="https://arxiv.org/abs/2501.13766">
-        <img alt="Static Badge" src="https://img.shields.io/badge/Paper-Arxiv-red">
-    </a>
-    <a href="https://huggingface.co/datasets/UGMathBench/ugmathbench">
-        <img alt="Static Badge" src="https://img.shields.io/badge/HFDataset-UGMathBench-yellow">
-    </a>
-</p>
+# Custom Modifications
+
+- Modified to support AMS (AI Math Sketchbook) agent invocations.
+- Modified to run on Windows 11.
+- Removed support for [`vllm`](https://github.com/vllm-project/vllm) local inference.
+
+# Usage Instructions
+## Install `uv` and Dependencies
+
+- [Install `uv`](https://docs.astral.sh/uv/getting-started/installation/).
+- [Install Python with `uv python install <python-version>`](https://docs.astral.sh/uv/guides/install-python/)
+  - This repository supports Python version `>= 3.12`.
+- Select Python version with `uv python pin <python-version>`.
+- Install dependencies with `uv sync`.
+- Setup `.env` file with (PowerShell) `Copy-Item -Path .\.env.example -Destination .\.env`
+- Fill your API keys in `.env` file's `<ai-service-provider-name>.api_key` entries.
+
+## Run Scripts
+
+- `uv run .\ugmb\<script-name> <...arguments>`.
+- Check results in `.\.results`.
+
+# Open-source Licenses
+
+- [GitHub/liu-yucheng/UGMathBench-VariantLYC](https://github.com/liu-yucheng/UGMathBench-VariantLYC) (this software) is released under the GNU AGPL 3.0+ License.
+  - The GNU AGPL 3.0+ License is available at `https://www.gnu.org/licenses/agpl-3.0.txt`.
+- [GitHub/liu-yucheng/UGMathBench-VariantLYC](https://github.com/liu-yucheng/UGMathBench-VariantLYC) (this software) is derived from the following open-source software.
+  - [GitHub/YangLabHKUST/UGMathBench](https://github.com/YangLabHKUST/UGMathBench).
+    - Released under the GNU GPL 3.0+ (or later) License.
+  - [huggingface/UGMathBench/ugmathbench](https://huggingface.co/datasets/UGMathBench/ugmathbench).
+    - Released under the GNU GPL 3.0+ (or later) License.
+
+---
+
+# [YangLabHKUST/UGMathBench](https://github.com/YangLabHKUST/UGMathBench) Original README
 
 ## 🔥News
 - *2025-05-16*: We have established a partnership with the [AGI-Eval](https://agi-eval.cn/evaluation/detail?id=61) platform.

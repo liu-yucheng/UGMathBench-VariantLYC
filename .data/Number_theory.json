@@ -1,0 +1,3905 @@
+[
+    {
+        "id": "Number_theory_0000",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "2",
+        "keywords": [
+            "factor",
+            "divisibility"
+        ],
+        "problem_v1": "Mark all numbers which 9 divides into. [ANS] A. $181$  B. $364$  C. $585$  D. $549$",
+        "answer_v1": [
+            "CD"
+        ],
+        "answer_type_v1": [
+            "MCM"
+        ],
+        "options_v1": [
+            [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        ],
+        "problem_v2": "Mark all numbers which 9 divides into. [ANS] A. $423$  B. $427$  C. $945$  D. $748$",
+        "answer_v2": [
+            "AC"
+        ],
+        "answer_type_v2": [
+            "MCM"
+        ],
+        "options_v2": [
+            [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        ],
+        "problem_v3": "Mark all numbers which 9 divides into. [ANS] A. $576$  B. $979$  C. $794$  D. $810$",
+        "answer_v3": [
+            "AD"
+        ],
+        "answer_type_v3": [
+            "MCM"
+        ],
+        "options_v3": [
+            [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        ]
+    },
+    {
+        "id": "Number_theory_0002",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "2",
+        "keywords": [
+            "prime",
+            "composite"
+        ],
+        "problem_v1": "Which of the following are prime numbers? There may be more than one correct answer. [ANS] A. $23$  B. $37$  C. $29$  D. $21$  E. $30$  F. $30$",
+        "answer_v1": [
+            "ABC"
+        ],
+        "answer_type_v1": [
+            "MCM"
+        ],
+        "options_v1": [
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        ],
+        "problem_v2": "Which of the following are prime numbers? There may be more than one correct answer. [ANS] A. $5$  B. $18$  C. $3$  D. $12$  E. $33$  F. $47$",
+        "answer_v2": [
+            "ACF"
+        ],
+        "answer_type_v2": [
+            "MCM"
+        ],
+        "options_v2": [
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        ],
+        "problem_v3": "Which of the following are prime numbers? There may be more than one correct answer. [ANS] A. $11$  B. $44$  C. $29$  D. $45$  E. $7$  F. $15$",
+        "answer_v3": [
+            "ACE"
+        ],
+        "answer_type_v3": [
+            "MCM"
+        ],
+        "options_v3": [
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        ]
+    },
+    {
+        "id": "Number_theory_0004",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "3",
+        "keywords": [
+            "Euler",
+            "Phi",
+            "Relatively Prime"
+        ],
+        "problem_v1": "The value of the Euler $\\phi$ function ($\\phi$ is the Greek letter phi) at the positive integer n is defined to be the number of positive integers less than or equal to n that are relatively prime to n. For example fon n=14, we have $\\lbrace 1,3,5,9,11,13 \\rbrace$ are the positive integers less than or equal to 14 which are relatively prime to 14. Thus $\\phi(14)=6.$ Find: $\\phi(5)$ [ANS]\n$\\phi(25)$ [ANS]\n$\\phi(15)$ [ANS]\n$\\phi(45)$ [ANS]",
+        "answer_v1": [
+            "4",
+            "20",
+            "8",
+            "24"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "The value of the Euler $\\phi$ function ($\\phi$ is the Greek letter phi) at the positive integer n is defined to be the number of positive integers less than or equal to n that are relatively prime to n. For example fon n=14, we have $\\lbrace 1,3,5,9,11,13 \\rbrace$ are the positive integers less than or equal to 14 which are relatively prime to 14. Thus $\\phi(14)=6.$ Find: $\\phi(2)$ [ANS]\n$\\phi(4)$ [ANS]\n$\\phi(10)$ [ANS]\n$\\phi(50)$ [ANS]",
+        "answer_v2": [
+            "1",
+            "2",
+            "4",
+            "20"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "The value of the Euler $\\phi$ function ($\\phi$ is the Greek letter phi) at the positive integer n is defined to be the number of positive integers less than or equal to n that are relatively prime to n. For example fon n=14, we have $\\lbrace 1,3,5,9,11,13 \\rbrace$ are the positive integers less than or equal to 14 which are relatively prime to 14. Thus $\\phi(14)=6.$ Find: $\\phi(2)$ [ANS]\n$\\phi(4)$ [ANS]\n$\\phi(6)$ [ANS]\n$\\phi(18)$ [ANS]",
+        "answer_v3": [
+            "1",
+            "2",
+            "2",
+            "6"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0005",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "2",
+        "keywords": [
+            "Integer",
+            "Prime"
+        ],
+        "problem_v1": "Are the following integers primes? Enter \"1\" for a prime and \"0\" otherwise. [ANS] 1. $61$ [ANS] 2. $67$ [ANS] 3. $114$ [ANS] 4. $117$ [ANS] 5. $115$ [ANS] 6. $145$",
+        "answer_v1": [
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Are the following integers primes? Enter \"1\" for a prime and \"0\" otherwise. [ANS] 1. $187$ [ANS] 2. $67$ [ANS] 3. $37$ [ANS] 4. $64$ [ANS] 5. $66$ [ANS] 6. $190$",
+        "answer_v2": [
+            "0",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Are the following integers primes? Enter \"1\" for a prime and \"0\" otherwise. [ANS] 1. $110$ [ANS] 2. $122$ [ANS] 3. $56$ [ANS] 4. $70$ [ANS] 5. $162$ [ANS] 6. $183$",
+        "answer_v3": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0006",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "2",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "integers"
+        ],
+        "problem_v1": "This problem refers to the Sieve of Erastothenes's algorithm. For each of the following numbers write down the list of prime numbers less or equal to the given number in increasing order. Place a single space between each prime number. For example, the prime numbers less or equal to 7 in increasing order are 2 3 5 7 where \"2 3 5 7\" is the only correct answer (not \"2,3,5,7\" or \"3 2 5 7\"...). The list of prime numbers less or equal to 153 in increasing order is [ANS]\nThe list of prime numbers less or equal to 121 in increasing order is [ANS]\nThe list of prime numbers less or equal to 128 in increasing order is [ANS]\nThe list of prime numbers less or equal to 147 in increasing order is [ANS]",
+        "answer_v1": [
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139)"
+        ],
+        "answer_type_v1": [
+            "OL",
+            "OL",
+            "OL",
+            "OL"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "This problem refers to the Sieve of Erastothenes's algorithm. For each of the following numbers write down the list of prime numbers less or equal to the given number in increasing order. Place a single space between each prime number. For example, the prime numbers less or equal to 7 in increasing order are 2 3 5 7 where \"2 3 5 7\" is the only correct answer (not \"2,3,5,7\" or \"3 2 5 7\"...). The list of prime numbers less or equal to 25 in increasing order is [ANS]\nThe list of prime numbers less or equal to 187 in increasing order is [ANS]\nThe list of prime numbers less or equal to 38 in increasing order is [ANS]\nThe list of prime numbers less or equal to 73 in increasing order is [ANS]",
+        "answer_v2": [
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73)"
+        ],
+        "answer_type_v2": [
+            "OL",
+            "OL",
+            "OL",
+            "OL"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "This problem refers to the Sieve of Erastothenes's algorithm. For each of the following numbers write down the list of prime numbers less or equal to the given number in increasing order. Place a single space between each prime number. For example, the prime numbers less or equal to 7 in increasing order are 2 3 5 7 where \"2 3 5 7\" is the only correct answer (not \"2,3,5,7\" or \"3 2 5 7\"...). The list of prime numbers less or equal to 69 in increasing order is [ANS]\nThe list of prime numbers less or equal to 125 in increasing order is [ANS]\nThe list of prime numbers less or equal to 63 in increasing order is [ANS]\nThe list of prime numbers less or equal to 114 in increasing order is [ANS]",
+        "answer_v3": [
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61)",
+            "(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113)"
+        ],
+        "answer_type_v3": [
+            "OL",
+            "OL",
+            "OL",
+            "OL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0007",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "6",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "integers"
+        ],
+        "problem_v1": "Enter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) If it is true do a proof and if it is false provide a counter-example (Of course the proofs and counter-examples must be written down on paper!). [ANS] 1. For all integers $n$ and $m$, if $n-m$ is even, then $n^3-m^3$ is even. [ANS] 2. The square of any even integer is even [ANS] 3. For all integers $a$, $b$, and $c$, if $a$ divides $bc$, then $a$ divides $b$ and $a$ divides $c$ [ANS] 4. For all real numbers $a$ and $b$, if $a^4=b^4$ then $a=b$. [ANS] 5. A sufficient condition for an integer to be divisible by 8 is that it is divisible by 2. [ANS] 6. If $n$ is even and the square root of $n$ is a natural number then the square root of $n$ is even.",
+        "answer_v1": [
+            "T",
+            "T",
+            "F",
+            "F",
+            "F",
+            "T"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Enter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) If it is true do a proof and if it is false provide a counter-example (Of course the proofs and counter-examples must be written down on paper!). [ANS] 1. The product of 2 consecutives integers is even. [ANS] 2. If $a$ is divisible by 3 then $a$ is divisible by 9. [ANS] 3. The square root of any natural number $n$ that is odd is odd. [ANS] 4. There exist integers $n$ and $m$ such that $n^{10} > 10^m$. [ANS] 5. There exists an integer $n$ such that $2^n-1 > n$. [ANS] 6. If $a$ divides $b$ then $a$ divides $b^2$.",
+        "answer_v2": [
+            "T",
+            "F",
+            "F",
+            "T",
+            "T",
+            "T"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Enter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) If it is true do a proof and if it is false provide a counter-example (Of course the proofs and counter-examples must be written down on paper!). [ANS] 1. If $a$ is divisible by 4 then $a$ is divisible by 2. [ANS] 2. All odd numbers are composite. [ANS] 3. For all real numbers $a$ and $b$, if $a^3=b^3$ then $a=b$. [ANS] 4. If $a$ divides $b$ and $a$ divides $c$ then $a$ divides $bc$. [ANS] 5. If $n$ is even and the square root of $n$ is a natural number then the square root of $n$ is even. [ANS] 6. For all integers $a$, $b$, and $c$, if $a$ divides $b+c$, then $a$ divides $b$ and $a$ divides $c$",
+        "answer_v3": [
+            "T",
+            "F",
+            "T",
+            "T",
+            "T",
+            "F"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0008",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "2",
+        "keywords": [
+            "prealgebra",
+            "common core",
+            "divisibility"
+        ],
+        "problem_v1": "For each of the following, select the most appropriate choice. An integer is divisible by: 10 if and only if [ANS] 5 if and only if [ANS] 3 if and only if [ANS] 2 if and only if [ANS] 9 if and only if [ANS]",
+        "answer_v1": [
+            "it ends in 0",
+            "it ends in 0 or 5",
+            "the sum of its digits is divisible by 3",
+            "it ends in 0, 2, 4, 6, or 8",
+            "the sum of its digits is divisible by 9"
+        ],
+        "answer_type_v1": [
+            "MCS",
+            "MCS",
+            "MCS",
+            "MCS",
+            "MCS"
+        ],
+        "options_v1": [
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ]
+        ],
+        "problem_v2": "For each of the following, select the most appropriate choice. An integer is divisible by: 2 if and only if [ANS] 5 if and only if [ANS] 9 if and only if [ANS] 10 if and only if [ANS] 3 if and only if [ANS]",
+        "answer_v2": [
+            "it ends in 0, 2, 4, 6, or 8",
+            "it ends in 0 or 5",
+            "the sum of its digits is divisible by 9",
+            "it ends in 0",
+            "the sum of its digits is divisible by 3"
+        ],
+        "answer_type_v2": [
+            "MCS",
+            "MCS",
+            "MCS",
+            "MCS",
+            "MCS"
+        ],
+        "options_v2": [
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ]
+        ],
+        "problem_v3": "For each of the following, select the most appropriate choice. An integer is divisible by: 5 if and only if [ANS] 2 if and only if [ANS] 10 if and only if [ANS] 3 if and only if [ANS] 9 if and only if [ANS]",
+        "answer_v3": [
+            "it ends in 0 or 5",
+            "it ends in 0, 2, 4, 6, or 8",
+            "it ends in 0",
+            "the sum of its digits is divisible by 3",
+            "the sum of its digits is divisible by 9"
+        ],
+        "answer_type_v3": [
+            "MCS",
+            "MCS",
+            "MCS",
+            "MCS",
+            "MCS"
+        ],
+        "options_v3": [
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ],
+            [
+                "it ends in 0",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "2",
+                "4",
+                "6",
+                "or 8",
+                "the sum of its digits is divisible by 3",
+                "it ends in 0",
+                "3",
+                "6",
+                "or 9",
+                "3",
+                "6",
+                "or 9",
+                "it ends in 0 or 5",
+                "the sum of its digits is divisible by 5",
+                "the sum of its digits is divisible by 9",
+                "it ends in 0"
+            ]
+        ]
+    },
+    {
+        "id": "Number_theory_0009",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Definitions",
+        "level": "2",
+        "keywords": [
+            "prealgebra",
+            "common core",
+            "exponents"
+        ],
+        "problem_v1": "From the list of numbers: $77,49,41,37,48,29, 93$ Determine: All prime numbers=[ANS]\nAll composite numbers=[ANS]\nSeparate the number by commas. Separate the number by commas.",
+        "answer_v1": [
+            "(37, 29, 41)",
+            "(49, 48, 93, 77)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "From the list of numbers: $29,17,41,55,77,92, 18$ Determine: All prime numbers=[ANS]\nAll composite numbers=[ANS]\nSeparate the number by commas. Separate the number by commas.",
+        "answer_v2": [
+            "(29, 17, 41)",
+            "(77, 92, 55, 18)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "From the list of numbers: $12,65,47,59,41,56, 66$ Determine: All prime numbers=[ANS]\nAll composite numbers=[ANS]\nSeparate the number by commas. Separate the number by commas.",
+        "answer_v3": [
+            "(41, 59, 47)",
+            "(66, 56, 65, 12)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0010",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Division algorithm",
+        "level": "2",
+        "keywords": [
+            "Mod",
+            "Modular"
+        ],
+        "problem_v1": "Find the memory locations which are assigned by the hashing function $h(k)=k \\text{mod} 101$ to the records of students with the following Social Security numbers: (Note enter the canonical representative for the answer modulo 101, thus your answer should be an integer between 0 and 100 inclusive for each part.) $777421469$ [ANS] $623454208$ [ANS] $658741986$ [ANS] $750236307$ [ANS]",
+        "answer_v1": [
+            "27",
+            "95",
+            "89",
+            "25"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the memory locations which are assigned by the hashing function $h(k)=k \\text{mod} 101$ to the records of students with the following Social Security numbers: (Note enter the canonical representative for the answer modulo 101, thus your answer should be an integer between 0 and 100 inclusive for each part.) $174715697$ [ANS] $938511265$ [ANS] $234608879$ [ANS] $400702950$ [ANS]",
+        "answer_v2": [
+            "39",
+            "75",
+            "19",
+            "95"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the memory locations which are assigned by the hashing function $h(k)=k \\text{mod} 101$ to the records of students with the following Social Security numbers: (Note enter the canonical representative for the answer modulo 101, thus your answer should be an integer between 0 and 100 inclusive for each part.) $382104053$ [ANS] $644884836$ [ANS] $350752055$ [ANS] $593739384$ [ANS]",
+        "answer_v3": [
+            "45",
+            "38",
+            "63",
+            "77"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0011",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Division algorithm",
+        "level": "2",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "modular arithmetic"
+        ],
+        "problem_v1": "Answer the following questions where div is for finding integer quotient and mod is for remainder.\n28 div 7=[ANS],\n28 mod 7=[ANS]-26 div 8=[ANS],-26 mod 8=[ANS]\n23 div 5=[ANS],\n23 mod 5=[ANS]-26 div 7=[ANS],-26 mod 7=[ANS]\n24 div 6=[ANS],\n24 mod 6=[ANS]-27 div 5=[ANS],-27 mod 5=[ANS]\n556579433 mod 101=[ANS]\n484911569 mod 101=[ANS]",
+        "answer_v1": [
+            "4",
+            "0",
+            "-4",
+            "6",
+            "4",
+            "3",
+            "-4",
+            "2",
+            "4",
+            "0",
+            "-6",
+            "3",
+            "46",
+            "65"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Answer the following questions where div is for finding integer quotient and mod is for remainder.\n20 div 10=[ANS],\n20 mod 10=[ANS]-21 div 5=[ANS],-21 mod 5=[ANS]\n30 div 5=[ANS],\n30 mod 5=[ANS]-22 div 5=[ANS],-22 mod 5=[ANS]\n26 div 3=[ANS],\n26 mod 3=[ANS]-27 div 6=[ANS],-27 mod 6=[ANS]\n829746682 mod 101=[ANS]\n273607128 mod 101=[ANS]",
+        "answer_v2": [
+            "2",
+            "0",
+            "-5",
+            "4",
+            "6",
+            "0",
+            "-5",
+            "3",
+            "8",
+            "2",
+            "-5",
+            "3",
+            "69",
+            "47"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Answer the following questions where div is for finding integer quotient and mod is for remainder.\n23 div 7=[ANS],\n23 mod 7=[ANS]-23 div 7=[ANS],-23 mod 7=[ANS]\n22 div 5=[ANS],\n22 mod 5=[ANS]-28 div 10=[ANS],-28 mod 10=[ANS]\n29 div 4=[ANS],\n29 mod 4=[ANS]-23 div 5=[ANS],-23 mod 5=[ANS]\n138603648 mod 101=[ANS]\n615406065 mod 101=[ANS]",
+        "answer_v3": [
+            "3",
+            "2",
+            "-4",
+            "5",
+            "4",
+            "2",
+            "-3",
+            "2",
+            "7",
+            "1",
+            "-5",
+            "2",
+            "35",
+            "36"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0012",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Division algorithm",
+        "level": "2",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "integers",
+            "divisibility"
+        ],
+        "problem_v1": "Enter T or F depending on whether the statement is a true proposition or not. (You must enter T or F--True and False will not work.) [ANS] 1. 20990 is divisible by 139 [ANS] 2. 122 is divisible by 11 [ANS] 3. $13 \\mid 209$ [ANS] 4. 16 divides 224 [ANS] 5. $221 \\mid 17$ [ANS] 6. $16 \\mid 256$ [ANS] 7. 14 is divisible by 210 [ANS] 8. 14 is divisible by 196 [ANS] 9. 12 divides 181",
+        "answer_v1": [
+            "F",
+            "F",
+            "F",
+            "T",
+            "F",
+            "T",
+            "F",
+            "F",
+            "F"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Enter T or F depending on whether the statement is a true proposition or not. (You must enter T or F--True and False will not work.) [ANS] 1. 13 divides 208 [ANS] 2. 12 is divisible by 192 [ANS] 3. 12209 is divisible by 112 [ANS] 4. 17317 is divisible by 156 [ANS] 5. $13 \\mid 157$ [ANS] 6. 170 divides 10 [ANS] 7. $20 \\mid 220$ [ANS] 8. 192 is divisible by 12 [ANS] 9. 14 divides 253",
+        "answer_v2": [
+            "T",
+            "F",
+            "F",
+            "F",
+            "F",
+            "F",
+            "T",
+            "T",
+            "F"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Enter T or F depending on whether the statement is a true proposition or not. (You must enter T or F--True and False will not work.) [ANS] 1. $13 \\mid 235$ [ANS] 2. 156 divides 12 [ANS] 3. $192 \\mid 16$ [ANS] 4. 20 divides 380 [ANS] 5. 144 is divisible by 11 [ANS] 6. 16 is divisible by 320 [ANS] 7. 12 divides 121 [ANS] 8. $16 \\mid 208$ [ANS] 9. 288 is divisible by 18",
+        "answer_v3": [
+            "F",
+            "F",
+            "F",
+            "T",
+            "F",
+            "F",
+            "F",
+            "T",
+            "T"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0013",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Division algorithm",
+        "level": "2",
+        "keywords": [
+            "Arithmetic",
+            "Division"
+        ],
+        "problem_v1": "What are the quotient and remainder when $44$ is divided by $8$?\nquotient=[ANS]\nremainder=[ANS]\nWhat are the quotient and remainder when $-40$ is divided by $7$?\nquotient=[ANS]\nremainder=[ANS]",
+        "answer_v1": [
+            "5",
+            "4",
+            "-6",
+            "2"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "What are the quotient and remainder when $19$ is divided by $9$?\nquotient=[ANS]\nremainder=[ANS]\nWhat are the quotient and remainder when $-70$ is divided by $9$?\nquotient=[ANS]\nremainder=[ANS]",
+        "answer_v2": [
+            "2",
+            "1",
+            "-8",
+            "2"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "What are the quotient and remainder when $26$ is divided by $8$?\nquotient=[ANS]\nremainder=[ANS]\nWhat are the quotient and remainder when $-40$ is divided by $6$?\nquotient=[ANS]\nremainder=[ANS]",
+        "answer_v3": [
+            "3",
+            "2",
+            "-7",
+            "2"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0014",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Prime factorization",
+        "level": "2",
+        "keywords": [
+            "prime factors"
+        ],
+        "problem_v1": "Find the prime factorization of $1568$.\n$1568={}$ [ANS]",
+        "answer_v1": [
+            "2^5*7^2"
+        ],
+        "answer_type_v1": [
+            "OE"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the prime factorization of $576$.\n$576={}$ [ANS]",
+        "answer_v2": [
+            "2^6*3^2"
+        ],
+        "answer_type_v2": [
+            "OE"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the prime factorization of $288$.\n$288={}$ [ANS]",
+        "answer_v3": [
+            "2^5*3^2"
+        ],
+        "answer_type_v3": [
+            "OE"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0015",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Prime factorization",
+        "level": "2",
+        "keywords": [
+            "prime factors"
+        ],
+        "problem_v1": "Find the prime factorization of $175$.\n$175={}$ [ANS]",
+        "answer_v1": [
+            "5^2*7"
+        ],
+        "answer_type_v1": [
+            "OE"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the prime factorization of $28$.\n$28={}$ [ANS]",
+        "answer_v2": [
+            "2^2*7"
+        ],
+        "answer_type_v2": [
+            "OE"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the prime factorization of $45$.\n$45={}$ [ANS]",
+        "answer_v3": [
+            "3^2*5"
+        ],
+        "answer_type_v3": [
+            "OE"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0016",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Prime factorization",
+        "level": "2",
+        "keywords": [
+            "prime factors"
+        ],
+        "problem_v1": "Find the prime factorization of $119$.\n$119={}$ [ANS]",
+        "answer_v1": [
+            "7*17"
+        ],
+        "answer_type_v1": [
+            "OE"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the prime factorization of $38$.\n$38={}$ [ANS]",
+        "answer_v2": [
+            "2*19"
+        ],
+        "answer_type_v2": [
+            "OE"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the prime factorization of $51$.\n$51={}$ [ANS]",
+        "answer_v3": [
+            "3*17"
+        ],
+        "answer_type_v3": [
+            "OE"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0017",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Prime factorization",
+        "level": "2",
+        "keywords": [
+            "Integers",
+            "Prime",
+            "Factor"
+        ],
+        "problem_v1": "Find the prime factorization of the follwing numbers: (write $p^0$ if a prime does not appear in the given number.)\n900=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n560=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n16456=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n26741=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]",
+        "answer_v1": [
+            "2",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "4",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "2",
+            "1",
+            "1",
+            "0"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the prime factorization of the follwing numbers: (write $p^0$ if a prime does not appear in the given number.)\n90=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n1400=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n6358=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n26741=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]",
+        "answer_v2": [
+            "1",
+            "2",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "2",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "2",
+            "1",
+            "1",
+            "0"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the prime factorization of the follwing numbers: (write $p^0$ if a prime does not appear in the given number.)\n90=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n280=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n559504=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]\n2431=2^a 3^b 5^c 7^d 11^e 13^f 17^g 19^h where $a=$ [ANS] $b=$ [ANS] $c=$ [ANS] $d=$ [ANS] $e=$ [ANS] $f=$ [ANS] $g=$ [ANS] $h=$ [ANS]",
+        "answer_v3": [
+            "1",
+            "2",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0018",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Prime factorization",
+        "level": "2",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "integers",
+            "prime factors"
+        ],
+        "problem_v1": "For each of the following numbers write down the number's prime factors as a comma-separated list (so, \"5\" or \"2,3\" for 25 and 12 respectively, but without the quotes).\nThe prime factors of 80 are [ANS]\nThe prime factors of 67 are [ANS]\nThe prime factors of 70 are [ANS]\nThe prime factors of 78 are [ANS]\nThe prime factors of 44 are [ANS]\nThe prime factors of 46 are [ANS]\nThe prime factors of 65 are [ANS]\nThe prime factors of 66 are [ANS]\nThe prime factors of 50 are [ANS]",
+        "answer_v1": [
+            "(2, 5)",
+            "67",
+            "(2, 5, 7)",
+            "(2, 3, 13)",
+            "(2, 11)",
+            "(2, 23)",
+            "(5, 13)",
+            "(2, 3, 11)",
+            "(2, 5)"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "NV",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For each of the following numbers write down the number's prime factors as a comma-separated list (so, \"5\" or \"2,3\" for 25 and 12 respectively, but without the quotes).\nThe prime factors of 26 are [ANS]\nThe prime factors of 95 are [ANS]\nThe prime factors of 32 are [ANS]\nThe prime factors of 47 are [ANS]\nThe prime factors of 96 are [ANS]\nThe prime factors of 45 are [ANS]\nThe prime factors of 34 are [ANS]\nThe prime factors of 46 are [ANS]\nThe prime factors of 65 are [ANS]",
+        "answer_v2": [
+            "(2, 13)",
+            "(5, 19)",
+            "2",
+            "47",
+            "(2, 3)",
+            "(3, 5)",
+            "(2, 17)",
+            "(2, 23)",
+            "(5, 13)"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL",
+            "NV",
+            "NV",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For each of the following numbers write down the number's prime factors as a comma-separated list (so, \"5\" or \"2,3\" for 25 and 12 respectively, but without the quotes).\nThe prime factors of 45 are [ANS]\nThe prime factors of 69 are [ANS]\nThe prime factors of 42 are [ANS]\nThe prime factors of 64 are [ANS]\nThe prime factors of 36 are [ANS]\nThe prime factors of 48 are [ANS]\nThe prime factors of 85 are [ANS]\nThe prime factors of 93 are [ANS]\nThe prime factors of 90 are [ANS]",
+        "answer_v3": [
+            "(3, 5)",
+            "(3, 23)",
+            "(2, 3, 7)",
+            "2",
+            "(2, 3)",
+            "(2, 3)",
+            "(5, 17)",
+            "(3, 31)",
+            "(2, 3, 5)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL",
+            "UOL",
+            "NV",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0019",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "Prime factorization",
+        "level": "2",
+        "keywords": [
+            "prealgebra",
+            "common core",
+            "factors"
+        ],
+        "problem_v1": "List the positive factors for 48 and separate each by commas: [ANS]",
+        "answer_v1": [
+            "(1, 2, 3, 4, 6, 8, 12, 16, 24, 48)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "List the positive factors for 28 and separate each by commas: [ANS]",
+        "answer_v2": [
+            "(1, 2, 4, 7, 14, 28)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "List the positive factors for 40 and separate each by commas: [ANS]",
+        "answer_v3": [
+            "(1, 2, 4, 5, 8, 10, 20, 40)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0020",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "GCD",
+            "Euclidean algorithm"
+        ],
+        "problem_v1": "Find two integer pairs of the form $(x, y)$ with $|x| < 1000$ such that $51x+69 y=\\gcd(51,69)$\n$(x_1,y_1)=($ [ANS] $,$ [ANS] $)$ $(x_2,y_2)=($ [ANS] $,$ [ANS] $)$",
+        "answer_v1": [
+            "-4",
+            "3",
+            "65",
+            "-48"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find two integer pairs of the form $(x, y)$ with $|x| < 1000$ such that $13x+16 y=\\gcd(13,16)$\n$(x_1,y_1)=($ [ANS] $,$ [ANS] $)$ $(x_2,y_2)=($ [ANS] $,$ [ANS] $)$",
+        "answer_v2": [
+            "5",
+            "-4",
+            "21",
+            "-17"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find two integer pairs of the form $(x, y)$ with $|x| < 1000$ such that $24x+41 y=\\gcd(24,41)$\n$(x_1,y_1)=($ [ANS] $,$ [ANS] $)$ $(x_2,y_2)=($ [ANS] $,$ [ANS] $)$",
+        "answer_v3": [
+            "12",
+            "-7",
+            "53",
+            "-31"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0021",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "least common multiple"
+        ],
+        "problem_v1": "Find the Least Common Multiple (LCM) of $8$ and $7$. Their LCM is [ANS].",
+        "answer_v1": [
+            "56"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the Least Common Multiple (LCM) of $10$ and $4$. Their LCM is [ANS].",
+        "answer_v2": [
+            "20"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the Least Common Multiple (LCM) of $4$ and $7$. Their LCM is [ANS].",
+        "answer_v3": [
+            "28"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0022",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "greatest common factor"
+        ],
+        "problem_v1": "Find the Greatest Common Factor of $45$, $15$ and $35$. Their GCF is [ANS].",
+        "answer_v1": [
+            "5"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the Greatest Common Factor of $12$, $36$ and $28$. Their GCF is [ANS].",
+        "answer_v2": [
+            "4"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the Greatest Common Factor of $42$, $35$ and $14$. Their GCF is [ANS].",
+        "answer_v3": [
+            "7"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0023",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "Integers",
+            "GCD",
+            "Greatest Common Divisor"
+        ],
+        "problem_v1": "What are the greatest common divisors of the following pairs of integers?\n(a) $2^4 \\cdot 3^3 \\cdot 5^4$ and $2^4 \\cdot 3^2 \\cdot 5^2$ Answer=[ANS]\n(b) $2^{7} \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13$ and $3^{7} \\cdot 5^{7} \\cdot 11^{5} \\cdot 17$ Answer=[ANS]\n(c) $2^4 \\cdot 7$ and $5^3 \\cdot 13$ Answer=[ANS]",
+        "answer_v1": [
+            "3600",
+            "165",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "What are the greatest common divisors of the following pairs of integers?\n(a) $2 \\cdot 3^5 \\cdot 5$ and $2^2 \\cdot 3^5 \\cdot 5^2$ Answer=[ANS]\n(b) $2^{3} \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13$ and $2^{3} \\cdot 5^{4} \\cdot 11^{7} \\cdot 17$ Answer=[ANS]\n(c) $2 \\cdot 7$ and $5^5 \\cdot 13$ Answer=[ANS]",
+        "answer_v2": [
+            "2430",
+            "440",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "What are the greatest common divisors of the following pairs of integers?\n(a) $2^2 \\cdot 3^4 \\cdot 5^2$ and $2^3 \\cdot 3^2 \\cdot 5^2$ Answer=[ANS]\n(b) $2^{10} \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13$ and $3^{10} \\cdot 5^{11} \\cdot 7^{11} \\cdot 17$ Answer=[ANS]\n(c) $2^2 \\cdot 7$ and $5^4 \\cdot 13$ Answer=[ANS]",
+        "answer_v3": [
+            "900",
+            "105",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0024",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "1",
+        "keywords": [],
+        "problem_v1": "1) The GCF of 99 and 117 is [ANS].\n2) The GCF of 150, 180, and 225 is [ANS]. 3) The GCF of $21x^{3}$ and $33x^{6}$ is [ANS].",
+        "answer_v1": [
+            "9",
+            "15",
+            "3*x^3"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "1) The GCF of 44 and 28 is [ANS].\n2) The GCF of 140, 168, and 210 is [ANS]. 3) The GCF of $21x^{2}$ and $33x^{5}$ is [ANS].",
+        "answer_v2": [
+            "4",
+            "14",
+            "3*x^2"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "1) The GCF of 44 and 28 is [ANS].\n2) The GCF of 150, 180, and 225 is [ANS]. 3) The GCF of $21x^{4}$ and $33x^{6}$ is [ANS].",
+        "answer_v3": [
+            "4",
+            "15",
+            "3*x^4"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "EX"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0025",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Find the least common multiple (LCM) of the following pairs. LCM (12,8)=[ANS]\nLCM (8,10)=[ANS]\nLCM (8,2)=[ANS]",
+        "answer_v1": [
+            "24",
+            "40",
+            "8"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the least common multiple (LCM) of the following pairs. LCM (8,10)=[ANS]\nLCM (2,6)=[ANS]\nLCM (12,2)=[ANS]",
+        "answer_v2": [
+            "40",
+            "6",
+            "12"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the least common multiple (LCM) of the following pairs. LCM (8,8)=[ANS]\nLCM (2,10)=[ANS]\nLCM (8,6)=[ANS]",
+        "answer_v3": [
+            "8",
+            "10",
+            "24"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0026",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "For each of the following pairs of numbers, find the GCF. [In more advanced and college courses this will be called the GCD (greatest common divisor) rather than GCF (greatest common factor)]. GCF(132,156)=[ANS]\nGCF(65,85)=[ANS]\nGCF(120,168)=[ANS]\nFor each of the following pairs of monomials, find the GCF. GCF($25 m^{6},20 m^{18}$)=[ANS]\nGCF($84 m^{9}n^{35},60 m^{15}n^{20}$)=[ANS]",
+        "answer_v1": [
+            "12",
+            "5",
+            "24",
+            "5*m^6",
+            "12*m^9*n^20"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "EX",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For each of the following pairs of numbers, find the GCF. [In more advanced and college courses this will be called the GCD (greatest common divisor) rather than GCF (greatest common factor)]. GCF(66,42)=[ANS]\nGCF(175,275)=[ANS]\nGCF(120,168)=[ANS]\nFor each of the following pairs of monomials, find the GCF. GCF($35 m^{4},20 m^{10}$)=[ANS]\nGCF($42 m^{9}n^{25},30 m^{15}n^{15}$)=[ANS]",
+        "answer_v2": [
+            "6",
+            "25",
+            "24",
+            "5*m^4",
+            "6*m^9*n^15"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "EX",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For each of the following pairs of numbers, find the GCF. [In more advanced and college courses this will be called the GCD (greatest common divisor) rather than GCF (greatest common factor)]. GCF(66,42)=[ANS]\nGCF(35,85)=[ANS]\nGCF(240,336)=[ANS]\nFor each of the following pairs of monomials, find the GCF. GCF($20 m^{9},12 m^{21}$)=[ANS]\nGCF($84 m^{9}n^{30},60 m^{15}n^{20}$)=[ANS]",
+        "answer_v3": [
+            "6",
+            "5",
+            "48",
+            "4*m^9",
+            "12*m^9*n^20"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "EX",
+            "EX"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0027",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "1) The least common Multiple of 40 and 48 is [ANS]\n2) The least common multiple of 45 and 63 is [ANS]",
+        "answer_v1": [
+            "240",
+            "315"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "1) The least common Multiple of 28 and 16 is [ANS]\n2) The least common multiple of 33 and 21 is [ANS]",
+        "answer_v2": [
+            "112",
+            "231"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "1) The least common Multiple of 20 and 16 is [ANS]\n2) The least common multiple of 45 and 63 is [ANS]",
+        "answer_v3": [
+            "80",
+            "315"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0028",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "algebra"
+        ],
+        "problem_v1": "Find the greatest common factors of the pairs of numbers below. $\\hbox{gcf}(2623,2867)=$ [ANS]\n$\\hbox{gcf}(1121,1357)=$ [ANS]\n$\\hbox{gcf}(1763,989)=$ [ANS]",
+        "answer_v1": [
+            "61",
+            "59",
+            "43"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the greatest common factors of the pairs of numbers below. $\\hbox{gcf}(497,77)=$ [ANS]\n$\\hbox{gcf}(1633,437)=$ [ANS]\n$\\hbox{gcf}(299,533)=$ [ANS]",
+        "answer_v2": [
+            "7",
+            "23",
+            "13"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the greatest common factors of the pairs of numbers below. $\\hbox{gcf}(989,437)=$ [ANS]\n$\\hbox{gcf}(533,943)=$ [ANS]\n$\\hbox{gcf}(4757,4087)=$ [ANS]",
+        "answer_v3": [
+            "23",
+            "41",
+            "67"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0029",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "integers",
+            "greatest common divisor"
+        ],
+        "problem_v1": "gcd(28, 26)=[ANS]\ngcd(26, 27)=[ANS]\ngcd(161, 161)=[ANS]\ngcd(182, 168)=[ANS]\ngcd(189, 154)=[ANS]\ngcd(1454733, 2424555)=[ANS]\ngcd(2285915, 914366)=[ANS]",
+        "answer_v1": [
+            "2",
+            "1",
+            "161",
+            "14",
+            "7",
+            "484911",
+            "457183"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "gcd(20, 30)=[ANS]\ngcd(21, 23)=[ANS]\ngcd(90, 69)=[ANS]\ngcd(69, 78)=[ANS]\ngcd(297, 264)=[ANS]\ngcd(820821, 1368035)=[ANS]\ngcd(1353640, 541456)=[ANS]",
+        "answer_v2": [
+            "10",
+            "1",
+            "3",
+            "3",
+            "33",
+            "273607",
+            "270728"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "gcd(23, 26)=[ANS]\ngcd(115, 130)=[ANS]\ngcd(253, 308)=[ANS]\ngcd(145, 110)=[ANS]\ngcd(154, 140)=[ANS]\ngcd(2944677, 4907795)=[ANS]\ngcd(4064125, 1625650)=[ANS]",
+        "answer_v3": [
+            "1",
+            "5",
+            "11",
+            "5",
+            "14",
+            "981559",
+            "812825"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0030",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "prealgebra",
+            "common core",
+            "greatest common factor",
+            "common multiple"
+        ],
+        "problem_v1": "Determine the greatest common factor of 24560172 and 29255499. A factorization for these is given by:\n$24560172=$ $3^4 \\cdot 17 \\cdot 4^1 \\cdot 7^3 \\cdot 13$ $29255499=$ $7^3 \\cdot 13 \\cdot 3^4 \\cdot 9^2$ The greatest common factor then is [ANS]. You do not need to simplify your answer. You do not need to simplify your answer.",
+        "answer_v1": [
+            "361179"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Determine the greatest common factor of 307635328 and 10353112. A factorization for these is given by:\n$307635328=$ $2^3 \\cdot 13 \\cdot 4^2 \\cdot 7^5 \\cdot 11$ $10353112=$ $7^5 \\cdot 11 \\cdot 2^3 \\cdot 7^1$ The greatest common factor then is [ANS]. You do not need to simplify your answer. You do not need to simplify your answer.",
+        "answer_v2": [
+            "1.47902E+06"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Determine the greatest common factor of 2345728 and 77616. A factorization for these is given by:\n$2345728=$ $2^4 \\cdot 17 \\cdot 4^2 \\cdot 7^2 \\cdot 11$ $77616=$ $7^2 \\cdot 11 \\cdot 2^4 \\cdot 9^1$ The greatest common factor then is [ANS]. You do not need to simplify your answer. You do not need to simplify your answer.",
+        "answer_v3": [
+            "8624"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0031",
+        "subject": "Number_theory",
+        "topic": "Divisibility",
+        "subtopic": "GCDs and LCMs",
+        "level": "2",
+        "keywords": [
+            "prealgebra",
+            "common core",
+            "greatest common factor",
+            "common multiple"
+        ],
+        "problem_v1": "Determine the greatest common factor of 450 and 126. GCF=[ANS]",
+        "answer_v1": [
+            "18"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Determine the greatest common factor of 56 and 126. GCF=[ANS]",
+        "answer_v2": [
+            "14"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Determine the greatest common factor of 192 and 84. GCF=[ANS]",
+        "answer_v3": [
+            "12"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0032",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Modular arithmetic",
+        "level": "1",
+        "keywords": [
+            "modular arithmetic"
+        ],
+        "problem_v1": "Perform the following congruence computations. Make sure that the number you enter is $\\geq 0$ and $\\leq N-1$, where $N$ is the modulus of the congruence.\n$7774+6234 \\equiv$ [ANS] $\\pmod{77}$ $7502-37*3978 \\equiv$ [ANS] $\\pmod{74}$ $61684+$ [ANS] $-433 \\equiv 544*687 \\pmod{56}$ $556*(48491-457)*4912-562 \\equiv$ [ANS] $\\pmod{48}$ $2424^{3} \\equiv$ [ANS] $\\pmod{71}$",
+        "answer_v1": [
+            "71",
+            "28",
+            "53",
+            "30",
+            "6"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Perform the following congruence computations. Make sure that the number you enter is $\\geq 0$ and $\\leq N-1$, where $N$ is the modulus of the congruence.\n$1747+9385 \\equiv$ [ANS] $\\pmod{49}$ $4007-95*3849 \\equiv$ [ANS] $\\pmod{51}$ $39544+$ [ANS] $-607 \\equiv 161*676 \\pmod{66}$ $829*(27360-270)*3437-616 \\equiv$ [ANS] $\\pmod{51}$ $3903^{3} \\equiv$ [ANS] $\\pmod{46}$",
+        "answer_v2": [
+            "9",
+            "44",
+            "5",
+            "41",
+            "25"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Perform the following congruence computations. Make sure that the number you enter is $\\geq 0$ and $\\leq N-1$, where $N$ is the modulus of the congruence.\n$3821+6448 \\equiv$ [ANS] $\\pmod{56}$ $5937-28*4115 \\equiv$ [ANS] $\\pmod{89}$ $92010+$ [ANS] $-885 \\equiv 280*360 \\pmod{55}$ $138*(61540-981)*8128-653 \\equiv$ [ANS] $\\pmod{46}$ $3636^{3} \\equiv$ [ANS] $\\pmod{82}$",
+        "answer_v3": [
+            "21",
+            "9",
+            "50",
+            "37",
+            "58"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0033",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Modular arithmetic",
+        "level": "5",
+        "keywords": [
+            "Mod",
+            "Modular",
+            "ISBN"
+        ],
+        "problem_v1": "Books are identified by an International Standard Book Number (ISBN), a 10-digit code $x_1x_2\\dots x_{10}$, assigned by the publisher. These 10 digits consist of blocks identifying the language, the publisher, the number assigned to the book by its publishing company, and finally, a 1-digit check digit that is either a digit or the letter X (used to represent 10). This check digit is selected so that $\\sum_{i=1}^{10} ix_i \\equiv 0 \\text{mod} 11$ and is used to detect errors in individual digits and transposition of digits.\n(a) The ISBN for a book is $7-63-536535-\\text{Q}$ where Q is the check digit. What is Q? [ANS]\n(b) The ISBN of another book is $5-735-42\\text{M}41-6$. Find the digit M. [ANS]",
+        "answer_v1": [
+            "5",
+            "4"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Books are identified by an International Standard Book Number (ISBN), a 10-digit code $x_1x_2\\dots x_{10}$, assigned by the publisher. These 10 digits consist of blocks identifying the language, the publisher, the number assigned to the book by its publishing company, and finally, a 1-digit check digit that is either a digit or the letter X (used to represent 10). This check digit is selected so that $\\sum_{i=1}^{10} ix_i \\equiv 0 \\text{mod} 11$ and is used to detect errors in individual digits and transposition of digits.\n(a) The ISBN for a book is $0-19-156815-\\text{Q}$ where Q is the check digit. What is Q? [ANS]\n(b) The ISBN of another book is $9-333-04\\text{M}21-4$. Find the digit M. [ANS]",
+        "answer_v2": [
+            "5",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Books are identified by an International Standard Book Number (ISBN), a 10-digit code $x_1x_2\\dots x_{10}$, assigned by the publisher. These 10 digits consist of blocks identifying the language, the publisher, the number assigned to the book by its publishing company, and finally, a 1-digit check digit that is either a digit or the letter X (used to represent 10). This check digit is selected so that $\\sum_{i=1}^{10} ix_i \\equiv 0 \\text{mod} 11$ and is used to detect errors in individual digits and transposition of digits.\n(a) The ISBN for a book is $3-22-882096-\\text{Q}$ where Q is the check digit. What is Q? [ANS]\n(b) The ISBN of another book is $6-539-22\\text{M}71-7$. Find the digit M. [ANS]",
+        "answer_v3": [
+            "3",
+            "5"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0034",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Modular arithmetic",
+        "level": "3",
+        "keywords": [
+            "Mod",
+            "Modular",
+            "Pseudorandom"
+        ],
+        "problem_v1": "Find the first few terms of the sequence of pseudorandom numbers generated using the linear congruential generator $x_{n+1}=(6x_n+6) \\text{mod} 8$ with seed $x_0=4$? $x_1=$ [ANS] $x_2=$ [ANS] $x_3=$ [ANS] $x_4=$ [ANS] $x_5=$ [ANS] $x_6=$ [ANS]\nNow find the first few terms of the sequence of pseudorandom numbers generated using the linear congruential generator $x_{n+1}=(4x_n+4) \\text{mod} 5$ with the seed $x_0=3$? $x_1=$ [ANS] $x_2=$ [ANS] $x_3=$ [ANS] $x_4=$ [ANS] $x_5=$ [ANS] $x_6=$ [ANS]",
+        "answer_v1": [
+            "6",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "1",
+            "3",
+            "1",
+            "3",
+            "1",
+            "3"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the first few terms of the sequence of pseudorandom numbers generated using the linear congruential generator $x_{n+1}=(9x_n+3) \\text{mod} 4$ with seed $x_0=2$? $x_1=$ [ANS] $x_2=$ [ANS] $x_3=$ [ANS] $x_4=$ [ANS] $x_5=$ [ANS] $x_6=$ [ANS]\nNow find the first few terms of the sequence of pseudorandom numbers generated using the linear congruential generator $x_{n+1}=(4x_n+6) \\text{mod} 9$ with the seed $x_0=7$? $x_1=$ [ANS] $x_2=$ [ANS] $x_3=$ [ANS] $x_4=$ [ANS] $x_5=$ [ANS] $x_6=$ [ANS]",
+        "answer_v2": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "1",
+            "0",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the first few terms of the sequence of pseudorandom numbers generated using the linear congruential generator $x_{n+1}=(6x_n+4) \\text{mod} 5$ with seed $x_0=3$? $x_1=$ [ANS] $x_2=$ [ANS] $x_3=$ [ANS] $x_4=$ [ANS] $x_5=$ [ANS] $x_6=$ [ANS]\nNow find the first few terms of the sequence of pseudorandom numbers generated using the linear congruential generator $x_{n+1}=(4x_n+8) \\text{mod} 8$ with the seed $x_0=5$? $x_1=$ [ANS] $x_2=$ [ANS] $x_3=$ [ANS] $x_4=$ [ANS] $x_5=$ [ANS] $x_6=$ [ANS]",
+        "answer_v3": [
+            "2",
+            "1",
+            "0",
+            "4",
+            "3",
+            "2",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0035",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Linear congruences",
+        "level": "3",
+        "keywords": [
+            "linear congruences"
+        ],
+        "problem_v1": "Solve each of the following congruences. Make sure that the number you enter is in the range $[0, M-1]$ where $M$ is the modulus of the congruence. If there is more than one solution, enter the answer as a list separated by commas. If there is no answer, enter N.\n(a) $118x=1 \\pmod{357}$ $x=$ [ANS]\n(b) $132x=177 \\pmod{357}$ $x=$ [ANS]",
+        "answer_v1": [
+            "118",
+            "(96, 215, 334)"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Solve each of the following congruences. Make sure that the number you enter is in the range $[0, M-1]$ where $M$ is the modulus of the congruence. If there is more than one solution, enter the answer as a list separated by commas. If there is no answer, enter N.\n(a) $53x=1 \\pmod{286}$ $x=$ [ANS]\n(b) $162x=20 \\pmod{286}$ $x=$ [ANS]",
+        "answer_v2": [
+            "27",
+            "(129, 272)"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Solve each of the following congruences. Make sure that the number you enter is in the range $[0, M-1]$ where $M$ is the modulus of the congruence. If there is more than one solution, enter the answer as a list separated by commas. If there is no answer, enter N.\n(a) $165x=1 \\pmod{182}$ $x=$ [ANS]\n(b) $38x=54 \\pmod{182}$ $x=$ [ANS]",
+        "answer_v3": [
+            "107",
+            "(11, 102)"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0036",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Linear congruences",
+        "level": "2",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic",
+            "Euclidean Algorithm"
+        ],
+        "problem_v1": "The goal of this exercise is to practice finding the inverse modulo $m$ of some (relatively prime) integer $n$. We will find the inverse of 16 modulo 117, i.e., an integer $c$ such that $16 c \\equiv 1 \\pmod{117}.$\nFirst we perform the Euclidean algorithm on 16 and 117: $117=7*$ [ANS]+[ANS] [ANS] $=$ [ANS] $*3$ $+1$ [Note your answers on the second row should match the ones on the first row.]\nThus gcd(16,117)=1, i.e., 16 and 117 are relatively prime.\nNow we run the Euclidean algorithm backwards to write $1=117 s+16 t$ for suitable integers $s, t$. $s=$ [ANS]\n$t=$ [ANS]\nwhen we look at the equation $117 s+16 t \\equiv 1 \\text{(mod} 117)$, the multiple of 117 becomes zero and so we get $16 t \\equiv 1 \\text{(mod} 117)$. Hence the multiplicative inverse of 16 modulo 117 is [ANS]",
+        "answer_v1": [
+            "16",
+            "5",
+            "16",
+            "5",
+            "-3",
+            "22",
+            "22"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "The goal of this exercise is to practice finding the inverse modulo $m$ of some (relatively prime) integer $n$. We will find the inverse of 11 modulo 35, i.e., an integer $c$ such that $11 c \\equiv 1 \\pmod{35}.$\nFirst we perform the Euclidean algorithm on 11 and 35: $35=3*$ [ANS]+[ANS] [ANS] $=$ [ANS] $*5$ $+1$ [Note your answers on the second row should match the ones on the first row.]\nThus gcd(11,35)=1, i.e., 11 and 35 are relatively prime.\nNow we run the Euclidean algorithm backwards to write $1=35 s+11 t$ for suitable integers $s, t$. $s=$ [ANS]\n$t=$ [ANS]\nwhen we look at the equation $35 s+11 t \\equiv 1 \\text{(mod} 35)$, the multiple of 35 becomes zero and so we get $11 t \\equiv 1 \\text{(mod} 35)$. Hence the multiplicative inverse of 11 modulo 35 is [ANS]",
+        "answer_v2": [
+            "11",
+            "2",
+            "11",
+            "2",
+            "-5",
+            "16",
+            "16"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "The goal of this exercise is to practice finding the inverse modulo $m$ of some (relatively prime) integer $n$. We will find the inverse of 13 modulo 55, i.e., an integer $c$ such that $13 c \\equiv 1 \\pmod{55}.$\nFirst we perform the Euclidean algorithm on 13 and 55: $55=4*$ [ANS]+[ANS] [ANS] $=$ [ANS] $*4$ $+1$ [Note your answers on the second row should match the ones on the first row.]\nThus gcd(13,55)=1, i.e., 13 and 55 are relatively prime.\nNow we run the Euclidean algorithm backwards to write $1=55 s+13 t$ for suitable integers $s, t$. $s=$ [ANS]\n$t=$ [ANS]\nwhen we look at the equation $55 s+13 t \\equiv 1 \\text{(mod} 55)$, the multiple of 55 becomes zero and so we get $13 t \\equiv 1 \\text{(mod} 55)$. Hence the multiplicative inverse of 13 modulo 55 is [ANS]",
+        "answer_v3": [
+            "13",
+            "3",
+            "13",
+            "3",
+            "-4",
+            "17",
+            "17"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0037",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Linear congruences",
+        "level": "2",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic",
+            "Euclidean Algorithm"
+        ],
+        "problem_v1": "Find the smallest positive integer $x$ that solves the congruence:\n16x \\equiv 6 \\pmod{133} $x=$ [ANS]\n(Hint: From running the Euclidean algorithm forwards and backwards we get $1=s(16)+t(133)$. Find $s$ and use it to solve the congruence.)",
+        "answer_v1": [
+            "17"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the smallest positive integer $x$ that solves the congruence:\n11x \\equiv 4 \\pmod{46} $x=$ [ANS]\n(Hint: From running the Euclidean algorithm forwards and backwards we get $1=s(11)+t(46)$. Find $s$ and use it to solve the congruence.)",
+        "answer_v2": [
+            "38"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the smallest positive integer $x$ that solves the congruence:\n13x \\equiv 5 \\pmod{68} $x=$ [ANS]\n(Hint: From running the Euclidean algorithm forwards and backwards we get $1=s(13)+t(68)$. Find $s$ and use it to solve the congruence.)",
+        "answer_v3": [
+            "37"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0038",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Fast powering",
+        "level": "2",
+        "keywords": [
+            "fast powering"
+        ],
+        "problem_v1": "Which of the following values are needed to compute $5^{102} \\pmod {31}$ using fast exponentiation? Mark Y/N accordingly:\n$\\begin{array}{ccc}\\hline i & 5^{2^{i}} \\pmod{31} & Y/N \\\\\\hline0 & 5 & [ANS] \\\\\\hline1 & 25 & [ANS] \\\\\\hline2 & 5 & [ANS] \\\\\\hline3 & 25 & [ANS] \\\\\\hline4 & 5 & [ANS] \\\\\\hline5 & 25 & [ANS] \\\\\\hline6 & 5 & [ANS] \\\\\\hline7 & 25 & [ANS] \\\\\\hline\\end{array}$\nUse these values to compute $5^{102} \\pmod {31}$\n$5^{102} \\pmod {31}=$ [ANS]",
+        "answer_v1": [
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "1"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Which of the following values are needed to compute $3^{112} \\pmod {41}$ using fast exponentiation? Mark Y/N accordingly:\n$\\begin{array}{ccc}\\hline i & 3^{2^{i}} \\pmod{41} & Y/N \\\\\\hline0 & 3 & [ANS] \\\\\\hline1 & 9 & [ANS] \\\\\\hline2 & 40 & [ANS] \\\\\\hline3 & 1 & [ANS] \\\\\\hline4 & 1 & [ANS] \\\\\\hline5 & 1 & [ANS] \\\\\\hline6 & 1 & [ANS] \\\\\\hline7 & 1 & [ANS] \\\\\\hline\\end{array}$\nUse these values to compute $3^{112} \\pmod {41}$\n$3^{112} \\pmod {41}=$ [ANS]",
+        "answer_v2": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "N",
+            "1"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Which of the following values are needed to compute $3^{208} \\pmod {31}$ using fast exponentiation? Mark Y/N accordingly:\n$\\begin{array}{ccc}\\hline i & 3^{2^{i}} \\pmod{31} & Y/N \\\\\\hline0 & 3 & [ANS] \\\\\\hline1 & 9 & [ANS] \\\\\\hline2 & 19 & [ANS] \\\\\\hline3 & 20 & [ANS] \\\\\\hline4 & 28 & [ANS] \\\\\\hline5 & 9 & [ANS] \\\\\\hline6 & 19 & [ANS] \\\\\\hline7 & 20 & [ANS] \\\\\\hline\\end{array}$\nUse these values to compute $3^{208} \\pmod {31}$\n$3^{208} \\pmod {31}=$ [ANS]",
+        "answer_v3": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "N",
+            "Y",
+            "Y",
+            "7"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0039",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Fast powering",
+        "level": "2",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic",
+            "RSA"
+        ],
+        "problem_v1": "(Modification of exercise 36 in section 2.5 of Rosen.) The goal of this exercise is to work thru the RSA system in a simple case: We will use primes $p=61, q=53$ and form $n=61 \\cdot 53=3233$. [This is typical of the RSA system which chooses two large primes at random generally, and multiplies them to find n. The public will know n but p and q will be kept private.] Now we choose our public key $e=17$. This will work since $gcd(17,(p-1)(q-1))=gcd(17, 3120)=1$. [In general as long as we choose an 'e' with gcd(e,(p-1)(q-1))=1, the system will work.] Next we encode letters of the alphabet numerically say via the usual: (A=0,B=1,C=2,D=3,E=4,F=5,G=6,H=7,I=8, J=9,K=10,L=11,M=12,N=13,O=14,P=15,Q=16,R=17, S=18,T=19,U=20,V=21,W=22,X=23,Y=24,Z=25.) We will practice the RSA encryption on the single integer 15. (which is the numerical representation for the letter \"P\"). In the language of the book, M=15 is our original message. The coded integer is formed via $c=M^e \\text{mod} n$. Thus we need to calculate $15^{17} \\text{mod} 3233$.\nThis is not as hard as it seems and you might consider using fast modular multiplication.\nThe canonical representative of $15^{17} \\text{mod} 3233$ is [ANS]",
+        "answer_v1": [
+            "3031"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "(Modification of exercise 36 in section 2.5 of Rosen.) The goal of this exercise is to work thru the RSA system in a simple case: We will use primes $p=41, q=71$ and form $n=41 \\cdot 71=2911$. [This is typical of the RSA system which chooses two large primes at random generally, and multiplies them to find n. The public will know n but p and q will be kept private.] Now we choose our public key $e=11$. This will work since $gcd(11,(p-1)(q-1))=gcd(11, 2800)=1$. [In general as long as we choose an 'e' with gcd(e,(p-1)(q-1))=1, the system will work.] Next we encode letters of the alphabet numerically say via the usual: (A=0,B=1,C=2,D=3,E=4,F=5,G=6,H=7,I=8, J=9,K=10,L=11,M=12,N=13,O=14,P=15,Q=16,R=17, S=18,T=19,U=20,V=21,W=22,X=23,Y=24,Z=25.) We will practice the RSA encryption on the single integer 15. (which is the numerical representation for the letter \"P\"). In the language of the book, M=15 is our original message. The coded integer is formed via $c=M^e \\text{mod} n$. Thus we need to calculate $15^{11} \\text{mod} 2911$.\nThis is not as hard as it seems and you might consider using fast modular multiplication.\nThe canonical representative of $15^{11} \\text{mod} 2911$ is [ANS]",
+        "answer_v2": [
+            "152"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "(Modification of exercise 36 in section 2.5 of Rosen.) The goal of this exercise is to work thru the RSA system in a simple case: We will use primes $p=43, q=53$ and form $n=43 \\cdot 53=2279$. [This is typical of the RSA system which chooses two large primes at random generally, and multiplies them to find n. The public will know n but p and q will be kept private.] Now we choose our public key $e=13$. This will work since $gcd(13,(p-1)(q-1))=gcd(13, 2184)=1$. [In general as long as we choose an 'e' with gcd(e,(p-1)(q-1))=1, the system will work.] Next we encode letters of the alphabet numerically say via the usual: (A=0,B=1,C=2,D=3,E=4,F=5,G=6,H=7,I=8, J=9,K=10,L=11,M=12,N=13,O=14,P=15,Q=16,R=17, S=18,T=19,U=20,V=21,W=22,X=23,Y=24,Z=25.) We will practice the RSA encryption on the single integer 15. (which is the numerical representation for the letter \"P\"). In the language of the book, M=15 is our original message. The coded integer is formed via $c=M^e \\text{mod} n$. Thus we need to calculate $15^{13} \\text{mod} 2279$.\nThis is not as hard as it seems and you might consider using fast modular multiplication.\nThe canonical representative of $15^{13} \\text{mod} 2279$ is [ANS]",
+        "answer_v3": [
+            "955"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0040",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Chinese remainder theorem",
+        "level": "3",
+        "keywords": [
+            "Chinese remainder theorem"
+        ],
+        "problem_v1": "For which of the following values of $T$ would the following system of congruences be solvable?\n$x \\equiv 12 \\pmod{36}$\n$\\phantom{x} \\equiv T \\pmod{57}$\n$\\begin{array}{ccccc}\\hline T & 54 & 58 & 67 & 29 \\\\\\hline Y/N & [ANS] & [ANS] & [ANS] & [ANS] \\\\\\hline\\end{array}$",
+        "answer_v1": [
+            "Y",
+            "N",
+            "N",
+            "N"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For which of the following values of $T$ would the following system of congruences be solvable?\n$x \\equiv 35 \\pmod{45}$\n$\\phantom{x} \\equiv T \\pmod{55}$\n$\\begin{array}{ccccc}\\hline T & 93 & 16 & 34 & 94 \\\\\\hline Y/N & [ANS] & [ANS] & [ANS] & [ANS] \\\\\\hline\\end{array}$",
+        "answer_v2": [
+            "N",
+            "N",
+            "N",
+            "N"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For which of the following values of $T$ would the following system of congruences be solvable?\n$x \\equiv 45 \\pmod{50}$\n$\\phantom{x} \\equiv T \\pmod{35}$\n$\\begin{array}{ccccc}\\hline T & 52 & 25 & 47 & 19 \\\\\\hline Y/N & [ANS] & [ANS] & [ANS] & [ANS] \\\\\\hline\\end{array}$",
+        "answer_v3": [
+            "N",
+            "Y",
+            "N",
+            "N"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0041",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Chinese remainder theorem",
+        "level": "2",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic",
+            "Chinese Remainder Theorem"
+        ],
+        "problem_v1": "Find the SMALLEST positive integer solution to the following system of congruences:\nx \\equiv 3 \\pmod{5} x \\equiv 7 \\pmod{11} The solution is [ANS].",
+        "answer_v1": [
+            "18"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the SMALLEST positive integer solution to the following system of congruences:\nx \\equiv 0 \\pmod{3} x \\equiv 3 \\pmod{11} The solution is [ANS].",
+        "answer_v2": [
+            "3"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the SMALLEST positive integer solution to the following system of congruences:\nx \\equiv 0 \\pmod{3} x \\equiv 6 \\pmod{11} The solution is [ANS].",
+        "answer_v3": [
+            "6"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0042",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Chinese remainder theorem",
+        "level": "3",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic",
+            "Chinese Remainder Theorem"
+        ],
+        "problem_v1": "We will find the smallest positive integer x that solves the following system of congruences via the Chinese Remainder Theorem: $x \\equiv 2 \\text{mod} 3$ $x \\equiv 5 \\text{mod} 17$ $x \\equiv 2 \\text{mod} 7$ $x \\equiv 27 \\text{mod} 47$\nIn the language of Theorem 4 from page 142 of the 4th edition of Rosen, we thus have the values of the following variables: $a_1=2$ and $m_1=3$ $a_2=5$ and $m_2=17$ $a_3=2$ and $m_3=7$ $a_4=27$ and $m_4=47$\nThe first step is to calculate $m=m_1 m_2 m_3 m_4$. When we do this we get: $m=$ [ANS]\nThe second step is to calculate the $\\hat{m}_k$ which are given by the formula $\\hat{m}_k=\\frac{m}{m_k}$. Enter their values below: $\\hat{m}_1=$ [ANS]\n$\\hat{m}_2=$ [ANS]\n$\\hat{m}_3=$ [ANS]\n$\\hat{m}_4=$ [ANS]\nNext we find the $\\hat{y}_k$ which are given by solving \\hat{y}_k \\hat{m}_k \\equiv 1 \\text{mod} m_k Thus for example, to find $\\hat{y}_1$ we need to solve\n5593 \\hat{y}_1 \\equiv 1 \\text{mod} 3 Since we know $5593 \\equiv 1 \\text{mod} 3$, this simplifies to\n1 \\hat{y}_1 \\equiv 1 \\text{mod} 3 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_1$ below: (Use the canonical representative modulo 3.) $\\hat{y}_1=$ [ANS]\nSimilarly, to find $\\hat{y}_2$ we need to solve\n987 \\hat{y}_2 \\equiv 1 \\text{mod} 17 Since we know $987 \\equiv 1 \\text{mod} 17$,this simplifies to\n1 \\hat{y}_2 \\equiv 1 \\text{mod} 17 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_2$ below: (Use the canonical representative modulo 17.) $\\hat{y}_2=$ [ANS]\nSimilarly, to find $\\hat{y}_3$ we need to solve\n2397 \\hat{y}_3 \\equiv 1 \\text{mod} 7 Since we know $2397 \\equiv 3 \\text{mod} 7$,this simplifies to\n3 \\hat{y}_3 \\equiv 1 \\text{mod} 7 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_3$ below: (Use the canonical representative modulo 7.) $\\hat{y}_3=$ [ANS]\nSimilarly, to find $\\hat{y}_4$ we need to solve\n357 \\hat{y}_4 \\equiv 1 \\text{mod} 47 Since we know $357 \\equiv 28 \\text{mod} 47$,this simplifies to\n28 \\hat{y}_4 \\equiv 1 \\text{mod} 47 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_4$ below: (Use the canonical representative modulo 47.) $\\hat{y}_4=$ [ANS] Now that we have all the $a_k, \\hat{m}_k$ and $\\hat{y}_k$, use the formula $x=\\sum_{k=1}^4 a_k \\hat{m}_k \\hat{y}_k$ to find an integer solution x to the original system. The Chinese remainder theorem says that this x and any integer congruent modulo m to it, will solve the original system. Enter the SMALLEST positive integer solution to the original system here: [ANS].",
+        "answer_v1": [
+            "16779",
+            "5593",
+            "987",
+            "2397",
+            "357",
+            "1",
+            "1",
+            "5",
+            "42",
+            "8675"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "We will find the smallest positive integer x that solves the following system of congruences via the Chinese Remainder Theorem: $x \\equiv 1 \\text{mod} 3$ $x \\equiv 4 \\text{mod} 5$ $x \\equiv 6 \\text{mod} 17$ $x \\equiv 8 \\text{mod} 41$\nIn the language of Theorem 4 from page 142 of the 4th edition of Rosen, we thus have the values of the following variables: $a_1=1$ and $m_1=3$ $a_2=4$ and $m_2=5$ $a_3=6$ and $m_3=17$ $a_4=8$ and $m_4=41$\nThe first step is to calculate $m=m_1 m_2 m_3 m_4$. When we do this we get: $m=$ [ANS]\nThe second step is to calculate the $\\hat{m}_k$ which are given by the formula $\\hat{m}_k=\\frac{m}{m_k}$. Enter their values below: $\\hat{m}_1=$ [ANS]\n$\\hat{m}_2=$ [ANS]\n$\\hat{m}_3=$ [ANS]\n$\\hat{m}_4=$ [ANS]\nNext we find the $\\hat{y}_k$ which are given by solving \\hat{y}_k \\hat{m}_k \\equiv 1 \\text{mod} m_k Thus for example, to find $\\hat{y}_1$ we need to solve\n3485 \\hat{y}_1 \\equiv 1 \\text{mod} 3 Since we know $3485 \\equiv 2 \\text{mod} 3$, this simplifies to\n2 \\hat{y}_1 \\equiv 1 \\text{mod} 3 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_1$ below: (Use the canonical representative modulo 3.) $\\hat{y}_1=$ [ANS]\nSimilarly, to find $\\hat{y}_2$ we need to solve\n2091 \\hat{y}_2 \\equiv 1 \\text{mod} 5 Since we know $2091 \\equiv 1 \\text{mod} 5$,this simplifies to\n1 \\hat{y}_2 \\equiv 1 \\text{mod} 5 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_2$ below: (Use the canonical representative modulo 5.) $\\hat{y}_2=$ [ANS]\nSimilarly, to find $\\hat{y}_3$ we need to solve\n615 \\hat{y}_3 \\equiv 1 \\text{mod} 17 Since we know $615 \\equiv 3 \\text{mod} 17$,this simplifies to\n3 \\hat{y}_3 \\equiv 1 \\text{mod} 17 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_3$ below: (Use the canonical representative modulo 17.) $\\hat{y}_3=$ [ANS]\nSimilarly, to find $\\hat{y}_4$ we need to solve\n255 \\hat{y}_4 \\equiv 1 \\text{mod} 41 Since we know $255 \\equiv 9 \\text{mod} 41$,this simplifies to\n9 \\hat{y}_4 \\equiv 1 \\text{mod} 41 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_4$ below: (Use the canonical representative modulo 41.) $\\hat{y}_4=$ [ANS] Now that we have all the $a_k, \\hat{m}_k$ and $\\hat{y}_k$, use the formula $x=\\sum_{k=1}^4 a_k \\hat{m}_k \\hat{y}_k$ to find an integer solution x to the original system. The Chinese remainder theorem says that this x and any integer congruent modulo m to it, will solve the original system. Enter the SMALLEST positive integer solution to the original system here: [ANS].",
+        "answer_v2": [
+            "10455",
+            "3485",
+            "2091",
+            "615",
+            "255",
+            "2",
+            "1",
+            "6",
+            "32",
+            "8659"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "We will find the smallest positive integer x that solves the following system of congruences via the Chinese Remainder Theorem: $x \\equiv 2 \\text{mod} 3$ $x \\equiv 2 \\text{mod} 7$ $x \\equiv 4 \\text{mod} 11$ $x \\equiv 34 \\text{mod} 43$\nIn the language of Theorem 4 from page 142 of the 4th edition of Rosen, we thus have the values of the following variables: $a_1=2$ and $m_1=3$ $a_2=2$ and $m_2=7$ $a_3=4$ and $m_3=11$ $a_4=34$ and $m_4=43$\nThe first step is to calculate $m=m_1 m_2 m_3 m_4$. When we do this we get: $m=$ [ANS]\nThe second step is to calculate the $\\hat{m}_k$ which are given by the formula $\\hat{m}_k=\\frac{m}{m_k}$. Enter their values below: $\\hat{m}_1=$ [ANS]\n$\\hat{m}_2=$ [ANS]\n$\\hat{m}_3=$ [ANS]\n$\\hat{m}_4=$ [ANS]\nNext we find the $\\hat{y}_k$ which are given by solving \\hat{y}_k \\hat{m}_k \\equiv 1 \\text{mod} m_k Thus for example, to find $\\hat{y}_1$ we need to solve\n3311 \\hat{y}_1 \\equiv 1 \\text{mod} 3 Since we know $3311 \\equiv 2 \\text{mod} 3$, this simplifies to\n2 \\hat{y}_1 \\equiv 1 \\text{mod} 3 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_1$ below: (Use the canonical representative modulo 3.) $\\hat{y}_1=$ [ANS]\nSimilarly, to find $\\hat{y}_2$ we need to solve\n1419 \\hat{y}_2 \\equiv 1 \\text{mod} 7 Since we know $1419 \\equiv 5 \\text{mod} 7$,this simplifies to\n5 \\hat{y}_2 \\equiv 1 \\text{mod} 7 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_2$ below: (Use the canonical representative modulo 7.) $\\hat{y}_2=$ [ANS]\nSimilarly, to find $\\hat{y}_3$ we need to solve\n903 \\hat{y}_3 \\equiv 1 \\text{mod} 11 Since we know $903 \\equiv 1 \\text{mod} 11$,this simplifies to\n1 \\hat{y}_3 \\equiv 1 \\text{mod} 11 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_3$ below: (Use the canonical representative modulo 11.) $\\hat{y}_3=$ [ANS]\nSimilarly, to find $\\hat{y}_4$ we need to solve\n231 \\hat{y}_4 \\equiv 1 \\text{mod} 43 Since we know $231 \\equiv 16 \\text{mod} 43$,this simplifies to\n16 \\hat{y}_4 \\equiv 1 \\text{mod} 43 Solve this either by trial and error or by using the Euclidean algorithm and enter the value of $\\hat{y}_4$ below: (Use the canonical representative modulo 43.) $\\hat{y}_4=$ [ANS] Now that we have all the $a_k, \\hat{m}_k$ and $\\hat{y}_k$, use the formula $x=\\sum_{k=1}^4 a_k \\hat{m}_k \\hat{y}_k$ to find an integer solution x to the original system. The Chinese remainder theorem says that this x and any integer congruent modulo m to it, will solve the original system. Enter the SMALLEST positive integer solution to the original system here: [ANS].",
+        "answer_v3": [
+            "9933",
+            "3311",
+            "1419",
+            "903",
+            "231",
+            "2",
+            "3",
+            "1",
+            "35",
+            "2270"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0043",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Chinese remainder theorem",
+        "level": "2",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic"
+        ],
+        "problem_v1": "Fill in the blanks in the table with the unique integers $a$ in the range $0 \\leq a \\leq 27$ with the given remainders. Hint: It is probably easiest to just make a table with the numbers between 0 and 27 and their remainders and use that to find the answers. However one can also use the Chinese Remainder Formula $x=a_1\\hat{m}_1\\hat{y}_1+a_2\\hat{m}_2\\hat{y}_2$ by finding the $\\hat{m}_k, \\hat{y}_k$ once and then plugging in the various remainders for the $a_k$ to get the various answers.\n$\\begin{array}{ccc}\\hline a & a \\text{mod} 4 & a \\text{mod} 7 \\\\\\hline [ANS] & 3 & 4 \\\\\\hline [ANS] & 2 & 5 \\\\\\hline [ANS] & 1 & 2 \\\\\\hline [ANS] & 2 & 4 \\\\\\hline [ANS] & 1 & 3 \\\\\\hline [ANS] & 2 & 1 \\\\\\hline [ANS] & 2 & 2 \\\\\\hline [ANS] & 1 & 3 \\\\\\hline [ANS] & 2 & 0 \\\\\\hline\\end{array}$",
+        "answer_v1": [
+            "11",
+            "26",
+            "9",
+            "18",
+            "17",
+            "22",
+            "2",
+            "17",
+            "14"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Fill in the blanks in the table with the unique integers $a$ in the range $0 \\leq a \\leq 27$ with the given remainders. Hint: It is probably easiest to just make a table with the numbers between 0 and 27 and their remainders and use that to find the answers. However one can also use the Chinese Remainder Formula $x=a_1\\hat{m}_1\\hat{y}_1+a_2\\hat{m}_2\\hat{y}_2$ by finding the $\\hat{m}_k, \\hat{y}_k$ once and then plugging in the various remainders for the $a_k$ to get the various answers.\n$\\begin{array}{ccc}\\hline a & a \\text{mod} 4 & a \\text{mod} 7 \\\\\\hline [ANS] & 0 & 6 \\\\\\hline [ANS] & 0 & 2 \\\\\\hline [ANS] & 3 & 2 \\\\\\hline [ANS] & 0 & 2 \\\\\\hline [ANS] & 2 & 0 \\\\\\hline [ANS] & 2 & 3 \\\\\\hline [ANS] & 3 & 1 \\\\\\hline [ANS] & 0 & 1 \\\\\\hline [ANS] & 2 & 1 \\\\\\hline\\end{array}$",
+        "answer_v2": [
+            "20",
+            "16",
+            "23",
+            "16",
+            "14",
+            "10",
+            "15",
+            "8",
+            "22"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Fill in the blanks in the table with the unique integers $a$ in the range $0 \\leq a \\leq 27$ with the given remainders. Hint: It is probably easiest to just make a table with the numbers between 0 and 27 and their remainders and use that to find the answers. However one can also use the Chinese Remainder Formula $x=a_1\\hat{m}_1\\hat{y}_1+a_2\\hat{m}_2\\hat{y}_2$ by finding the $\\hat{m}_k, \\hat{y}_k$ once and then plugging in the various remainders for the $a_k$ to get the various answers.\n$\\begin{array}{ccc}\\hline a & a \\text{mod} 4 & a \\text{mod} 7 \\\\\\hline [ANS] & 1 & 4 \\\\\\hline [ANS] & 1 & 3 \\\\\\hline [ANS] & 0 & 2 \\\\\\hline [ANS] & 3 & 6 \\\\\\hline [ANS] & 3 & 1 \\\\\\hline [ANS] & 1 & 1 \\\\\\hline [ANS] & 0 & 4 \\\\\\hline [ANS] & 3 & 5 \\\\\\hline [ANS] & 2 & 0 \\\\\\hline\\end{array}$",
+        "answer_v3": [
+            "25",
+            "17",
+            "16",
+            "27",
+            "15",
+            "1",
+            "4",
+            "19",
+            "14"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0044",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Chinese remainder theorem",
+        "level": "3",
+        "keywords": [
+            "Mod",
+            "Modular Arithmetic"
+        ],
+        "problem_v1": "Use Fermat's Little theorem to compute the following remainders for $4^{963}$ (Always use canonical representatives.) $4^{963}=$ [ANS] $\\text{mod} 5$ $4^{963}=$ [ANS] $\\text{mod} 7$ $4^{963}=$ [ANS] $\\text{mod} 11$\nUse your answers above to find the canonical representative of $4^{963} \\text{mod} 385$ by using the Chinese Remainder Theorem. [Note $385=5 \\cdot 7 \\cdot 11$ and that Fermat's Little Theorem cannot be used to directly find $4^{963} \\text{mod} 385$ as 385 is not a prime and also since it is larger than the exponent.] $4^{963} \\text{mod} 385$ is [ANS]",
+        "answer_v1": [
+            "4",
+            "1",
+            "9",
+            "64"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Use Fermat's Little theorem to compute the following remainders for $2^{485}$ (Always use canonical representatives.) $2^{485}=$ [ANS] $\\text{mod} 5$ $2^{485}=$ [ANS] $\\text{mod} 7$ $2^{485}=$ [ANS] $\\text{mod} 11$\nUse your answers above to find the canonical representative of $2^{485} \\text{mod} 385$ by using the Chinese Remainder Theorem. [Note $385=5 \\cdot 7 \\cdot 11$ and that Fermat's Little Theorem cannot be used to directly find $2^{485} \\text{mod} 385$ as 385 is not a prime and also since it is larger than the exponent.] $2^{485} \\text{mod} 385$ is [ANS]",
+        "answer_v2": [
+            "2",
+            "4",
+            "10",
+            "32"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Use Fermat's Little theorem to compute the following remainders for $2^{484}$ (Always use canonical representatives.) $2^{484}=$ [ANS] $\\text{mod} 5$ $2^{484}=$ [ANS] $\\text{mod} 7$ $2^{484}=$ [ANS] $\\text{mod} 11$\nUse your answers above to find the canonical representative of $2^{484} \\text{mod} 385$ by using the Chinese Remainder Theorem. [Note $385=5 \\cdot 7 \\cdot 11$ and that Fermat's Little Theorem cannot be used to directly find $2^{484} \\text{mod} 385$ as 385 is not a prime and also since it is larger than the exponent.] $2^{484} \\text{mod} 385$ is [ANS]",
+        "answer_v3": [
+            "1",
+            "2",
+            "5",
+            "16"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0045",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Fermat's little theorem",
+        "level": "3",
+        "keywords": [
+            "Euler's theorem"
+        ],
+        "problem_v1": "What is the remainder of $7^{837}$ when divided by $17$? [ANS]",
+        "answer_v1": [
+            "11"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "What is the remainder of $2^{738}$ when divided by $19$? [ANS]",
+        "answer_v2": [
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "What is the remainder of $3^{756}$ when divided by $17$? [ANS]",
+        "answer_v3": [
+            "13"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0046",
+        "subject": "Number_theory",
+        "topic": "Congruences",
+        "subtopic": "Fermat's little theorem",
+        "level": "4",
+        "keywords": [
+            "Fermat's little theorem",
+            "Euler's theorem"
+        ],
+        "problem_v1": "What are the last three binary digits of $11^{30010}$? [ANS] [ANS] [ANS]\nNote: The binary digits of an integer is simply the base-2 expansion of that integer. For example, the binary digits of 5 is 101, and the binary digits of 13 is 1101.",
+        "answer_v1": [
+            "0",
+            "0",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "What are the last three binary digits of $3^{16029}$? [ANS] [ANS] [ANS]\nNote: The binary digits of an integer is simply the base-2 expansion of that integer. For example, the binary digits of 5 is 101, and the binary digits of 13 is 1101.",
+        "answer_v2": [
+            "0",
+            "1",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "What are the last three binary digits of $5^{23749}$? [ANS] [ANS] [ANS]\nNote: The binary digits of an integer is simply the base-2 expansion of that integer. For example, the binary digits of 5 is 101, and the binary digits of 13 is 1101.",
+        "answer_v3": [
+            "1",
+            "0",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Number_theory_0047",
+        "subject": "Number_theory",
+        "topic": "Diophantine equations",
+        "subtopic": "Fermat's last theorem",
+        "level": "6",
+        "keywords": [
+            "discrete mathematics",
+            "number theory",
+            "integers"
+        ],
+        "problem_v1": "Enter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. The equation $a^{13}+b^{13}=c^{13}$ has a solution in the integer numbers with $abc=0$ [ANS] 2. The equation $a^{100}+b^{100}=c^{100}$ has a solution in the integer numbers with $abc \\not=0$ [ANS] 3. The equation $a^7+b^7=c^7$ has a solution in the integer numbers with $abc=0$ [ANS] 4. The equation $a^{1553}+b^{1553}=c^{1553}$ has a solution in the natural numbers with $abc \\not=0$ [ANS] 5. The equation $a^2+b^2=c^2$ has a solution in the integer with $abc \\not=0$\nIn the previous True-False question what theorem did you mainly refer to? [ANS] A. The Fermat' s Last Theorem  B. The Fundamental Theorem of Arithmetic  C. The Aristothenes's Theorem  D. The Unique Factorization Theorem  E. The Euclid's Theorem\nEnter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. $\\sqrt{9}$ is a rational number [ANS] 2. $\\ 1.01153$ is a rational number [ANS] 3. $\\frac{1-\\sqrt{5}}{2}$ is a rational number [ANS] 4. $\\pi$ is a rational number [ANS] 5. $\\sqrt{3}$ is a rational number [ANS] 6. $100$ is a rational number [ANS] 7. $\\sqrt{\\frac{25}{16}}$ is a rational number\nEnter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. 0 is prime [ANS] 2. 31 is composite [ANS] 3. 17 is composite [ANS] 4. 3 is prime",
+        "answer_v1": [
+            "T",
+            "F",
+            "T",
+            "F",
+            "T",
+            "A",
+            "T",
+            "T",
+            "F",
+            "F",
+            "F",
+            "T",
+            "T",
+            "F",
+            "F",
+            "F",
+            "T"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "MCS",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Enter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. The equation $a^7+b^7=c^7$ has a solution in the integer numbers with $abc=0$ [ANS] 2. The equation $a^{100}+b^{100}=c^{100}$ has a solution in the integer numbers with $abc \\not=0$ [ANS] 3. The equation $a^0+b^0=c^0$ has a solution in the real numbers with $abc \\not=0$ [ANS] 4. The equation $a^{13}+b^{13}=c^{13}$ has a solution in the natural numbers with $abc=0$ [ANS] 5. The equation $a^{100}+b^{100}=c^{100}$ has a solution in the natural numbers with $abc \\not=0$\nIn the previous True-False question what theorem did you mainly refer to? [ANS] A. The Fundamental Theorem of Arithmetic  B. The Aristothenes's Theorem  C. The Unique Factorization Theorem  D. The Fermat' s Last Theorem  E. The Euclid's Theorem\nEnter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. $100$ is a rational number [ANS] 2. $\\sqrt{2}$ is a rational number [ANS] 3. $2\\sqrt{2}$ is a rational number [ANS] 4. $\\ e$ is a rational number [ANS] 5. $\\pi$ is a rational number [ANS] 6. $\\ 1.53$ is a rational number [ANS] 7. $0.001$ is a rational number\nEnter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. 2 is prime [ANS] 2. 17 is composite [ANS] 3. 1 is prime [ANS] 4. 31 is composite",
+        "answer_v2": [
+            "T",
+            "F",
+            "F",
+            "T",
+            "F",
+            "D",
+            "T",
+            "F",
+            "F",
+            "F",
+            "F",
+            "T",
+            "T",
+            "T",
+            "F",
+            "F",
+            "F"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "MCS",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Enter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. The equation $a^{1553}+b^{1553}=c^{1553}$ has a solution in the natural numbers with $abc \\not=0$ [ANS] 2. The equation $a^{100}+b^{100}=c^{100}$ has a solution in the natural numbers with $abc \\not=0$ [ANS] 3. The equation $a^2+b^2=c^2$ has a solution in the natural numbers with $abc \\not=0$ [ANS] 4. The equation $a^2+b^2=c^2$ has a solution in the integer with $abc \\not=0$ [ANS] 5. The equation $a^7+b^7=c^7$ has a solution in the natural numbers with $abc=0$\nIn the previous True-False question what theorem did you mainly refer to? [ANS] A. The Euclid's Theorem  B. The Fundamental Theorem of Arithmetic  C. The Unique Factorization Theorem  D. The Aristothenes's Theorem  E. The Fermat' s Last Theorem\nEnter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. $\\ e$ is a rational number [ANS] 2. $\\frac{1-\\sqrt{5}}{2}$ is a rational number [ANS] 3. $\\pi$ is a rational number [ANS] 4. $\\sqrt{\\frac{25}{16}}$ is a rational number [ANS] 5. $\\sqrt{3}$ is a rational number [ANS] 6. $\\sqrt{\\frac{16}{25}}$ is a rational number [ANS] 7. $100$ is a rational number\nEnter T or F depending on whether the statement is true or not. (You must enter T or F--True and False will not work.) [ANS] 1. 100 is composite [ANS] 2. 0 is prime [ANS] 3. 31 is composite [ANS] 4. 21 is composite",
+        "answer_v3": [
+            "F",
+            "F",
+            "T",
+            "T",
+            "T",
+            "E",
+            "F",
+            "F",
+            "F",
+            "T",
+            "F",
+            "T",
+            "T",
+            "T",
+            "F",
+            "F",
+            "T"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "MCS",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    }
+]
