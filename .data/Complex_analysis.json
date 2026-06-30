@@ -1,0 +1,3283 @@
+[
+    {
+        "id": "Complex_analysis_0000",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to a + bi form",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Evaluate the expression $\\sqrt{-64}$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v1": [
+            "0",
+            "8"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Evaluate the expression $\\sqrt{-4}$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v2": [
+            "0",
+            "2"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Evaluate the expression $\\sqrt{-16}$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v3": [
+            "0",
+            "4"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0001",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to a + bi form",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary",
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Calculate the following:\n(a) $i^3\\=$ [ANS], (b) $i^4\\=$ [ANS], (c) $i^5\\=$ [ANS], (d) $i^6\\=$ [ANS], (e) $i^{67}\\=$ [ANS], (f) $i^{0}\\=$ [ANS], (g) $i^{-1}\\=$ [ANS], (h) $i^{-2}\\=$ [ANS], (i) $i^{-3}\\=$ [ANS], (j) $i^{-50}\\=$ [ANS].",
+        "answer_v1": [
+            "-i",
+            "1",
+            "i",
+            "-1",
+            "-i",
+            "1",
+            "-i",
+            "-1",
+            "i",
+            "-1"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Calculate the following:\n(a) $i^2\\=$ [ANS], (b) $i^3\\=$ [ANS], (c) $i^4\\=$ [ANS], (d) $i^5\\=$ [ANS], (e) $i^{95}\\=$ [ANS], (f) $i^{0}\\=$ [ANS], (g) $i^{-1}\\=$ [ANS], (h) $i^{-2}\\=$ [ANS], (i) $i^{-3}\\=$ [ANS], (j) $i^{-88}\\=$ [ANS].",
+        "answer_v2": [
+            "-1",
+            "-i",
+            "1",
+            "i",
+            "-i",
+            "1",
+            "-i",
+            "-1",
+            "i",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "EX",
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Calculate the following:\n(a) $i^2\\=$ [ANS], (b) $i^3\\=$ [ANS], (c) $i^4\\=$ [ANS], (d) $i^5\\=$ [ANS], (e) $i^{69}\\=$ [ANS], (f) $i^{0}\\=$ [ANS], (g) $i^{-1}\\=$ [ANS], (h) $i^{-2}\\=$ [ANS], (i) $i^{-3}\\=$ [ANS], (j) $i^{-78}\\=$ [ANS].",
+        "answer_v3": [
+            "-1",
+            "-i",
+            "1",
+            "i",
+            "i",
+            "1",
+            "-i",
+            "-1",
+            "i",
+            "-1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "EX",
+            "NV",
+            "EX",
+            "NV",
+            "EX",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0002",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to a + bi form",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Evaluate the expression $ \\frac{\\sqrt{-7}}{\\sqrt{-6} \\sqrt{-6}}$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v1": [
+            "0",
+            "-0.440958551844099"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Evaluate the expression $ \\frac{\\sqrt{-1}}{\\sqrt{-9} \\sqrt{-2}}$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v2": [
+            "0",
+            "-0.235702260395516"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Evaluate the expression $ \\frac{\\sqrt{-3}}{\\sqrt{-6} \\sqrt{-3}}$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v3": [
+            "0",
+            "-0.408248290463863"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0003",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to a + bi form",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Determine whether the following statements are true or false. Enter \"T\" for true and \"F\" for false.\n$\\begin{array}{ccc}\\hline [ANS] & 1. & Every complex number is a pure imaginary number. \\\\ \\hline [ANS] & 2. & The imaginary part of the complex number 7is 0. \\\\ \\hline [ANS] & 3. & The sum of two pure imaginary numbers is always a pure imaginary number. \\\\ \\hline [ANS] & 4. & The sum of two complex numbers is always a complex number. \\\\ \\hline \\end{array}$",
+        "answer_v1": [
+            "F",
+            "T",
+            "F",
+            "T"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Determine whether the following statements are true or false. Enter \"T\" for true and \"F\" for false.\n$\\begin{array}{ccc}\\hline [ANS] & 1. & The imaginary part of the complex number 7is 0. \\\\ \\hline [ANS] & 2. & The sum of two complex numbers is always a complex number. \\\\ \\hline [ANS] & 3. & Every complex number is a pure imaginary number. \\\\ \\hline [ANS] & 4. & Every complex number is a real number. \\\\ \\hline \\end{array}$",
+        "answer_v2": [
+            "T",
+            "T",
+            "F",
+            "F"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Determine whether the following statements are true or false. Enter \"T\" for true and \"F\" for false.\n$\\begin{array}{ccc}\\hline [ANS] & 1. & Every real number is a complex number. \\\\ \\hline [ANS] & 2. & Every complex number is a real number. \\\\ \\hline [ANS] & 3. & Every complex number is a pure imaginary number. \\\\ \\hline [ANS] & 4. & The sum of two complex numbers is sometimes a real number. \\\\ \\hline \\end{array}$",
+        "answer_v3": [
+            "T",
+            "F",
+            "F",
+            "T"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0004",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to a + bi form",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Write the following expression in terms of $i$, perform multiplication, and simplify \\sqrt{-64}\\sqrt{-16}. Answer: [ANS]",
+        "answer_v1": [
+            "-32"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Write the following expression in terms of $i$, perform multiplication, and simplify \\sqrt{-4}\\sqrt{-25}. Answer: [ANS]",
+        "answer_v2": [
+            "-10"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Write the following expression in terms of $i$, perform multiplication, and simplify \\sqrt{-16}\\sqrt{-16}. Answer: [ANS]",
+        "answer_v3": [
+            "-16"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0005",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to a + bi form",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Write the following expression in terms of $i$ and simplify 7 \\sqrt{-49}. Answer: [ANS]",
+        "answer_v1": [
+            "49*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Write the following expression in terms of $i$ and simplify 2 \\sqrt{-100}. Answer: [ANS]",
+        "answer_v2": [
+            "20*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Write the following expression in terms of $i$ and simplify 4 \\sqrt{-49}. Answer: [ANS]",
+        "answer_v3": [
+            "28*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0006",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Addition/subtraction",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary",
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Evaluate the expression $(5+2i)-(2-3i)$ and write the result in the form $a+b i$.\nThe sum is [ANS].",
+        "answer_v1": [
+            "3+5i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Evaluate the expression $(-8-7i)-(8-6i)$ and write the result in the form $a+b i$.\nThe sum is [ANS].",
+        "answer_v2": [
+            "-16-i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Evaluate the expression $(-4-4i)-(2-5i)$ and write the result in the form $a+b i$.\nThe sum is [ANS].",
+        "answer_v3": [
+            "-6+i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0007",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Addition/subtraction",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex number",
+            "Complex",
+            "Imaginary"
+        ],
+        "problem_v1": "Evaluate the expression $(4+1 i)+(2+4 i)$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v1": [
+            "6",
+            "5"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Evaluate the expression $(-7+7 i)+(-6-3 i)$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v2": [
+            "-13",
+            "4"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Evaluate the expression $(-3+2 i)+(-4+1 i)$ and write the result in the form $a+b i$.\nThe real number $a$ equals [ANS]\nThe real number $b$ equals [ANS]",
+        "answer_v3": [
+            "-7",
+            "3"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0008",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Addition/subtraction",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Subtract the two complex numbers (1+8i)-(10+i). Answer: [ANS]",
+        "answer_v1": [
+            "-9+7*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Subtract the two complex numbers (1+2i)-(15-4i). Answer: [ANS]",
+        "answer_v2": [
+            "-14+6*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Subtract the two complex numbers (1+4i)-(10-2i). Answer: [ANS]",
+        "answer_v3": [
+            "-9+6*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0009",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "3",
+        "keywords": [
+            "complex",
+            "multiply"
+        ],
+        "problem_v1": "Multiply the following complex numbers:\n${{i}({6+2i})=}$ [ANS]",
+        "answer_v1": [
+            "-2+6*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Multiply the following complex numbers:\n${{i}({-10+11i})=}$ [ANS]",
+        "answer_v2": [
+            "-11-10*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Multiply the following complex numbers:\n${{i}({-5+3i})=}$ [ANS]",
+        "answer_v3": [
+            "-3-5*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0010",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "3",
+        "keywords": [
+            "complex",
+            "multiply"
+        ],
+        "problem_v1": "Simplify the following complex number:\n${({6+2i})^{2}=}$ [ANS]",
+        "answer_v1": [
+            "32+24*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Simplify the following complex number:\n${({-10+11i})^{2}=}$ [ANS]",
+        "answer_v2": [
+            "-21-220*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Simplify the following complex number:\n${({-5+3i})^{2}=}$ [ANS]",
+        "answer_v3": [
+            "16-30*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0011",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Write the following numbers in $a\\+\\ bi$ form:\n(a) $(3+i)(1+2i)(-2-2i)\\=$ [ANS] $+$ [ANS] $i$, (b) $((1+i)^2-1)i\\=$ [ANS] $+$ [ANS] $i$.",
+        "answer_v1": [
+            "12",
+            "-16",
+            "-2",
+            "-1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write the following numbers in $a\\+\\ bi$ form:\n(a) $(-5+5i)(-4-2i)(5-2i)\\=$ [ANS] $+$ [ANS] $i$, (b) $((-3-2i)^2+1)i\\=$ [ANS] $+$ [ANS] $i$.",
+        "answer_v2": [
+            "130",
+            "-110",
+            "-12",
+            "6"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write the following numbers in $a\\+\\ bi$ form:\n(a) $(-2+i)(-2+i)(-3-2i)\\=$ [ANS] $+$ [ANS] $i$, (b) $((3+5i)^2+4)i\\=$ [ANS] $+$ [ANS] $i$.",
+        "answer_v3": [
+            "-17",
+            "6",
+            "-30",
+            "-12"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0012",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary",
+            "Conjugate"
+        ],
+        "problem_v1": "If we write the following complex number in standard form (\\sqrt{8}+\\sqrt{10} i) (\\sqrt{8}-\\sqrt{10} i)=a+b i then $a=$ [ANS]\n$b=$ [ANS]\nYour answers here have to be simplified so that they are just numbers.",
+        "answer_v1": [
+            "18",
+            "0"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "If we write the following complex number in standard form (\\sqrt{2}+\\sqrt{13} i) (\\sqrt{2}-\\sqrt{13} i)=a+b i then $a=$ [ANS]\n$b=$ [ANS]\nYour answers here have to be simplified so that they are just numbers.",
+        "answer_v2": [
+            "15",
+            "0"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "If we write the following complex number in standard form (\\sqrt{5}+\\sqrt{8} i) (\\sqrt{5}-\\sqrt{8} i)=a+b i then $a=$ [ANS]\n$b=$ [ANS]\nYour answers here have to be simplified so that they are just numbers.",
+        "answer_v3": [
+            "13",
+            "0"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0013",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Polar"
+        ],
+        "problem_v1": "Write each of the given numbers in the polar form $re^{i\\theta}$, $-\\pi < \\theta \\le \\pi$.\n(a) $  \\frac{7-i}{6} $ $r=$ [ANS], $\\theta=$ [ANS], (b) $-6\\pi(6+i\\sqrt{2})$ $r=$ [ANS], $\\theta=$ [ANS], (c) $(1+i)^4$ $r=$ [ANS], $\\theta=$ [ANS].",
+        "answer_v1": [
+            "1.17851130197758",
+            "-0.141897054604164",
+            "116.19646647248",
+            "-2.91011528961961",
+            "4",
+            "3.14159265358979"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write each of the given numbers in the polar form $re^{i\\theta}$, $-\\pi < \\theta \\le \\pi$.\n(a) $  \\frac{1-i}{8} $ $r=$ [ANS], $\\theta=$ [ANS], (b) $-3\\pi(3+i\\sqrt{3})$ $r=$ [ANS], $\\theta=$ [ANS], (c) $(1+i)^4$ $r=$ [ANS], $\\theta=$ [ANS].",
+        "answer_v2": [
+            "0.176776695296637",
+            "-0.785398163397448",
+            "32.6483885562159",
+            "-2.61799387799149",
+            "4",
+            "3.14159265358979"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write each of the given numbers in the polar form $re^{i\\theta}$, $-\\pi < \\theta \\le \\pi$.\n(a) $  \\frac{3-i}{6} $ $r=$ [ANS], $\\theta=$ [ANS], (b) $-3\\pi(5+i\\sqrt{2})$ $r=$ [ANS], $\\theta=$ [ANS], (c) $(1+i)^4$ $r=$ [ANS], $\\theta=$ [ANS].",
+        "answer_v3": [
+            "0.52704627669473",
+            "-0.321750554396642",
+            "48.9725828343238",
+            "-2.86594985437353",
+            "4",
+            "3.14159265358979"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0014",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "2",
+        "keywords": [
+            "algebra"
+        ],
+        "problem_v1": "Complete the following equations: $(7+4 i)^2=$ [ANS] $+$ [ANS] $i$ $(7+4 i)^3=$ [ANS] $+$ [ANS] $i$",
+        "answer_v1": [
+            "33",
+            "56",
+            "7",
+            "524"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Complete the following equations: $(3+6 i)^2=$ [ANS] $+$ [ANS] $i$ $(3+6 i)^3=$ [ANS] $+$ [ANS] $i$",
+        "answer_v2": [
+            "-27",
+            "36",
+            "-297",
+            "-54"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Complete the following equations: $(3+4 i)^2=$ [ANS] $+$ [ANS] $i$ $(3+4 i)^3=$ [ANS] $+$ [ANS] $i$",
+        "answer_v3": [
+            "-7",
+            "24",
+            "-117",
+            "44"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0015",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Find the following product and express the answer in standard form of a complex number. (-10 i)(-4-4 i) Answer: [ANS]",
+        "answer_v1": [
+            "-40+40*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the following product and express the answer in standard form of a complex number. (-9 i)(-4-6 i) Answer: [ANS]",
+        "answer_v2": [
+            "-54+36*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the following product and express the answer in standard form of a complex number. (-9 i)(-4-5 i) Answer: [ANS]",
+        "answer_v3": [
+            "-45+36*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0016",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiplication",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Find the following product and express the answer in standard form of a complex number. (6+3 i)^2 Answer: [ANS]",
+        "answer_v1": [
+            "27+36*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the following product and express the answer in standard form of a complex number. (2+4 i)^2 Answer: [ANS]",
+        "answer_v2": [
+            "-12+16*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the following product and express the answer in standard form of a complex number. (3+3 i)^2 Answer: [ANS]",
+        "answer_v3": [
+            "18*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0017",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Division",
+        "level": "3",
+        "keywords": [
+            "complex",
+            "multiply",
+            "difference of squares"
+        ],
+        "problem_v1": "Rewrite the following expression into the form of a+b $i$:\n${ \\frac{{8-12i}}{{5-i} }=}$ [ANS]",
+        "answer_v1": [
+            "2-2*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Rewrite the following expression into the form of a+b $i$:\n${ \\frac{{10-5i}}{{-3+4i} }=}$ [ANS]",
+        "answer_v2": [
+            "-2-i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Rewrite the following expression into the form of a+b $i$:\n${ \\frac{{-12+2i}}{{1-i} }=}$ [ANS]",
+        "answer_v3": [
+            "-7-5*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0018",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Division",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary",
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Evaluate the expression  \\frac{5+2i}{2+4i}  and write the result in the form $a+b i$.\nThe quotient is [ANS].",
+        "answer_v1": [
+            "0.9-0.8i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Evaluate the expression  \\frac{-8+8i}{-7-3i}  and write the result in the form $a+b i$.\nThe quotient is [ANS].",
+        "answer_v2": [
+            "0.551724137931034-1.37931034482759i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Evaluate the expression  \\frac{-4+2i}{-4+i}  and write the result in the form $a+b i$.\nThe quotient is [ANS].",
+        "answer_v3": [
+            "1.05882352941176-0.235294117647059i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0019",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Division",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "rationalize the denominator"
+        ],
+        "problem_v1": "Rationalize the denominator of expression  \\frac{2}{8+\\sqrt{5} }=[ANS]/[ANS]",
+        "answer_v1": [
+            "11.5278640450004",
+            "59"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Rationalize the denominator of expression  \\frac{2}{2+\\sqrt{7} }=[ANS]/[ANS]",
+        "answer_v2": [
+            "-1.29150262212918",
+            "-3"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Rationalize the denominator of expression  \\frac{2}{4+\\sqrt{5} }=[ANS]/[ANS]",
+        "answer_v3": [
+            "3.52786404500042",
+            "11"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0020",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Division",
+        "level": "2",
+        "keywords": [
+            "algebra",
+            "complex numbers",
+            "complex"
+        ],
+        "problem_v1": "Find the following quotient and express the answer in standard form of a complex number.  \\frac{6-7 i}{4-3i}  Answer: [ANS]",
+        "answer_v1": [
+            "1.8-0.4*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the following quotient and express the answer in standard form of a complex number.  \\frac{3-8 i}{4-3i}  Answer: [ANS]",
+        "answer_v2": [
+            "1.44-0.92*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the following quotient and express the answer in standard form of a complex number.  \\frac{4-7 i}{4-3i}  Answer: [ANS]",
+        "answer_v3": [
+            "1.48-0.64*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0021",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiple operations",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Let $z=5+2 i$. Write the following numbers in $a+bi$ form:\n(a) $6 z=$ [ANS] $+$ [ANS] $i$, (b) $\\bar{z}=$ [ANS] $+$ [ANS] $i$, (c) $  \\frac{1}{z} =$ [ANS] $+$ [ANS] $i$.",
+        "answer_v1": [
+            "30",
+            "12",
+            "5",
+            "-2",
+            "0.172413793103448",
+            "-0.0689655172413793"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Let $z=-8+8 i$. Write the following numbers in $a+bi$ form:\n(a) $-3 z=$ [ANS] $+$ [ANS] $i$, (b) $\\bar{z}=$ [ANS] $+$ [ANS] $i$, (c) $  \\frac{1}{z} =$ [ANS] $+$ [ANS] $i$.",
+        "answer_v2": [
+            "24",
+            "-24",
+            "-8",
+            "-8",
+            "-0.0625",
+            "-0.0625"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Let $z=-4+2 i$. Write the following numbers in $a+bi$ form:\n(a) $4 z=$ [ANS] $+$ [ANS] $i$, (b) $\\bar{z}=$ [ANS] $+$ [ANS] $i$, (c) $  \\frac{1}{z} =$ [ANS] $+$ [ANS] $i$.",
+        "answer_v3": [
+            "-16",
+            "8",
+            "-4",
+            "-2",
+            "-0.2",
+            "-0.1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0022",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiple operations",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary",
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "For some practice working with complex numbers: Calculate $(4+i)+(3+3i)$=[ANS], $(4+i)-(3+3i)$=[ANS], $(4+i)(3+3i)$=[ANS]. The complex conjugate of $(1+i)$ is $(1-i)$. In general to obtain the complex conjugate reverse the sign of the imaginary part. (Geometrically this corresponds to finding the \"mirror image\" point in the complex plane by reflecting through the $x$-axis. The complex conjugate of a complex number $z$ is written with a bar over it: $\\overline{z}$ and read as \"z bar\". Notice that if $z=a+ib$, then $(z)\\left(\\overline z\\right)=|z|^2=a^2+b^2$ which is also the square of the distance of the point $z$ from the origin. (Plot $z$ as a point in the \"complex\" plane in order to see this.) If $z=4+i$ then $\\overline z$=[ANS] and $|z|$=[ANS]. You can use this to simplify complex fractions. Multiply the numerator and denominator by the complex conjugate of the denominator to make the denominator real. $  \\frac{4+i}{3+3i} =$ [ANS] $+i$ [ANS]. Two convenient functions to know about pick out the real and imaginary parts of a complex number. $Re(a+ib)=a$ (the real part (coordinate) of the complex number), and $Im(a+ib)=b$ (the imaginary part (coordinate) of the complex number. $Re$ and $Im$ are linear functions--now that you know about linear behavior you may start noticing it often.",
+        "answer_v1": [
+            "7+4i",
+            "1-2i",
+            "9+15i",
+            "4-i",
+            "4.12310562561766",
+            "0.833333333333333",
+            "-0.5"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "For some practice working with complex numbers: Calculate $(1+6i)+(1-2i)$=[ANS], $(1+6i)-(1-2i)$=[ANS], $(1+6i)(1-2i)$=[ANS]. The complex conjugate of $(1+i)$ is $(1-i)$. In general to obtain the complex conjugate reverse the sign of the imaginary part. (Geometrically this corresponds to finding the \"mirror image\" point in the complex plane by reflecting through the $x$-axis. The complex conjugate of a complex number $z$ is written with a bar over it: $\\overline{z}$ and read as \"z bar\". Notice that if $z=a+ib$, then $(z)\\left(\\overline z\\right)=|z|^2=a^2+b^2$ which is also the square of the distance of the point $z$ from the origin. (Plot $z$ as a point in the \"complex\" plane in order to see this.) If $z=1+6i$ then $\\overline z$=[ANS] and $|z|$=[ANS]. You can use this to simplify complex fractions. Multiply the numerator and denominator by the complex conjugate of the denominator to make the denominator real. $  \\frac{1+6i}{1-2i} =$ [ANS] $+i$ [ANS]. Two convenient functions to know about pick out the real and imaginary parts of a complex number. $Re(a+ib)=a$ (the real part (coordinate) of the complex number), and $Im(a+ib)=b$ (the imaginary part (coordinate) of the complex number. $Re$ and $Im$ are linear functions--now that you know about linear behavior you may start noticing it often.",
+        "answer_v2": [
+            "2+4i",
+            "8i",
+            "13+4i",
+            "1-6i",
+            "6.08276253029822",
+            "-2.2",
+            "1.6"
+        ],
+        "answer_type_v2": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "For some practice working with complex numbers: Calculate $(2+2i)+(2+i)$=[ANS], $(2+2i)-(2+i)$=[ANS], $(2+2i)(2+i)$=[ANS]. The complex conjugate of $(1+i)$ is $(1-i)$. In general to obtain the complex conjugate reverse the sign of the imaginary part. (Geometrically this corresponds to finding the \"mirror image\" point in the complex plane by reflecting through the $x$-axis. The complex conjugate of a complex number $z$ is written with a bar over it: $\\overline{z}$ and read as \"z bar\". Notice that if $z=a+ib$, then $(z)\\left(\\overline z\\right)=|z|^2=a^2+b^2$ which is also the square of the distance of the point $z$ from the origin. (Plot $z$ as a point in the \"complex\" plane in order to see this.) If $z=2+2i$ then $\\overline z$=[ANS] and $|z|$=[ANS]. You can use this to simplify complex fractions. Multiply the numerator and denominator by the complex conjugate of the denominator to make the denominator real. $  \\frac{2+2i}{2+i} =$ [ANS] $+i$ [ANS]. Two convenient functions to know about pick out the real and imaginary parts of a complex number. $Re(a+ib)=a$ (the real part (coordinate) of the complex number), and $Im(a+ib)=b$ (the imaginary part (coordinate) of the complex number. $Re$ and $Im$ are linear functions--now that you know about linear behavior you may start noticing it often.",
+        "answer_v3": [
+            "4+3i",
+            "i",
+            "2+6i",
+            "2-2i",
+            "2.82842712474619",
+            "1.2",
+            "0.4"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0023",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiple operations",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary",
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Evaluate the following expressions and write them in the form $a+b i$.\n$(5+2i)(2+4i)=$ [ANS].\n$(5+2i)\\overline{(2+4i)}=$ [ANS].\n$\\overline{(5+2i)(2+4i)}=$ [ANS].\n$(5+2i)\\overline{(5+2i)}=$ [ANS].\n$| 5+2i |=$ [ANS].",
+        "answer_v1": [
+            "2+24i",
+            "18-16i",
+            "2-24i",
+            "29",
+            "5.38516"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "EX",
+            "EX",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Evaluate the following expressions and write them in the form $a+b i$.\n$(-8-7i)(8-3i)=$ [ANS].\n$(-8-7i)\\overline{(8-3i)}=$ [ANS].\n$\\overline{(-8-7i)(8-3i)}=$ [ANS].\n$(-8-7i)\\overline{(-8-7i)}=$ [ANS].\n$|-8-7i |=$ [ANS].",
+        "answer_v2": [
+            "-85-32i",
+            "-43-80i",
+            "-85+32i",
+            "113",
+            "10.6301"
+        ],
+        "answer_type_v2": [
+            "EX",
+            "EX",
+            "EX",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Evaluate the following expressions and write them in the form $a+b i$.\n$(-4-4i)(2+i)=$ [ANS].\n$(-4-4i)\\overline{(2+i)}=$ [ANS].\n$\\overline{(-4-4i)(2+i)}=$ [ANS].\n$(-4-4i)\\overline{(-4-4i)}=$ [ANS].\n$|-4-4i |=$ [ANS].",
+        "answer_v3": [
+            "-4-12i",
+            "-12-4i",
+            "-4+12i",
+            "32",
+            "5.65685"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "EX",
+            "EX",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0024",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiple operations",
+        "level": "2",
+        "keywords": [
+            "algebra"
+        ],
+        "problem_v1": "Let $u=-4+5 i$ and $v=6-3 i$. Then $u+v=$ [ANS] $+$ [ANS] $i$ $u-v=$ [ANS] $+$ [ANS] $i$ $u \\times v=$ [ANS] $+$ [ANS] $i$ $u\\div v=$ [ANS] $+$ [ANS] $i$",
+        "answer_v1": [
+            "2",
+            "2",
+            "-10",
+            "8",
+            "-9",
+            "42",
+            "-0.866666666666667",
+            "0.4"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Let $u=-6+1 i$ and $v=4-1 i$. Then $u+v=$ [ANS] $+$ [ANS] $i$ $u-v=$ [ANS] $+$ [ANS] $i$ $u \\times v=$ [ANS] $+$ [ANS] $i$ $u\\div v=$ [ANS] $+$ [ANS] $i$",
+        "answer_v2": [
+            "-2",
+            "0",
+            "-10",
+            "2",
+            "-23",
+            "10",
+            "-1.47058823529412",
+            "-0.117647058823529"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Let $u=-4+1 i$ and $v=4-1 i$. Then $u+v=$ [ANS] $+$ [ANS] $i$ $u-v=$ [ANS] $+$ [ANS] $i$ $u \\times v=$ [ANS] $+$ [ANS] $i$ $u\\div v=$ [ANS] $+$ [ANS] $i$",
+        "answer_v3": [
+            "0",
+            "0",
+            "-8",
+            "2",
+            "-15",
+            "8",
+            "-1",
+            "0"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0025",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Multiple operations",
+        "level": "2",
+        "keywords": [
+            "complex",
+            "imaginary",
+            "algebra",
+            "complex number"
+        ],
+        "problem_v1": "Evaluate the expression  \\frac{(2-1 i)(-3 i)}{1-2 i}  and write the result in the form $a+b i$. Then $a=$ [ANS] and $b=$ [ANS]",
+        "answer_v1": [
+            "1.8",
+            "-2.4"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Evaluate the expression  \\frac{(-4-4 i)(6 i)}{-3+1 i}  and write the result in the form $a+b i$. Then $a=$ [ANS] and $b=$ [ANS]",
+        "answer_v2": [
+            "-9.6",
+            "4.8"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Evaluate the expression  \\frac{(-2-1 i)(-2 i)}{-2+3 i}  and write the result in the form $a+b i$. Then $a=$ [ANS] and $b=$ [ANS]",
+        "answer_v3": [
+            "1.23076923076923",
+            "-0.153846153846154"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0026",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Modulus/norm",
+        "level": "3",
+        "keywords": [],
+        "problem_v1": "Calculate:\n(a) $ \\Big|  \\frac{4+3i}{-2-2i}  \\Big|\\=$ [ANS], (b) $ \\Big| \\overline{(1\\+\\ i)}(2-3i)(3-2i)\\Big|\\=$ [ANS], (c) $ \\Big| \\frac{i(2+2i)^3}{(3-3i)^2} \\Big|\\=$ [ANS], (d) $ \\Big|  \\frac{(\\pi\\+i) ^{100}}{(\\pi\\-\\ i)^{100} }\\Big|\\=$ [ANS].",
+        "answer_v1": [
+            "1.76776695296637",
+            "18.3847763108502",
+            "1.25707872210942",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Calculate:\n(a) $ \\Big|  \\frac{1+4i}{-4-3i}  \\Big|\\=$ [ANS], (b) $ \\Big| \\overline{(1\\+\\ i)}(4-3i)(1-3i)\\Big|\\=$ [ANS], (c) $ \\Big| \\frac{i(3+i)^3}{(3-3i)^2} \\Big|\\=$ [ANS], (d) $ \\Big|  \\frac{(\\pi\\+i) ^{100}}{(\\pi\\-\\ i)^{100} }\\Big|\\=$ [ANS].",
+        "answer_v2": [
+            "0.824621125123532",
+            "22.3606797749979",
+            "1.75682092231577",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Calculate:\n(a) $ \\Big|  \\frac{2+3i}{-3-2i}  \\Big|\\=$ [ANS], (b) $ \\Big| \\overline{(1\\+\\ i)}(1-3i)(4-i)\\Big|\\=$ [ANS], (c) $ \\Big| \\frac{i(4+i)^3}{(2-3i)^2} \\Big|\\=$ [ANS], (d) $ \\Big|  \\frac{(\\pi\\+i) ^{100}}{(\\pi\\-\\ i)^{100} }\\Big|\\=$ [ANS].",
+        "answer_v3": [
+            "1",
+            "18.4390889145858",
+            "5.3917535104231",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0028",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to/from polar form",
+        "level": "3",
+        "keywords": [],
+        "problem_v1": "Write each of the given numbers in the form $a+bi$:\n(a) $ e^{- \\frac{i \\pi}{4} }$ [ANS] $+$ [ANS] $i$, (b) $  \\frac{e^{(1+i3\\pi)}}{e^{(-1+\\frac{i\\pi} {2})}}$ [ANS] $+$ [ANS] $i$, (c) $ e^{e^{i}}$ [ANS] $+$ [ANS] $i$.",
+        "answer_v1": [
+            "0.707106781186548",
+            "-0.707106781186547",
+            "5.29548505472042E-14",
+            "7.38905609893065",
+            "1.14383564379164",
+            "1.27988300137302"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write each of the given numbers in the form $a+bi$:\n(a) $ e^{- \\frac{i \\pi}{2} }$ [ANS] $+$ [ANS] $i$, (b) $  \\frac{e^{(1+i4\\pi)}}{e^{(-1+\\frac{i\\pi} {2})}}$ [ANS] $+$ [ANS] $i$, (c) $ e^{e^{i}}$ [ANS] $+$ [ANS] $i$.",
+        "answer_v2": [
+            "1.61554457443259E-15",
+            "-1",
+            "-8.01109496133269E-14",
+            "-7.38905609893065",
+            "1.14383564379164",
+            "1.27988300137302"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write each of the given numbers in the form $a+bi$:\n(a) $ e^{- \\frac{i \\pi}{2} }$ [ANS] $+$ [ANS] $i$, (b) $  \\frac{e^{(1+i3\\pi)}}{e^{(-1+\\frac{i\\pi} {2})}}$ [ANS] $+$ [ANS] $i$, (c) $ e^{e^{i}}$ [ANS] $+$ [ANS] $i$.",
+        "answer_v3": [
+            "1.61554457443259E-15",
+            "-1",
+            "5.29548505472042E-14",
+            "7.38905609893065",
+            "1.14383564379164",
+            "1.27988300137302"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0029",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to/from polar form",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Polar"
+        ],
+        "problem_v1": "Let $z=8 (\\cos 1.7+i \\sin 1.7)$. Write the following numbers in the polar form $r(\\cos\\phi+i \\sin \\phi)$, $0 \\le \\phi < 2\\pi$.\n(a) $6 z$ $r=$ [ANS], $\\phi=$ [ANS], (b) $\\bar{z}$ $r=$ [ANS], $\\phi=$ [ANS], (c) $  \\frac{1}{z} $ $r=$ [ANS], $\\phi=$ [ANS].",
+        "answer_v1": [
+            "48",
+            "1.7",
+            "8",
+            "4.58318530717959",
+            "0.125",
+            "4.58318530717959"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Let $z=2 (\\cos 2.8+i \\sin 2.8)$. Write the following numbers in the polar form $r(\\cos\\phi+i \\sin \\phi)$, $0 \\le \\phi < 2\\pi$.\n(a) $3 z$ $r=$ [ANS], $\\phi=$ [ANS], (b) $\\bar{z}$ $r=$ [ANS], $\\phi=$ [ANS], (c) $  \\frac{1}{z} $ $r=$ [ANS], $\\phi=$ [ANS].",
+        "answer_v2": [
+            "6",
+            "2.8",
+            "2",
+            "3.48318530717959",
+            "0.5",
+            "3.48318530717959"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Let $z=4 (\\cos 1.8+i \\sin 1.8)$. Write the following numbers in the polar form $r(\\cos\\phi+i \\sin \\phi)$, $0 \\le \\phi < 2\\pi$.\n(a) $4 z$ $r=$ [ANS], $\\phi=$ [ANS], (b) $\\bar{z}$ $r=$ [ANS], $\\phi=$ [ANS], (c) $  \\frac{1}{z} $ $r=$ [ANS], $\\phi=$ [ANS].",
+        "answer_v3": [
+            "16",
+            "1.8",
+            "4",
+            "4.48318530717959",
+            "0.25",
+            "4.48318530717959"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0030",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to/from polar form",
+        "level": "2",
+        "keywords": [
+            "polar",
+            "rectangular",
+            "complex numbers",
+            "circuits"
+        ],
+        "problem_v1": "Express the following numbers in polar form (magnitude and phase). The angle is in degrees and between $-180 ^{\\circ}$ and $+180 ^{\\circ}$.\n(a) 25+j (22)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (b)-23+j (25)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (c)-16+j (-21)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (d) 22+j (-17)=[ANS] $\\angle$ [ANS] $^{\\circ}$",
+        "answer_v1": [
+            "33.302",
+            "41.35",
+            "33.971",
+            "132.61",
+            "26.401",
+            "-127.3",
+            "27.803",
+            "-37.69"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Express the following numbers in polar form (magnitude and phase). The angle is in degrees and between $-180 ^{\\circ}$ and $+180 ^{\\circ}$.\n(a) 11+j (29)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (b)-13+j (17)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (c)-29+j (-16)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (d) 13+j (-16)=[ANS] $\\angle$ [ANS] $^{\\circ}$",
+        "answer_v2": [
+            "31.016",
+            "69.23",
+            "21.401",
+            "127.41",
+            "33.121",
+            "-151.11",
+            "20.616",
+            "-50.91"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Express the following numbers in polar form (magnitude and phase). The angle is in degrees and between $-180 ^{\\circ}$ and $+180 ^{\\circ}$.\n(a) 16+j (22)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (b)-15+j (21)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (c)-14+j (-17)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (d) 26+j (-29)=[ANS] $\\angle$ [ANS] $^{\\circ}$",
+        "answer_v3": [
+            "27.203",
+            "53.97",
+            "25.807",
+            "125.54",
+            "22.023",
+            "-129.47",
+            "38.949",
+            "-48.12"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0031",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to/from polar form",
+        "level": "2",
+        "keywords": [
+            "addition",
+            "subtraction",
+            "complex numbers",
+            "circuits"
+        ],
+        "problem_v1": "Find the following expressions. The angle is in degrees and between $-180 ^{\\circ}$ and $+180 ^{\\circ}$.\n(a) (25+j (22))+(-23+j (25))=[ANS] $\\angle$ [ANS] $^{\\circ}$ (b) (25+j (22))+(10 $\\angle-146^{\\circ}$)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (c) (6 $\\angle 46^{\\circ}$)+(-23+j (25))=[ANS] $\\angle$ [ANS] $^{\\circ}$ (d) (-16+j (-21))-(9 $\\angle 127^{\\circ}$)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (e) (9 $\\angle-46^{\\circ}$)-(22+j (-17))=[ANS] $\\angle$ [ANS] $^{\\circ}$",
+        "answer_v1": [
+            "47.043",
+            "87.56",
+            "23.419",
+            "44.48",
+            "34.844",
+            "122.72",
+            "30.109",
+            "-110.58",
+            "18.942",
+            "146.24"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the following expressions. The angle is in degrees and between $-180 ^{\\circ}$ and $+180 ^{\\circ}$.\n(a) (11+j (29))+(-13+j (17))=[ANS] $\\angle$ [ANS] $^{\\circ}$ (b) (11+j (29))+(12 $\\angle-100^{\\circ}$)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (c) (13 $\\angle 40^{\\circ}$)+(-13+j (17))=[ANS] $\\angle$ [ANS] $^{\\circ}$ (d) (-29+j (-16))-(17 $\\angle 110^{\\circ}$)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (e) (4 $\\angle-26^{\\circ}$)-(13+j (-16))=[ANS] $\\angle$ [ANS] $^{\\circ}$",
+        "answer_v2": [
+            "46.043",
+            "92.49",
+            "19.358",
+            "62.57",
+            "25.538",
+            "96.84",
+            "39.496",
+            "-125.95",
+            "17.071",
+            "123.43"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the following expressions. The angle is in degrees and between $-180 ^{\\circ}$ and $+180 ^{\\circ}$.\n(a) (16+j (22))+(-15+j (21))=[ANS] $\\angle$ [ANS] $^{\\circ}$ (b) (16+j (22))+(18 $\\angle-110^{\\circ}$)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (c) (6 $\\angle 25^{\\circ}$)+(-15+j (21))=[ANS] $\\angle$ [ANS] $^{\\circ}$ (d) (-14+j (-17))-(1 $\\angle 141^{\\circ}$)=[ANS] $\\angle$ [ANS] $^{\\circ}$ (e) (20 $\\angle-69^{\\circ}$)-(26+j (-29))=[ANS] $\\angle$ [ANS] $^{\\circ}$",
+        "answer_v3": [
+            "43.012",
+            "88.67",
+            "11.08",
+            "27.32",
+            "25.404",
+            "112.11",
+            "22.037",
+            "-126.87",
+            "21.479",
+            "151.26"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0032",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Conversion to/from polar form",
+        "level": "2",
+        "keywords": [
+            "polar",
+            "rectangular",
+            "complex numbers",
+            "circuits"
+        ],
+        "problem_v1": "Express the following numbers in rectangular form (real and imaginary).\n(a) 16 $\\angle$ $52^{\\circ}$=[ANS]+j [ANS]\n(b) 13 $\\angle$ $-63^{\\circ}$=[ANS]+j [ANS]\n(c) 7 $\\angle$ $121^{\\circ}$=[ANS]+j [ANS]\n(d) 12 $\\angle$ $-140^{\\circ}$=[ANS]+j [ANS]",
+        "answer_v1": [
+            "9.851",
+            "12.608",
+            "5.902",
+            "-11.583",
+            "-3.605",
+            "6",
+            "-9.193",
+            "-7.713"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Express the following numbers in rectangular form (real and imaginary).\n(a) 2 $\\angle$ $80^{\\circ}$=[ANS]+j [ANS]\n(b) 3 $\\angle$ $-32^{\\circ}$=[ANS]+j [ANS]\n(c) 19 $\\angle$ $120^{\\circ}$=[ANS]+j [ANS]\n(d) 4 $\\angle$ $-120^{\\circ}$=[ANS]+j [ANS]",
+        "answer_v2": [
+            "0.347",
+            "1.97",
+            "2.544",
+            "-1.59",
+            "-9.5",
+            "16.454",
+            "-2",
+            "-3.464"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Express the following numbers in rectangular form (real and imaginary).\n(a) 7 $\\angle$ $54^{\\circ}$=[ANS]+j [ANS]\n(b) 6 $\\angle$ $-49^{\\circ}$=[ANS]+j [ANS]\n(c) 5 $\\angle$ $123^{\\circ}$=[ANS]+j [ANS]\n(d) 17 $\\angle$ $-166^{\\circ}$=[ANS]+j [ANS]",
+        "answer_v3": [
+            "4.115",
+            "5.663",
+            "3.936",
+            "-4.528",
+            "-2.723",
+            "4.193",
+            "-16.495",
+            "-4.113"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0033",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Powers and roots",
+        "level": "3",
+        "keywords": [
+            "solve",
+            "quadratic",
+            "equation",
+            "complex",
+            "square root"
+        ],
+        "problem_v1": "Re-write the following expressions with i:\n${\\sqrt{-100}=}$ [ANS]",
+        "answer_v1": [
+            "10*i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Re-write the following expressions with i:\n${\\sqrt{-1}=}$ [ANS]",
+        "answer_v2": [
+            "1*i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Re-write the following expressions with i:\n${\\sqrt{-16}=}$ [ANS]",
+        "answer_v3": [
+            "4*i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0034",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Powers and roots",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Imaginary"
+        ],
+        "problem_v1": "Find the square root of 5+2i so that the real part of your answer is positive.\nThe square root is [ANS].",
+        "answer_v1": [
+            "2.27872385417085+0.438842116902255i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the square root of-8+8i so that the real part of your answer is positive.\nThe square root is [ANS].",
+        "answer_v2": [
+            "1.28718850581117+3.10754794806007i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the square root of-4+2i so that the real part of your answer is positive.\nThe square root is [ANS].",
+        "answer_v3": [
+            "0.485868271756646+2.05817102727149i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0035",
+        "subject": "Complex_analysis",
+        "topic": "Arithmetic",
+        "subtopic": "Powers and roots",
+        "level": "2",
+        "keywords": [
+            "Complex",
+            "Root"
+        ],
+        "problem_v1": "Find all the values of the following: (1) $(1+\\sqrt{3}i)^ \\frac{1}{3} $ Place all answers in the following blank, separated by commas: [ANS]\n(2) $(i+1)^ \\frac{1}{2} $ Place all answers in the following blank, separated by commas: [ANS]\n(3) $ \\left( \\frac{7 i}{1+i} \\right)^ \\frac{1}{6} $ Place all answers in the following blank, separated by commas: [ANS]",
+        "answer_v1": [
+            "((2^(1/3)*exp(1*i*pi/9), 2^(1/3)*exp(i*(6+1)*pi/9), 2^(1/3)*exp(i*(12+1)*pi/9)))",
+            "((2^(1/4)*exp(1*i*pi/8), 2^(1/4)*exp(9*i*pi/8)))",
+            "((49/2)^(1/12)*exp(i*pi/24), (49/2)^(1/12)*exp(9*i*pi/24), (49/2)^(1/12)*exp(17*i*pi/24), (49/2)^(1/12)*exp(25*i*pi/24), (49/2)^(1/12)*exp(33*i*pi/24), (49/2)^(1/12)*exp(41*i*pi/24))"
+        ],
+        "answer_type_v1": [
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find all the values of the following: (1) $(1-\\sqrt{3}i)^ \\frac{1}{3} $ Place all answers in the following blank, separated by commas: [ANS]\n(2) $(i+1)^ \\frac{1}{2} $ Place all answers in the following blank, separated by commas: [ANS]\n(3) $ \\left( \\frac{3 i}{1+i} \\right)^ \\frac{1}{6} $ Place all answers in the following blank, separated by commas: [ANS]",
+        "answer_v2": [
+            "((2^(1/3)*exp(-1*i*pi/9), 2^(1/3)*exp(i*(6+-1)*pi/9), 2^(1/3)*exp(i*(12+-1)*pi/9)))",
+            "((2^(1/4)*exp(1*i*pi/8), 2^(1/4)*exp(9*i*pi/8)))",
+            "((9/2)^(1/12)*exp(i*pi/24), (9/2)^(1/12)*exp(9*i*pi/24), (9/2)^(1/12)*exp(17*i*pi/24), (9/2)^(1/12)*exp(25*i*pi/24), (9/2)^(1/12)*exp(33*i*pi/24), (9/2)^(1/12)*exp(41*i*pi/24))"
+        ],
+        "answer_type_v2": [
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find all the values of the following: (1) $(1-\\sqrt{3}i)^ \\frac{1}{3} $ Place all answers in the following blank, separated by commas: [ANS]\n(2) $(i+1)^ \\frac{1}{2} $ Place all answers in the following blank, separated by commas: [ANS]\n(3) $ \\left( \\frac{4 i}{1+i} \\right)^ \\frac{1}{6} $ Place all answers in the following blank, separated by commas: [ANS]",
+        "answer_v3": [
+            "(2^(1/3)*exp(-1*i*pi/9), 2^(1/3)*exp(i*(6+-1)*pi/9), 2^(1/3)*exp(i*(12+-1)*pi/9))",
+            "(2^(1/4)*exp(1*i*pi/8), 2^(1/4)*exp(9*i*pi/8))",
+            "(16/2)^(1/12)*exp(i*pi/24), (16/2)^(1/12)*exp(9*i*pi/24), (16/2)^(1/12)*exp(17*i*pi/24), (16/2)^(1/12)*exp(25*i*pi/24), (16/2)^(1/12)*exp(33*i*pi/24), (16/2)^(1/12)*exp(41*i*pi/24)"
+        ],
+        "answer_type_v3": [
+            "UOL",
+            "UOL",
+            "UOL"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0036",
+        "subject": "Complex_analysis",
+        "topic": "Complex equations",
+        "subtopic": "Linear",
+        "level": "2",
+        "keywords": [
+            "algebra"
+        ],
+        "problem_v1": "Let u=7-6 i, \\quad v=6+7 i,\\quad w=-3+3 i. Consider the equation ux+v=w. Solve it for $x$ using exactly the same ideas we used for solving linear equations with real coefficients. Ask what bothers you, and get rid of it by doing the same thing on both sides of the equation. $x=$ [ANS] $+$ [ANS] $i$ Hint: Solve the given equation in terms of $u$, $v$, and $w$, and only then apply complex arithmetic to obtain the real and imaginary parts of $x$.",
+        "answer_v1": [
+            "-0.458823529411765",
+            "-0.964705882352941"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            []
+        ],
+        "problem_v2": "Let u=1-9 i, \\quad v=2+4 i,\\quad w=-9+3 i. Consider the equation ux+v=w. Solve it for $x$ using exactly the same ideas we used for solving linear equations with real coefficients. Ask what bothers you, and get rid of it by doing the same thing on both sides of the equation. $x=$ [ANS] $+$ [ANS] $i$ Hint: Solve the given equation in terms of $u$, $v$, and $w$, and only then apply complex arithmetic to obtain the real and imaginary parts of $x$.",
+        "answer_v2": [
+            "-0.024390243902439",
+            "-1.21951219512195"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            []
+        ],
+        "problem_v3": "Let u=3-6 i, \\quad v=3+5 i,\\quad w=-2+4 i. Consider the equation ux+v=w. Solve it for $x$ using exactly the same ideas we used for solving linear equations with real coefficients. Ask what bothers you, and get rid of it by doing the same thing on both sides of the equation. $x=$ [ANS] $+$ [ANS] $i$ Hint: Solve the given equation in terms of $u$, $v$, and $w$, and only then apply complex arithmetic to obtain the real and imaginary parts of $x$.",
+        "answer_v3": [
+            "-0.2",
+            "-0.733333333333333"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0037",
+        "subject": "Complex_analysis",
+        "topic": "Complex plane",
+        "subtopic": "Regions and domains",
+        "level": "6",
+        "keywords": [
+            "Complex",
+            "Open"
+        ],
+        "problem_v1": "Which of the following sets are open? [ANS] A. $\\vert z-1+i \\vert \\le 3$  B. $\\vert z \\vert \\ge 2$  C. $\\vert Arg\\ z \\vert <  \\frac{\\pi}{4} $  D. $0<\\vert z-2 \\vert < 3$  E. $(Re\\ z)^2>1$  F. $-1<\\ Im\\ z \\le 1$",
+        "answer_v1": [
+            "CDE"
+        ],
+        "answer_type_v1": [
+            "MCM"
+        ],
+        "options_v1": [
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        ],
+        "problem_v2": "Which of the following sets are open? [ANS] A. $-1<\\ Im\\ z \\le 1$  B. $\\vert z \\vert \\ge 2$  C. $\\vert z-1+i \\vert \\le 3$  D. $\\vert Arg\\ z \\vert <  \\frac{\\pi}{4} $  E. $0<\\vert z-2 \\vert < 3$  F. $(Re\\ z)^2>1$",
+        "answer_v2": [
+            "DEF"
+        ],
+        "answer_type_v2": [
+            "MCM"
+        ],
+        "options_v2": [
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        ],
+        "problem_v3": "Which of the following sets are open? [ANS] A. $-1<\\ Im\\ z \\le 1$  B. $\\vert Arg\\ z \\vert <  \\frac{\\pi}{4} $  C. $0<\\vert z-2 \\vert < 3$  D. $\\vert z-1+i \\vert \\le 3$  E. $(Re\\ z)^2>1$  F. $\\vert z \\vert \\ge 2$",
+        "answer_v3": [
+            "BCE"
+        ],
+        "answer_type_v3": [
+            "MCM"
+        ],
+        "options_v3": [
+            [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        ]
+    },
+    {
+        "id": "Complex_analysis_0038",
+        "subject": "Complex_analysis",
+        "topic": "Complex functions",
+        "subtopic": "Complex functions as mappings",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Write each of the following functions in the form $w\\=\\ u(x,y)\\+\\ iv(x,y)$: (1) $g(z)\\=\\  \\frac{3}{z} $ [ANS] $+\\ i$ [ANS]\n(2) $q(z)\\=\\  \\frac{4 z^2\\+\\ 4}{|z\\-\\ 4|} $ [ANS] $+\\ i$ [ANS]\n(3) $G(z)\\=\\ e^z\\+\\ e^{-z}$ [ANS] $+\\ i$ [ANS]",
+        "answer_v1": [
+            "3*x/(x**2+y**2)",
+            "-1*3*y/(x**2+y**2)",
+            "(4*x**2-4*y**2+4)/(sqrt((x-4)**2+y**2))",
+            "2*4*x*y/(sqrt((x-4)**2+y**2))",
+            "2*cos(y)*cosh(x)",
+            "2*sin(y)*sinh(x)"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write each of the following functions in the form $w\\=\\ u(x,y)\\+\\ iv(x,y)$: (1) $g(z)\\=\\  \\frac{-5}{z} $ [ANS] $+\\ i$ [ANS]\n(2) $q(z)\\=\\  \\frac{5 z^2\\+\\ 1}{|z\\-\\ 2|} $ [ANS] $+\\ i$ [ANS]\n(3) $G(z)\\=\\ e^z\\+\\ e^{-z}$ [ANS] $+\\ i$ [ANS]",
+        "answer_v2": [
+            "-5*x/(x**2+y**2)",
+            "-1*-5*y/(x**2+y**2)",
+            "(5*x**2-5*y**2+1)/(sqrt((x-2)**2+y**2))",
+            "2*5*x*y/(sqrt((x-2)**2+y**2))",
+            "2*cos(y)*cosh(x)",
+            "2*sin(y)*sinh(x)"
+        ],
+        "answer_type_v2": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write each of the following functions in the form $w\\=\\ u(x,y)\\+\\ iv(x,y)$: (1) $g(z)\\=\\  \\frac{-2}{z} $ [ANS] $+\\ i$ [ANS]\n(2) $q(z)\\=\\  \\frac{4 z^2\\+\\ 2}{|z\\-\\ 3|} $ [ANS] $+\\ i$ [ANS]\n(3) $G(z)\\=\\ e^z\\+\\ e^{-z}$ [ANS] $+\\ i$ [ANS]",
+        "answer_v3": [
+            "-2*x/(x**2+y**2)",
+            "-1*-2*y/(x**2+y**2)",
+            "(4*x**2-4*y**2+2)/(sqrt((x-3)**2+y**2))",
+            "2*4*x*y/(sqrt((x-3)**2+y**2))",
+            "2*cos(y)*cosh(x)",
+            "2*sin(y)*sinh(x)"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0039",
+        "subject": "Complex_analysis",
+        "topic": "Complex functions",
+        "subtopic": "Limits",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Find each of the following limits:\n(1) $\\lim_{z \\to 0}{e^z}\\=\\ $ [ANS]\n(2) $\\lim_{z \\to 2\\pi i}{e^z-e^{-z}}\\=\\ $ [ANS]\n(3) $\\lim_{z \\to  \\frac{\\pi i}{2} }{(z\\+\\ 4)e^z}\\=\\ $ [ANS]\n(4) $\\lim_{z \\to \\pi i}{\\exp( \\frac{z^2\\+\\ \\pi^2}{z\\+\\ \\pi i} )}\\=\\ $ [ANS]",
+        "answer_v1": [
+            "1",
+            "0",
+            "-1.5707963267949+4i",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "EX",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find each of the following limits:\n(1) $\\lim_{z \\to 0}{e^z}\\=\\ $ [ANS]\n(2) $\\lim_{z \\to 2\\pi i}{e^z-e^{-z}}\\=\\ $ [ANS]\n(3) $\\lim_{z \\to  \\frac{\\pi i}{2} }{(z\\+\\ 1)e^z}\\=\\ $ [ANS]\n(4) $\\lim_{z \\to \\pi i}{\\exp( \\frac{z^2\\+\\ \\pi^2}{z\\+\\ \\pi i} )}\\=\\ $ [ANS]",
+        "answer_v2": [
+            "1",
+            "0",
+            "-1.5707963267949+i",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "EX",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find each of the following limits:\n(1) $\\lim_{z \\to 0}{e^z}\\=\\ $ [ANS]\n(2) $\\lim_{z \\to 2\\pi i}{e^z-e^{-z}}\\=\\ $ [ANS]\n(3) $\\lim_{z \\to  \\frac{\\pi i}{2} }{(z\\+\\ 2)e^z}\\=\\ $ [ANS]\n(4) $\\lim_{z \\to \\pi i}{\\exp( \\frac{z^2\\+\\ \\pi^2}{z\\+\\ \\pi i} )}\\=\\ $ [ANS]",
+        "answer_v3": [
+            "1",
+            "0",
+            "-1.5707963267949+2i",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "EX",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0041",
+        "subject": "Complex_analysis",
+        "topic": "Analytic functions",
+        "subtopic": "Harmonic functions",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Find a function $\\phi (x, y)$ that is harmonic in the region of the first quadrant between the curves $xy\\=\\ 2$ and $xy\\=\\ 4$ and takes on the values $5$ on the lower edge and the value $7$ on the upper edge.[Hint: Begin by considering $z^2$.] [ANS]",
+        "answer_v1": [
+            "x*y+3"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find a function $\\phi (x, y)$ that is harmonic in the region of the first quadrant between the curves $xy\\=\\ 2$ and $xy\\=\\ 4$ and takes on the values $-3$ on the lower edge and the value $-1$ on the upper edge.[Hint: Begin by considering $z^2$.] [ANS]",
+        "answer_v2": [
+            "x*y+-5"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find a function $\\phi (x, y)$ that is harmonic in the region of the first quadrant between the curves $xy\\=\\ 2$ and $xy\\=\\ 4$ and takes on the values $0$ on the lower edge and the value $2$ on the upper edge.[Hint: Begin by considering $z^2$.] [ANS]",
+        "answer_v3": [
+            "x*y+-2"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0042",
+        "subject": "Complex_analysis",
+        "topic": "Analytic functions",
+        "subtopic": "Harmonic functions",
+        "level": "4",
+        "keywords": [],
+        "problem_v1": "Find a function $\\phi (x, y)$ that is harmonic in the infinite vertical strip $\\lbrace z:\\-1\\ \\le\\ Re\\ z\\ \\le\\ 3\\rbrace$ and takes the value $3$ on the left edge and the value $7$ on the right edge. [ANS]",
+        "answer_v1": [
+            "x+4"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find a function $\\phi (x, y)$ that is harmonic in the infinite vertical strip $\\lbrace z:\\-1\\ \\le\\ Re\\ z\\ \\le\\ 3\\rbrace$ and takes the value $0$ on the left edge and the value $4$ on the right edge. [ANS]",
+        "answer_v2": [
+            "x+1"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find a function $\\phi (x, y)$ that is harmonic in the infinite vertical strip $\\lbrace z:\\-1\\ \\le\\ Re\\ z\\ \\le\\ 3\\rbrace$ and takes the value $1$ on the left edge and the value $5$ on the right edge. [ANS]",
+        "answer_v3": [
+            "x+2"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0043",
+        "subject": "Complex_analysis",
+        "topic": "Analytic functions",
+        "subtopic": "Harmonic functions",
+        "level": "3",
+        "keywords": [],
+        "problem_v1": "Find the harmonic conjugate of each harmonic function $u$. (use $a$ as your constant of integration.) (1) $u\\=\\ 6 y$ [ANS]\n(2) $u\\=\\ 6 e^xsin(y)$ [ANS]\n(3) $u\\=\\ 5xy\\-\\ 4x\\+\\ 3 y$ [ANS]",
+        "answer_v1": [
+            "-6*x+a",
+            "-6*e**x*cos(y)+a",
+            "5*y**2/2-4*y-5*x**2/2-3*x+a"
+        ],
+        "answer_type_v1": [
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v1": [
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Find the harmonic conjugate of each harmonic function $u$. (use $a$ as your constant of integration.) (1) $u\\=\\ 2 y$ [ANS]\n(2) $u\\=\\ 8 e^xsin(y)$ [ANS]\n(3) $u\\=\\ 2xy\\-\\ 3x\\+\\ 6 y$ [ANS]",
+        "answer_v2": [
+            "-2*x+a",
+            "-8*e**x*cos(y)+a",
+            "2*y**2/2-3*y-2*x**2/2-6*x+a"
+        ],
+        "answer_type_v2": [
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v2": [
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Find the harmonic conjugate of each harmonic function $u$. (use $a$ as your constant of integration.) (1) $u\\=\\ 3 y$ [ANS]\n(2) $u\\=\\ 6 e^xsin(y)$ [ANS]\n(3) $u\\=\\ 3xy\\-\\ 4x\\+\\ 3 y$ [ANS]",
+        "answer_v3": [
+            "-3*x+a",
+            "-6*e**x*cos(y)+a",
+            "3*y**2/2-4*y-3*x**2/2-3*x+a"
+        ],
+        "answer_type_v3": [
+            "EX",
+            "EX",
+            "EX"
+        ],
+        "options_v3": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0044",
+        "subject": "Complex_analysis",
+        "topic": "Analytic functions",
+        "subtopic": "Entire functions",
+        "level": "4",
+        "keywords": [],
+        "problem_v1": "Let $f(z)$ and $g(z)$ be entire functions. Select True or False, depending on whether the corresponding statement is true or false.\n[ANS] 1. $f(1/z)$ is entire. [ANS] 2. $g(z^2\\+\\ 2)$ is entire. [ANS] 3. $f(z)^3$ is entire. [ANS] 4. $5f(z)\\+\\ ig(z)$ is entire. [ANS] 5. $f(z)/g(z)$ is entire. [ANS] 6. $f(z)g(z)$ is entire. [ANS] 7. $f(g(z))$ is entire.",
+        "answer_v1": [
+            "F",
+            "T",
+            "T",
+            "T",
+            "F",
+            "T",
+            "T"
+        ],
+        "answer_type_v1": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v1": [
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ]
+        ],
+        "problem_v2": "Let $f(z)$ and $g(z)$ be entire functions. Select True or False, depending on whether the corresponding statement is true or false.\n[ANS] 1. $f(z)/g(z)$ is entire. [ANS] 2. $g(z^2\\+\\ 2)$ is entire. [ANS] 3. $f(z)g(z)$ is entire. [ANS] 4. $f(1/z)$ is entire. [ANS] 5. $f(z)^3$ is entire. [ANS] 6. $f(g(z))$ is entire. [ANS] 7. $5f(z)\\+\\ ig(z)$ is entire.",
+        "answer_v2": [
+            "F",
+            "T",
+            "T",
+            "F",
+            "T",
+            "T",
+            "T"
+        ],
+        "answer_type_v2": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v2": [
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ]
+        ],
+        "problem_v3": "Let $f(z)$ and $g(z)$ be entire functions. Select True or False, depending on whether the corresponding statement is true or false.\n[ANS] 1. $f(z)^3$ is entire. [ANS] 2. $f(z)g(z)$ is entire. [ANS] 3. $f(1/z)$ is entire. [ANS] 4. $5f(z)\\+\\ ig(z)$ is entire. [ANS] 5. $f(z)/g(z)$ is entire. [ANS] 6. $g(z^2\\+\\ 2)$ is entire. [ANS] 7. $f(g(z))$ is entire.",
+        "answer_v3": [
+            "T",
+            "T",
+            "F",
+            "T",
+            "F",
+            "T",
+            "T"
+        ],
+        "answer_type_v3": [
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF",
+            "TF"
+        ],
+        "options_v3": [
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ],
+            [
+                "T",
+                "F"
+            ]
+        ]
+    },
+    {
+        "id": "Complex_analysis_0045",
+        "subject": "Complex_analysis",
+        "topic": "Analytic functions",
+        "subtopic": "Applications",
+        "level": "5",
+        "keywords": [],
+        "problem_v1": "A uniformly charged infinite rod, standing perpendicular to the $z$-plane at the point $z_0$, generates an electric field at every point in the plane. The intensity of this field varies inversely as the distance from $z_0$ to the point and is directed along the line from $z_0$ to the point. If three such rods are located at the points $5\\+\\ 3 i$, $-5\\+\\ 3 i$, and $0$, find the positions of equilibrium (i.e., the points where the vector sum of the fields is zero). $($ Hint: $F(z)\\=\\  \\frac{1}{(\\overline{z} \\-\\ \\overline{z}_0\\)})$ Enter all answers in the following answer blank, separated by commas: [ANS]",
+        "answer_v1": [
+            "-2.70801280154532+2i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "A uniformly charged infinite rod, standing perpendicular to the $z$-plane at the point $z_0$, generates an electric field at every point in the plane. The intensity of this field varies inversely as the distance from $z_0$ to the point and is directed along the line from $z_0$ to the point. If three such rods are located at the points $2\\+\\ 3 i$, $-2\\+\\ 3 i$, and $0$, find the positions of equilibrium (i.e., the points where the vector sum of the fields is zero). $($ Hint: $F(z)\\=\\  \\frac{1}{(\\overline{z} \\-\\ \\overline{z}_0\\)})$ Enter all answers in the following answer blank, separated by commas: [ANS]",
+        "answer_v2": [
+            "-0.577350269189626+2i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "A uniformly charged infinite rod, standing perpendicular to the $z$-plane at the point $z_0$, generates an electric field at every point in the plane. The intensity of this field varies inversely as the distance from $z_0$ to the point and is directed along the line from $z_0$ to the point. If three such rods are located at the points $3\\+\\ 3 i$, $-3\\+\\ 3 i$, and $0$, find the positions of equilibrium (i.e., the points where the vector sum of the fields is zero). $($ Hint: $F(z)\\=\\  \\frac{1}{(\\overline{z} \\-\\ \\overline{z}_0\\)})$ Enter all answers in the following answer blank, separated by commas: [ANS]",
+        "answer_v3": [
+            "-1.41421356237309+2i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0046",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Sequences",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Decide whether each of the following sequences converges, and if so, type the limit in the answer blank. If it does not converge, type $DNC$:\n(1) $z_n\\=\\  \\frac{i}{n} $ [ANS]\n(2) $z_n\\=\\ i(-1)^n$ [ANS]\n(3) $z_n\\=\\ Arg(-1\\+\\  \\frac{i}{n} )$ [ANS]\n(4) $z_n\\=\\  \\frac{n(7\\+\\ 4 i)}{n\\+\\ 1} $ [ANS]\n(5) $z_n\\=\\ ( \\frac{1\\-\\ i}{4} )^n$ [ANS]\n(6) $z_n\\=\\ exp( \\frac{2n\\pi i}{5} )$ [ANS]",
+        "answer_v1": [
+            "0",
+            "DNC",
+            "3.14159265358979",
+            "7+4i",
+            "0",
+            "DNC"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "OE",
+            "NV",
+            "EX",
+            "NV",
+            "OE"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Decide whether each of the following sequences converges, and if so, type the limit in the answer blank. If it does not converge, type $DNC$:\n(1) $z_n\\=\\  \\frac{i}{n} $ [ANS]\n(2) $z_n\\=\\ i(-1)^n$ [ANS]\n(3) $z_n\\=\\ Arg(-1\\+\\  \\frac{i}{n} )$ [ANS]\n(4) $z_n\\=\\  \\frac{n(1\\+\\ 5 i)}{n\\+\\ 1} $ [ANS]\n(5) $z_n\\=\\ ( \\frac{1\\-\\ i}{4} )^n$ [ANS]\n(6) $z_n\\=\\ exp( \\frac{2n\\pi i}{5} )$ [ANS]",
+        "answer_v2": [
+            "0",
+            "DNC",
+            "3.14159265358979",
+            "1+5i",
+            "0",
+            "DNC"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "OE",
+            "NV",
+            "EX",
+            "NV",
+            "OE"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Decide whether each of the following sequences converges, and if so, type the limit in the answer blank. If it does not converge, type $DNC$:\n(1) $z_n\\=\\  \\frac{i}{n} $ [ANS]\n(2) $z_n\\=\\ i(-1)^n$ [ANS]\n(3) $z_n\\=\\ Arg(-1\\+\\  \\frac{i}{n} )$ [ANS]\n(4) $z_n\\=\\  \\frac{n(3\\+\\ 4 i)}{n\\+\\ 1} $ [ANS]\n(5) $z_n\\=\\ ( \\frac{1\\-\\ i}{4} )^n$ [ANS]\n(6) $z_n\\=\\ exp( \\frac{2n\\pi i}{5} )$ [ANS]",
+        "answer_v3": [
+            "0",
+            "DNC",
+            "3.14159265358979",
+            "3+4i",
+            "0",
+            "DNC"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "OE",
+            "NV",
+            "EX",
+            "NV",
+            "OE"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0047",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Taylor series",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Write the following polynomials in the Taylor form, centered at $z=2$: $f(z)=3z^{5}-4z^{4}+4z^{3}+2z^{2}+2z+7$ $f(z)=$ [ANS] $+$ [ANS] $(z-2)+$ [ANS] $(z-2)^2+$ [ANS] $(z-2)^3+$ [ANS] $(z-2)^4+$ [ANS] $(z-2)^5$",
+        "answer_v1": [
+            "83",
+            "170",
+            "340",
+            "552",
+            "624",
+            "360"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write the following polynomials in the Taylor form, centered at $z=2$: $f(z)=3z^{5}+8z^{4}-3z^{3}-7z^{2}+8z+1$ $f(z)=$ [ANS] $+$ [ANS] $(z-2)+$ [ANS] $(z-2)^2+$ [ANS] $(z-2)^3+$ [ANS] $(z-2)^4+$ [ANS] $(z-2)^5$",
+        "answer_v2": [
+            "189",
+            "440",
+            "814",
+            "1086",
+            "912",
+            "360"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write the following polynomials in the Taylor form, centered at $z=2$: $f(z)=4z^{5}-6z^{4}+z^{3}-4z^{2}+2z+3$ $f(z)=$ [ANS] $+$ [ANS] $(z-2)+$ [ANS] $(z-2)^2+$ [ANS] $(z-2)^3+$ [ANS] $(z-2)^4+$ [ANS] $(z-2)^5$",
+        "answer_v3": [
+            "31",
+            "126",
+            "356",
+            "678",
+            "816",
+            "480"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0048",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Taylor series",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Write $f(z)=z^{9}$ in the Taylor form centered at $z=2$: $f(z)=$ [ANS] $+$ [ANS] $(z-2)+$ [ANS] $(z-2)^{2}+$ [ANS] $(z-2)^{3}+$ [ANS] $(z-2)^{4}+$ [ANS] $(z-2)^{5}+$ [ANS] $(z-2)^{6}+$ [ANS] $(z-2)^{7}+$ [ANS] $(z-2)^{8}+$ [ANS] $(z-2)^{9}$",
+        "answer_v1": [
+            "512",
+            "2304",
+            "4608",
+            "5376",
+            "4032",
+            "2016",
+            "672",
+            "144",
+            "18",
+            "1"
+        ],
+        "answer_type_v1": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v1": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v2": "Write $f(z)=z^{11}$ in the Taylor form centered at $z=-4$: $f(z)=$ [ANS] $+$ [ANS] $(z+4)+$ [ANS] $(z+4)^{2}+$ [ANS] $(z+4)^{3}+$ [ANS] $(z+4)^{4}+$ [ANS] $(z+4)^{5}+$ [ANS] $(z+4)^{6}+$ [ANS] $(z+4)^{7}+$ [ANS] $(z+4)^{8}+$ [ANS] $(z+4)^{9}+$ [ANS] $(z+4)^{10}+$ [ANS] $(z+4)^{11}$",
+        "answer_v2": [
+            "-4.1943E+06",
+            "1.15343E+07",
+            "-1.44179E+07",
+            "1.08134E+07",
+            "-5.40672E+06",
+            "1.89235E+06",
+            "-473088",
+            "84480",
+            "-10560",
+            "880",
+            "-44",
+            "1"
+        ],
+        "answer_type_v2": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v2": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "problem_v3": "Write $f(z)=z^{9}$ in the Taylor form centered at $z=-2$: $f(z)=$ [ANS] $+$ [ANS] $(z+2)+$ [ANS] $(z+2)^{2}+$ [ANS] $(z+2)^{3}+$ [ANS] $(z+2)^{4}+$ [ANS] $(z+2)^{5}+$ [ANS] $(z+2)^{6}+$ [ANS] $(z+2)^{7}+$ [ANS] $(z+2)^{8}+$ [ANS] $(z+2)^{9}$",
+        "answer_v3": [
+            "-512",
+            "2304",
+            "-4608",
+            "5376",
+            "-4032",
+            "2016",
+            "-672",
+            "144",
+            "-18",
+            "1"
+        ],
+        "answer_type_v3": [
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV",
+            "NV"
+        ],
+        "options_v3": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0050",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Zeroes and poles",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Every polynomial with complex coefficients can be written as the product of linear factors. Enter the linear factors of P(z)=z^{2}+\\left(4+3i\\right)z+1+7i separated by commas. For example you could enter three linear factors as: $(z-4), z+3+2i, z$ [ANS]",
+        "answer_v1": [
+            "(z+3+i, z+1+2i)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Every polynomial with complex coefficients can be written as the product of linear factors. Enter the linear factors of P(z)=z^{2}+\\left(-9+3i\\right)z+30-10i separated by commas. For example you could enter three linear factors as: $(z-4), z+3+2i, z$ [ANS]",
+        "answer_v2": [
+            "(z+-5+5i, z+-4-2i)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Every polynomial with complex coefficients can be written as the product of linear factors. Enter the linear factors of P(z)=z^{2}+\\left(-4+2i\\right)z+3-4i separated by commas. For example you could enter three linear factors as: $(z-4), z+3+2i, z$ [ANS]",
+        "answer_v3": [
+            "(z+-2+i, z+-2+i)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0051",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Zeroes and poles",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Enter the linear factors of z^{2}+\\left(3+i\\right)z+3i separated by commas. For example you could enter three linear factors as: $(z-4), z+3+2i, z$ [ANS]",
+        "answer_v1": [
+            "(z+3, z+i)"
+        ],
+        "answer_type_v1": [
+            "UOL"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Enter the linear factors of z^{2}+\\left(-5+5i\\right)z-25i separated by commas. For example you could enter three linear factors as: $(z-4), z+3+2i, z$ [ANS]",
+        "answer_v2": [
+            "(z+(-5), z+5i)"
+        ],
+        "answer_type_v2": [
+            "UOL"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Enter the linear factors of z^{2}+\\left(-2+i\\right)z-2i separated by commas. For example you could enter three linear factors as: $(z-4), z+3+2i, z$ [ANS]",
+        "answer_v3": [
+            "(z+(-2), z+i)"
+        ],
+        "answer_type_v3": [
+            "UOL"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0052",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Residues",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Find the residue for the function: R(z)= \\frac{z^{2}+z+2}{\\left(z^{2} -4z+3\\right)z^{3}} at $z=0$ $Res(0)=$ [ANS]",
+        "answer_v1": [
+            "1.74074"
+        ],
+        "answer_type_v1": [
+            "NV"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the residue for the function: R(z)= \\frac{z^{2}-4z-2}{\\left(z^{2} -25\\right)z^{3}} at $z=0$ $Res(0)=$ [ANS]",
+        "answer_v2": [
+            "-0.0368"
+        ],
+        "answer_type_v2": [
+            "NV"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the residue for the function: R(z)= \\frac{z^{2}-2z+1}{\\left(z^{2} +z-2\\right)z^{3}} at $z=0$ $Res(0)=$ [ANS]",
+        "answer_v3": [
+            "-0.375"
+        ],
+        "answer_type_v3": [
+            "NV"
+        ],
+        "options_v3": [
+            []
+        ]
+    },
+    {
+        "id": "Complex_analysis_0053",
+        "subject": "Complex_analysis",
+        "topic": "Series and residues",
+        "subtopic": "Residues",
+        "level": "2",
+        "keywords": [],
+        "problem_v1": "Find the residue for the function: R(z)= \\frac{6z+1}{\\left(z-4i\\right)\\!\\left(z^{2} +16\\right)} at $z=-4i$ $Res(-4i)=$ [ANS]\nThe \"residue\" is the coefficient of the $1/(z-z_0)$ term when a rational function $R(z)$ is expanded as a partial fraction, although you don't actually need to do the expansion in order to calculate the coefficient.",
+        "answer_v1": [
+            "-0.0156+0.375i"
+        ],
+        "answer_type_v1": [
+            "EX"
+        ],
+        "options_v1": [
+            []
+        ],
+        "problem_v2": "Find the residue for the function: R(z)= \\frac{10z-4}{\\left(z-i\\right)\\!\\left(z^{2} +1\\right)} at $z=-i$ $Res(-i)=$ [ANS]\nThe \"residue\" is the coefficient of the $1/(z-z_0)$ term when a rational function $R(z)$ is expanded as a partial fraction, although you don't actually need to do the expansion in order to calculate the coefficient.",
+        "answer_v2": [
+            "1+2.5i"
+        ],
+        "answer_type_v2": [
+            "EX"
+        ],
+        "options_v2": [
+            []
+        ],
+        "problem_v3": "Find the residue for the function: R(z)= \\frac{7z-2}{\\left(z-2i\\right)\\!\\left(z^{2} +4\\right)} at $z=-2i$ $Res(-2i)=$ [ANS]\nThe \"residue\" is the coefficient of the $1/(z-z_0)$ term when a rational function $R(z)$ is expanded as a partial fraction, although you don't actually need to do the expansion in order to calculate the coefficient.",
+        "answer_v3": [
+            "0.125+0.875i"
+        ],
+        "answer_type_v3": [
+            "EX"
+        ],
+        "options_v3": [
+            []
+        ]
+    }
+]
