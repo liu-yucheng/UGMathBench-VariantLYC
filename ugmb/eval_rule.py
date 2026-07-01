@@ -391,7 +391,7 @@ if __name__ == "__main__":
     with open(input_path, 'w+t', encoding="utf-8") as f:
         json.dump(all_subjects_data, f, indent=4)
     print(f"All subjects evaluation results saved to {input_path}")
-    output_path = os.path.join(out_dir, "all_subject_eval_rule.json")
+    output_path = os.path.join(out_dir, "all_subjects_eval_rule.json")
     eval_file(
         data_path=input_path,
         save_path=output_path,
